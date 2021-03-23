@@ -1,0 +1,24 @@
+body {
+    
+    .btn{
+        margin-bottom: 10px;
+    }
+    .wrapper {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border: 1px solid black;
+        
+        &__box {
+            position: absolute;
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+    
+            
+    
+        }
+    
+    }
+}
+
