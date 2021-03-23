@@ -1,19 +1,19 @@
 
 
 
-const { src, dest, watch, parallel, series} = require('gulp');
+const { src, dest, watch, parallel, series} = require('gulp', 'use strict');
 const concat = require('gulp-concat');
 const scss  = require('gulp-sass');
 const browserSync = require('browser-sync').create();
 const uglify = require('gulp-uglify-es').default;
 const autoprefixer = require('gulp-autoprefixer');
 const imagemin = require('gulp-imagemin');
-const del = require('del')
+const del = require('del');
 
 
 
 function clearDist () {
-    return del('dist')
+    return del('dist');
 }
 function images() {
     return src('app/images/**/*')
@@ -28,7 +28,7 @@ function images() {
             ]
         })
     ]))
-    .pipe(dest('dist/images'))
+    .pipe(dest('dist/images'));
 
 }
 function browsersync () {
