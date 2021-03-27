@@ -11,6 +11,5 @@
 	"browser": true,
 	"devel": true,
 	"jquery": true,
-	"esversion": 6,
-	"bigint": 1
+	"esversion": 6
 }
