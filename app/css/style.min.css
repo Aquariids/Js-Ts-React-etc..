@@ -1,1 +1,1 @@
-body .btn{margin-bottom:10px}body .wrapper{position:relative;width:500px;height:500px;border:1px solid black}body .wrapper__box{position:absolute;background-color:blue;width:100px;height:100px}
+*{-webkit-box-sizing:border-box;box-sizing:border-box}body{display:-webkit-box;display:-ms-flexbox;display:flex}.block{width:200px;height:200px;background-color:brown;margin:5px}
