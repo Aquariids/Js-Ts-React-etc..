@@ -5,7 +5,7 @@
 // СВОЙСТВО length
 // позволяет нам узнать кол элементов
 const test = 'text';
-const arr = [1,4,5,6,7]
+const arr = [1,4,5,6,7];
 console.log(test.length); // 4 - 4 буквы, 4 элемента
 console.log(arr.length); // так же можем узнать кол элементов в массиве = 5
 
