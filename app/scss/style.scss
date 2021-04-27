@@ -3,28 +3,18 @@
 }
 
 
-.wrapper {
-  display:flex;
-  text-align: center;
-  justify-content:center;
-  font-size: 50px
-}
-.block {
-    border: 1px solid black;
-    box-shadow: 0 0 10px black;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    
-    background-color: blue;
-    margin:5px;
-    cursor: pointer;
-    
+.section {
+  width: 1000px;
+  height: 1000px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-.red {
-  background-color: red;
+.bg {
+  width: 50%;
+  height: 50%;
+  background-color: brown;
 }
