@@ -2,7 +2,11 @@
     box-sizing: border-box;
 }
 
-
+body {
+  display: flex;
+  justify-content: center;
+  
+}
 .section {
   width: 1000px;
   height: 1000px;
@@ -14,7 +18,13 @@
 }
 
 .bg {
-  width: 50%;
-  height: 50%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  border: 1px solid black;
+  width: 25%;
+  height: 25%;
   background-color: brown;
 }
