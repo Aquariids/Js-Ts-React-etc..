@@ -1,2 +1,12 @@
-const btns = document.getElementsByTagName('button');
-console.log(btns);
+const btn = document.querySelector('button');
+
+btn.addEventListener('mouseover', () => { //  2 аргумента. 1 - событие(название события)  2 - колбек функция  
+    console.log('Hello Dima');
+});  // В общем js следит за этим элементом btn.addEventListener и если произощло событие нами написанное
+// то срабатывает колбек функция(как мы помним, колбек функции выполняются строго за другими) в нашем случае после события
+// так же если мы сделаем так
+btn.addEventListener('click', () => {   
+    setTimeout (()=> {
+        console.log('111111');
+    },1000);  // Наше действие не перезапишет предыдущее, они сработают по порядку
+});
