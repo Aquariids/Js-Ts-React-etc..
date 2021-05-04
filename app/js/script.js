@@ -1,12 +1,10 @@
+let i = 0;
 const btn = document.querySelector('button');
-
-btn.addEventListener('mouseover', () => { //  2 аргумента. 1 - событие(название события)  2 - колбек функция  
-    console.log('Hello Dima');
-});  // В общем js следит за этим элементом btn.addEventListener и если произощло событие нами написанное
-// то срабатывает колбек функция(как мы помним, колбек функции выполняются строго за другими) в нашем случае после события
-// так же если мы сделаем так
-btn.addEventListener('click', () => {   
-    setTimeout (()=> {
-        console.log('111111');
-    },1000);  // Наше действие не перезапишет предыдущее, они сработают по порядку
-});
+const deleteElement = (event) => {                     // наша функция          
+  console.log(event.target);            // выводим наш элемент в консоль при каждом нажатии
+  i++; // прибавляем 1 в i
+  if(i == 2) {  // пишем условие, что если i равна 1 
+      btn.removeEventListener('click',deleteElement);   // то мы удаляем наш обработчик события
+  }
+};
+btn.addEventListener('click',deleteElement);
