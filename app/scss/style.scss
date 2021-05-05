@@ -3,13 +3,12 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
   
+  display: flex;
 }
 .section {
-  width: 1000px;
-  height: 1000px;
+  width: 500px;
+  height: 400px;
   background-color: blue;
   display: flex;
   justify-content: center;
@@ -27,4 +26,9 @@ body {
   width: 25%;
   height: 25%;
   background-color: brown;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: right;
 }
