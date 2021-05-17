@@ -140,7 +140,7 @@ link.addEventListener('click', (event) => {
 const btns = document.querySelectorAll('button');
 
 btns.forEach((btn) => { // используем на нашем псевдомассиве forEach, В первом аргументе как мы помним находится элемент который перебераем
-    btn.addEventListener('click', (e) => {    // далее на каждый перебераемый элемент мы вешаем обработчик событий
+    btn.addEventListener('click', (e) => { // далее на каждый перебераемый элемент мы вешаем обработчик событий
         console.log(e.target); // и все
     });
 });
@@ -154,7 +154,7 @@ once: указывает, что обработчик должен быть вы
 записывается так addEventListener('click', тут событие,{once:true});
  */
 /*
- *                                                   3 - НАЗВАНИЯ СОБЫТИЙ
+ *                                                   3 - СОБЫТИЯ
  */
 
 //1) click -  происходит, когда кликнули на элемент левой кнопкой мыши 
@@ -163,3 +163,40 @@ once: указывает, что обработчик должен быть вы
 //3) mousedown / mouseup – когда нажали / отжали кнопку мыши на элементе.
 //4) mousemove – при движении мыши.
 //5) mouseenter - при наведении мыщи на элемент
+//6) submit -  нужон для отправки формы
+
+/*
+ *                                                   3.1 - Отправка формы submit
+ */
+
+
+// Submit юзается с формой тег <form> </form>
+// Например:
+
+// небольшая тренировка по созданию элементов)))
+const form = document.createElement('form'); // создал форму
+form.classList.add('eventsForm'); // добавил форме класс
+const input = document.createElement('input'); // создал окошко ввода
+input.classList.add('eventsForm__input'); // добавил класс окну
+const windowDiv = document.createElement('div'); // сделал див в котоый будуотправлть данных из инпута
+windowDiv.classList.add('window'); // добавил диву класс
+document.body.append(form); // поместил форму в конец бади
+form.append(input); // поместил окошко ввода в конец формы
+form[0].before(windowDiv); //  добавил наше окошко вывода внутрь формы перед первым элементом(инпут наш)
+const inputValue = document.querySelector('.eventsForm__input'); // получил наш инпут для работы
+
+function userSees(parent, text) { // создал функцию которая помещает текст из поля ввода в наш див внутри формы
+
+    parent.textContent = `
+    ${text}
+  `;
+
+}
+
+form.addEventListener('submit', (e) => { // наш обработчик формы( срабатывает когда из инпута, что то отправляем. На автомате стоит на энтер, можно добавить кнопочку)  
+    e.preventDefault(); // сбрасываем обновление страницы после отправки 
+
+    let userEntered = inputValue.value; // переменная в которой хранится все, что ввели в поле
+    userSees(windowDiv, userEntered); // юзаем нашу функцию которая помещает текст в ди( указываем родителя сам див и вторым аргументом, то что ввели)
+    e.target.reset(); // сбрасываем текст после ввода в окне инпут
+});

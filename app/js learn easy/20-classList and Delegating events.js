@@ -1,13 +1,12 @@
-
 //                  Ранее мы использовали один метод add у classList для добавления класса, сейчас же мы будем работать с полную силу
 
 const section = document.querySelector('.section-two'),
-      btns = section.querySelectorAll('button');
+    btns = section.querySelectorAll('button');
 
 
 
 // что бы обратиться к списку классов, пишем .classList это свойство котороые есть у дом узла!
-console.log(btns[0].classList.length);  // так мы узнаем сколько классов у нашей кнопки
+console.log(btns[0].classList.length); // так мы узнаем сколько классов у нашей кнопки
 // так как у нас псевдо массив, мы не можем просто обратиться так btns.classList
 // нам нужно обращаться к элементу
 //                                                      1 - Методы classList
@@ -16,7 +15,7 @@ console.log(btns[0].classList.length);  // так мы узнаем скольк
 //1) item() - позволяет получить класс с помощью индекса
 console.log(btns[0].classList.item(0)); //  получим blue - первый класс у элемента
 //2) add() - уже знакомы с этим методом. добавляет класс
-console.log(btns[1].classList.add('red','ssss')); // через запятую можно передавать несколько классов
+console.log(btns[1].classList.add('red', 'ssss')); // через запятую можно передавать несколько классов
 //3) remove() - удаляет классы
 console.log(btns[0].classList.remove('blue')); // удалили класс blue
 //4) toggle() -  позволяет тоглить классы, что значит переключать. Если у нас есть класс, он его удаляет, если нет, он его добавляет
@@ -27,31 +26,31 @@ console.log(btns[0].classList.toggle('blue')); // сейчас клсс blue в 
 
 //5) contains() - позволяет проверять есть ли класс, если есть то нам вернет true если нет false
 
-if(btns[1].classList.contains('red')){ // проверяет на наличие класса, получили правду 
-  console.log('red'); // выполнили код
-} 
+if (btns[1].classList.contains('red')) { // проверяет на наличие класса, получили правду 
+    console.log('red'); // выполнили код
+}
 
 
 
 //                                                    2 - небольшая практика
 
 
-btns[0].addEventListener('click', () =>{
-  if(!btns[2].classList.contains('red')) { // мы проверяем, если у btns[2] нету класса red, то мы его добавляем
-    // contains проверяет на существование класса и возрвращает true если его нет, потому что мы использвуем оператор ! - не
-    btns[2].classList.add('red'); // выполняетс это условие
-  } else {
-    btns[2].classList.remove('red'); // если же класс есть, то мы его убираем
-  }
-}); 
+btns[0].addEventListener('click', () => {
+    if (!btns[2].classList.contains('red')) { // мы проверяем, если у btns[2] нету класса red, то мы его добавляем
+        // contains проверяет на существование класса и возрвращает true если его нет, потому что мы использвуем оператор ! - не
+        btns[2].classList.add('red'); // выполняетс это условие
+    } else {
+        btns[2].classList.remove('red'); // если же класс есть, то мы его убираем
+    }
+});
 
 // все что мы написали выще, так работает toggle() 
 // ПРИМЕР:
-btns[0].addEventListener('click', () =>{
-  btns[3].classList.toggle('red'); // работает точно так же
+btns[0].addEventListener('click', () => {
+    btns[3].classList.toggle('red'); // работает точно так же
 
-  
-}); 
+
+});
 
 // иногда нужно делать все вручную, поэтому этим нужно уметь пользоваться
 
@@ -65,12 +64,12 @@ btns[0].addEventListener('click', () =>{
 
 section.addEventListener('click', (e) => {
 
-// напоминаю, что через console.dir(e.target) мы можем получить элемент в виде объекта и посмотреть всю инфу этого элемента
-// оттуда у button мы получаем tagName:"BUTTON" - его мы будем использовать в нашем условии
-if (e.target && e.target.tagName == "BUTTON") { // пишем  e.target вначале для того что бы проверить его на существование. Не у всех тегов он есть
-  // далее проверяем на имя тега 
-  console.log('hello');  // при нажатии на любую кнопку внутри нашей секции мы будем получать hello
-}
+    // напоминаю, что через console.dir(e.target) мы можем получить элемент в виде объекта и посмотреть всю инфу этого элемента
+    // оттуда у button мы получаем tagName:"BUTTON" - его мы будем использовать в нашем условии
+    if (e.target && e.target.tagName == "BUTTON") { // пишем  e.target вначале для того что бы проверить его на существование. Не у всех тегов он есть
+        // далее проверяем на имя тега 
+        console.log('hello'); // при нажатии на любую кнопку внутри нашей секции мы будем получать hello
+    }
 });
 
 // Так же можно проверять и на классы 
@@ -82,13 +81,13 @@ if (e.target && e.target.tagName == "BUTTON") { // пишем  e.target внач
 // динамически доп кнопки, они не будут работать.
 // ПРИМЕР:
 btns.forEach(btn => {
-  btn.addEventListener('click',()=>{
-console.log('gello');
-  });
+    btn.addEventListener('click', () => {
+        console.log('gello');
+    });
 });
 
-const btnNew = document.createElement('button');  // Создаем нашу кнопку
-  btnNew.classList.add('red'); // Даем ей класс
-  section.append(btnNew); // помещаем на страницу
+const btnNew = document.createElement('button'); // Создаем нашу кнопку
+btnNew.classList.add('red'); // Даем ей класс
+section.append(btnNew); // помещаем на страницу
 
-  // на нашей btnNew не будет работать созданный выше forEach
+// на нашей btnNew не будет работать созданный выше forEach
