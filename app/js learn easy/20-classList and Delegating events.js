@@ -91,3 +91,4 @@ btnNew.classList.add('red'); // Даем ей класс
 section.append(btnNew); // помещаем на страницу
 
 // на нашей btnNew не будет работать созданный выше forEach
+
