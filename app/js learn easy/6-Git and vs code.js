@@ -9,6 +9,8 @@ git config  (--local указываем, что это локально!) есл
 git config --global user.email  favoriteponyville@gmail.com и мыло, уже без ковычек
                     
 
+не забывай на новом компе npm install --global gulp
+
 */
 
 /* У гита есть 3 состояния! 1 - просто есть, просто создан! (красный)

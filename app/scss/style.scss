@@ -66,5 +66,25 @@ body {
   .red {
     background-color: red;
   }
+  margin-bottom: 50px;
 }
+.btn-set {
 
+  display: block;
+  margin: 0 auto;
+  
+}
+.section-three {
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 450px;
+  height: 450px;
+  position: relative;
+  border: 1px solid black;
+  .square {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    position: absolute;
+  }
+}
