@@ -88,3 +88,47 @@ body {
     position: absolute;
   }
 }
+
+
+.timer {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-size: 50px;
+  }
+}
+
+.scroll-block {
+  padding: 5px;
+  overflow: auto;
+  border: 1px solid black;
+  width: 350px;
+  height: 350px;
+  p {
+    margin: 10px
+  }
+
+
+};
+
+.btn-scroll {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #000;
+  background-color: darkgrey;
+  margin-left: 120px;
+}
+
+.btn-this {
+
+
+  display: flex;
+  margin-left: 600px;
+}
