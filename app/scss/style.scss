@@ -15,6 +15,14 @@ body {
   align-items: center;
 
 }
+.red__section {
+  width: 1000px;
+  height: 400px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .bg {
   
@@ -131,4 +139,23 @@ body {
 
   display: flex;
   margin-left: 600px;
+}
+
+
+.calc {
+  margin-left: 350px;
+  label {
+    display: block;
+    font-size: 30px;
+}
+  input {
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+}
+}
+
+.greenBg {
+
+  background-color:green;
 }
