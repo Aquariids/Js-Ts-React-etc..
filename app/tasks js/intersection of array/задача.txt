@@ -1,0 +1,20 @@
+const input1 = [1,2,2,1];
+const input2 = [2,2];
+// output: [2,2]
+
+const input3 = [4,9,5];
+const input4 = [9,4,9,8,4];
+
+// output: [4,9] or [9,4]
+
+const intersect = function (nums1, nums2) {
+
+
+ //необходимо написать функцию intersect. Она принимает два аргумента это первый массив и второй массив чисел
+ // в массивах хранятся только числа от 1 и до 1000
+ // наша функция должна вернуть новый массив в котором находятся элементы которые есть и в первом и втором массиве
+ 
+};
+
+console.log(intersect(input1,input2));
+console.log(intersect(input3,input4));

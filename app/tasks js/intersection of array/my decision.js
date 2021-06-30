@@ -1,3 +1,6 @@
+// мое решение не верное!!!!  я даже задачу не понял, я ебалн тупой блять, но все равно оставлю как напоминание
+
+
 const input1 = [1,2,2,1];
 const input2 = [2,2];
 // output: [2,2]
@@ -32,4 +35,4 @@ return result;
 
 
 console.log(intersect(input1,input2));
-// console.log(intersect(input3,input4));
+console.log(intersect(input3,input4));
