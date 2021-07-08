@@ -3,5 +3,5 @@
 void main()
 {
 char *st= "privet!";
-printf("%s\n", st);
+printf("%s\n", \st);
 }
