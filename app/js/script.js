@@ -1,14 +1,7 @@
-
-function num (a,n) {
- if (n === 1) {
-     return a; 
- }  else {
-     return 2 * num(a, n - 1);
- }
-
-
+function isPalindrome2 (str){
+    let string = str.toLowerCase();
+    return string === string.split('').reverse().join('');
 }
 
 
-console.log(num(2,3));
-
+console.log(isPalindrome2('шаЛаШ'));

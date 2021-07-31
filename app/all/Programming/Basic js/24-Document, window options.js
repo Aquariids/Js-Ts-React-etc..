@@ -71,8 +71,20 @@ btnScroll.addEventListener('click', () =>{  // вешаем событие на 
 });
 
 
+// кусочек кода с работой всякиш штук
+function showModalByScroll() {
+    if (window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight) {
+        showModal();
+        // window.pageYOffset - это свойство показывает сколько прокрученно
+        // document.documentElement.clientHeight - а здесь видимая часть окна 
+        // здесь мы их складываем и сравниваем scrollHeight.  тое сть если прокрученная часть и видимая совпадают с scrollHeight, значит мы прокрутили страницу до самого конца  
+        window.removeEventListener('scroll',showModalByScroll);
+    }
+}
+    window.addEventListener('scroll', showModalByScroll);
 
 
+    console.log(new Date());
 
 /*
 *                                                   Координаты

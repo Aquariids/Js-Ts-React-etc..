@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    
 }
 
 body {
@@ -13,6 +13,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: relative;
+
+  top: 100px;
 
 }
 .red__section {
@@ -158,4 +162,14 @@ body {
 .greenBg {
 
   background-color:green;
+}
+
+.blockk {
+  display: inline-block;
+  background-color: red;
+  width: 50px;
+  height: 25px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
 }
