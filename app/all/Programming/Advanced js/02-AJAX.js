@@ -17,7 +17,7 @@ AJAX— это аббревиатура, которая означает Asynchr
 *                                                       Get and Post - запросы
 
 Get запрос - направлен на то, что бы получить какие то данные от сервера
-в нашем случае мы будем полусать курс валюты у нашего current.json бекенд части (сервер)
+в нашем случае мы будем получать курс валюты у нашего current.json бекенд части (сервер)
 get запросы показывают товары например в магазине на сайте
 
 Post - запрос  это постить запросы, например регистрация на сайте, мы вводим наши данные и постим их на сервер, или например когда загружаем
@@ -33,12 +33,12 @@ const inputRub = document.querySelector('#rub'),
     inputUsd = document.querySelector('#usd');
 
 
-inputRub.addEventListener('input', () => {
+inputRub.addEventListener('input', () => { // событие инпут сробатывает когда в инпуте что-то меняется
     const request = new XMLHttpRequest(); // создали экземпляр с нужными нам свойствами и методами
 
     // open(); - собирает настройки которые в будущем помогут сделать запрос. принимает в себя несколько аргументов
 
-    request.open('GET','js/current.json');
+    request.open('GET','js/current.json'); // путь у url строим относительно index.html
                     /* 1 - method: это тот котоырй используется для запроса(get post и тд)
                     2 -  url: это путь к нашему сервевру
                     3 - async: этот аргумент отвечает за асинхронность - в нем по умолчанию стоит true, можн опоставить false, но тогда это уже будет синхронный код
@@ -76,7 +76,9 @@ inputRub.addEventListener('input', () => {
 request.addEventListener('readystatechange',()=>{ 
     // можем написать условие
     if (request.readyState === 4 && request.status === 200) { // тут мы узнаем, если у нас 4 - операция завершена и статус 200 - это значит Ок - хорошо
-
+        // Так же чаше использует событие load оно срабатывает один раз когда запрос готов
+        // мы удалем  request.readyState === 4 &&
+        // остовляя только request.status === 200 а в обытии меняем  readystatechange на load
         console.log(request.response);
         const data = JSON.parse(request.response);
         inputUsd.value = (+inputRub.value / data.current.usd).toFixed(2);
