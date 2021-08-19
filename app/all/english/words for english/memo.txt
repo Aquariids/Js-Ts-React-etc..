@@ -11,6 +11,8 @@ cntrl + alt + T пеерводит слово
 A:
 1 - algorithms - алгоритмы
 2 - allocation - распределение
+3 - ask - Спрашиать, просить
+4 - answer - отвечать
 
 B:
 1 - binary - двоичный
@@ -22,6 +24,7 @@ C:
 4 - scope - рамки,масштаб, объем
 5 - correctness - правильность
 6 - context - контекст
+7 - come(came) - приходить
 D:
 1 - decimal - десятичный
 2 - define - определять
@@ -35,9 +38,13 @@ E:
 F:
 
 G:
+give(gave) - давать
 
 H:
 1 - heap - куча, груда
+2 - help - помогать
+3 - hope - надеяться  
+4 - here - здесь,сюда
 
 I:
 1 - inputs - входные данные
@@ -46,6 +53,7 @@ I:
 J: 
 
 K:
+1 - know(knew) - знать
 
 L:
 1 - loops - циклы (петли)
@@ -75,11 +83,17 @@ S:
 3 - submission - представление, подчинения
 4 - seadonable - сумасшедший
 5 - side - сторона
+6 - speak(spoke) -  говорить
+7 - see(saw) - видеть
 T:
-1 - thinking - мышление
-2 - threads - потоки
+1 - talk - говорить
+2 - take(took) - брать
     thread - нить
 3 - thing - вещь
+4 - threads - потоки 
+5 - treval -  путешествовать
+6 - thinking - мышление 
+7 - there - там, туда
 
 U:
 
