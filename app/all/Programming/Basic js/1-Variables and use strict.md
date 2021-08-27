@@ -1,4 +1,12 @@
-// Строгий режим — "use strict"
+// 
+```js
+var a = 5;
+
+var b = 10;
+
+console.log(a + c);
+```
+Строгий режим — "use strict"
 
 //описание с learn js
 [сюда](id)
