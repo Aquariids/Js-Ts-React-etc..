@@ -8,108 +8,1426 @@ cntrl + alt + T пеерводит слово
 по алфовиту:
 
 
-A:
-1 - algorithms - алгоритмы
-2 - allocation - распределение
-3 - ask - Спрашиать, просить
-4 - answer - отвечать
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-B:
-1 - binary - двоичный
+ab {
 
-C:
-1 - computational - вычисляемый (компютещинал)
-2 - conditions - Условия
-3 - compiler - компилятор
-4 - scope - рамки,масштаб, объем
-5 - correctness - правильность
-6 - context - контекст
-7 - come(came) - приходить
-D:
-1 - decimal - десятичный
-2 - define - определять
-3 - design - конструкция, дизайн
-4 - declaration - объявление, заявление
+}
+ac {
 
-E:
-1 - execution - выполнение
-2 - expression - выражение
+}
+ad {
 
-F:
+}
+ae {
 
-G:
-give(gave) - давать
+}
+af {
 
-H:
-1 - heap - куча, груда
-2 - help - помогать
-3 - hope - надеяться  
-4 - here - здесь,сюда
+}
+ag {
 
-I:
-1 - inputs - входные данные
-2 - include - включать, содержать в себе
+}
+ah {
 
-J: 
+} 
+ai {
 
-K:
+}
+aj {
+
+}
+ak {
+
+}
+al {
+    algorithm - алгоритм
+    allocation - распределение
+}
+am {
+
+}
+an {
+    answer - отвечать
+}
+ao {
+
+}
+ap {
+
+}
+aq {
+
+}
+ar {
+    art - исскусво
+}
+as {
+    ask - спрашивать, просить
+}
+at {
+
+}
+au {
+
+}
+av {
+
+}
+aw {
+
+}
+ax {
+
+}
+ay {
+}
+az {
+
+}
+
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBbbbbbbbbbbbbbbbbbbbbbbbb
+
+ba {
+
+}
+bb {
+
+}
+bc {
+
+}
+bd {
+
+}
+be {
+
+}
+bf {
+
+}
+bg {
+
+}
+bh {
+
+}
+bi {
+    binary - двоичный
+}
+bj {
+
+}
+bk {
+
+}
+bl {
+
+}
+bm {
+
+}
+bn {
+
+}
+bo {
+
+}
+bp {
+
+}
+bq {
+
+}
+br {
+
+}
+bs {
+
+}
+bt {
+
+}
+bu {
+
+}
+bv {
+
+}
+bw {
+
+}
+bx {
+
+}
+by {
+
+}
+bz {
+
+}
+
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccccccccccccccccccccccc
+ca {
+
+}
+cb {
+
+}
+cc {
+
+}
+cd {
+
+}
+cf {
+
+}
+cg {
+
+}
+ch {
+    character - персонаж, действущее лицо
+}
+ci {
+    cinema - кино
+}
+cj {
+
+}
+ck {
+
+}
+cl {
+
+}
+cm {
+
+}
+cn {
+
+}
+co {
+    computational - вычисляемый (компютещинал)
+    conditions - Условия
+    compiler - компилятор
+    correctness - правильность
+    context - контекст
+    come(came) - приходить
+}
+     
+cp {
+
+}
+cq {
+
+}
+cr {
+
+}
+cs {
+
+}
+ct {
+
+}
+cu {
+
+}
+cv {
+
+}
+cw {
+
+}
+cx {
+
+}
+cy {
+
+}
+cz {
+
+}
+
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDddddddddddddddddddddd
+da {
+
+}
+db {
+
+}
+dc {
+
+}
+dd {
+
+}
+de {
+    decimal - десятичный
+    define - определять
+    design - конструкция, дизайн
+    declaration - объявление, заявление
+
+}
+df {
+
+}
+dg {
+
+}
+dh {
+
+}
+di {
+
+}
+dj {
+
+}
+dk {
+
+}
+dl {
+
+}
+dm {
+
+}
+dn {
+
+}
+do {
+
+}
+dp {
+
+}
+dq {
+
+}
+dr {
+
+}
+ds {
+
+}
+dt {
+
+}
+du {
+
+}
+dv {
+
+}
+dw {
+
+}
+dx {
+
+}
+dy {
+
+}
+dz {
+
+}
+
+
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEeeeeeeeeeeeee
+ea {
+
+}
+eb {
+
+}
+ec {
+
+}
+ed {
+
+}
+ee {
+
+}
+ef {
+
+}
+eg {
+
+}
+eh {
+
+}
+ei {
+
+}
+ej {
+
+}
+ek {
+
+}
+el {
+
+}
+em {
+
+}
+en {
+
+}
+eo {
+
+}
+ep {
+
+}
+eq {
+
+}
+er {
+
+}
+es {
+
+}
+et {
+
+}
+eu {
+
+}
+ev {
+
+}
+ew {
+
+}
+ex {
+    execution - выполнение
+    expression - выражение
+
+}
+ey {
+
+}
+ez {
+
+}
+
+
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFfffffffffffffff
+
+fa {
+
+}
+fb {
+
+}
+fc {
+
+}
+fd {
+
+}
+fe {
+
+}
+ff {
+
+}
+fg {
+
+}
+fh {
+
+}
+fi {
+    fiction - худ литература
+
+}
+fj {
+
+}
+fk {
+
+}
+fl {
+
+}
+fm {
+
+}
+fn {
+
+}
+fo {
+
+}
+fp {
+
+}
+fq {
+
+}
+fr {
+
+}
+fs {
+
+}
+ft {
+
+}
+fu {
+
+}
+fv {
+
+}
+fw {
+
+}
+fx {
+
+}
+fy {
+
+}
+fz {
+
+}  
+
+
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGggggggggggggggggggggggggggg
+
+
+ga {
+
+}
+gb {
+
+}
+gc {
+
+}
+gd {
+
+}
+ge {
+
+}
+gf {
+
+}
+gg {
+
+}
+gh {
+
+}
+gi {
+    give(gave) - давать
+}
+gj {
+
+}
+gk {
+
+}
+gl {
+
+}
+gm {
+
+}
+gn {
+
+}
+go {
+
+}
+gp {
+
+}
+gq {
+
+}
+gr {
+
+}
+gs {
+
+}
+gt {
+
+}
+gu {
+
+}
+gv {
+
+}
+gw {
+
+}
+gx {
+
+}
+gy {
+
+}
+gz {
+
+}
+
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhhh
+
+
+ha {
+
+}
+hb {
+
+}
+hc {
+
+}
+hd {
+
+}
+he {
+    heap - куча, груда
+    help - помогать
+    here - здесь,сюда
+
+}
+hf {
+
+}
+hg {
+
+}
+hh {
+
+}
+hi {
+    history - история
+
+
+}
+hj {
+
+}
+hk {
+
+}
+hl {
+
+}
+hm {
+
+}
+hn {
+
+}
+ho {
+    hope - надеяться  
+
+}
+hp {
+
+}
+hq {
+
+}
+hr {
+
+}
+hs {
+
+}
+ht {
+
+}
+hu {
+
+}
+hv {
+
+}
+hw {
+
+}
+hx {
+
+}
+hy {
+
+}
+hz {
+
+}
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIiiiiiiiiiiiiiiiiiiiiii
+
+ia {
+
+}
+ib {
+
+}
+ic {
+
+}
+id {
+
+}
+ie {
+
+}
+if {
+
+}
+ig {
+
+}
+ih {
+
+}
+ii {
+
+}
+ij {
+
+}
+ik {
+
+}
+il {
+
+}
+im {
+
+}
+in {
+    inputs - входные данные
+    include - включать, содержать в себе
+
+}
+io {
+
+}
+ip {
+
+}
+iq {
+
+}
+ir {
+
+}
+is {
+
+}
+it {
+
+}
+iu {
+
+}
+iv {
+
+}
+iw {
+
+}
+ix {
+
+}
+iy {
+
+}
+iz {
+
+}
+
+
+JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+
+1 - jewel - драгоценный камень 
+
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+
 1 - know(knew) - знать
 
-L:
+LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+
 1 - loops - циклы (петли)
     loop - петля
-M:
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
 1 - memory - память
+2 - movie - кино
 
-N:
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 
-O:
-1 - outputs - выходные данные
+1 - non-fiction - публицистика(не выдумка) по фактам все
+2 - novel - роман
 
-P:
-1 - pick - выбор. Глагол: pick up - забрать
-2 - Preparing - подготовка, готовность
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
-Q:
+1 - 
 
-R:
+oa {
+
+}
+ob {
+
+}
+oc {
+
+}
+od {
+
+}
+oe {
+
+}
+of {
+
+}
+og {
+
+}
+oh {
+
+}
+oi {
+
+}
+oj {
+
+}
+ok {
+
+}
+ol {
+
+}
+om {
+
+}
+on {
+
+}
+oo {
+
+}
+op {
+
+}
+oq {
+
+}
+or {
+    order - заказ, заказывать, приказывать, орден, порядок. Ебать это слово есть все
+
+}
+os {
+
+}
+ot {
+
+}
+ou {
+    outputs - выходные данные
+
+}
+ov {
+
+}
+ow {
+
+}
+ox {
+
+}
+oy {
+
+}
+oz {
+
+}
+
+
+
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+pa {
+
+}
+pb {
+
+}
+pc {
+
+}
+pd {
+
+}
+pe {
+
+}
+pf {
+
+}
+pg {
+
+}
+ph {
+
+}
+pi {
+    pick - выбор. Глагол: pick up - забрать
+
+
+}
+pj {
+
+}
+pk {
+
+}
+pl {
+    play - пьесса(играть)
+
+}
+pm {
+
+}
+pn {
+
+}
+po {
+
+}
+pp {
+
+}
+pq {
+
+}
+pr {
+    Preparing - подготовка, готовность
+
+
+}
+ps {
+
+}
+pt {
+
+}
+pu {
+
+}
+pv {
+
+}
+pw {
+
+}
+px {
+
+}
+py {
+
+}
+pz {
+
+}
+
+QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
 1 - reasonable - разумный
+2 - role - роль (to play a role)
 
-S:
-1 - set - набор (сущ)
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+
+sa {
+
+}
+sb {
+
+}
+sc {
+    script - сценарий
+    scope - рамки,масштаб, объем
+
+}
+sd {
+
+}
+se {
+    set - набор (сущ)
     set to (установить) (глагол)
     set n to 10 (установить n равным 10 )
-2 - style - стиль, манера
-3 - submission - представление, подчинения
-4 - seadonable - сумасшедший
-5 - side - сторона
-6 - speak(spoke) -  говорить
-7 - see(saw) - видеть
-T:
-1 - talk - говорить
-2 - take(took) - брать
+
+    seadonable - сумасшедший
+    see(saw) - видеть
+
+}
+sf {
+
+}
+sg {
+
+}
+sh {
+
+}
+si {
+    side - сторона
+
+}
+sj {
+
+}
+sk {
+
+}
+sl {
+
+}
+sm {
+
+}
+sn {
+
+}
+so {
+
+}
+sp {
+    speak(spoke) -  говорить
+
+}
+sq {
+
+}
+sr {
+
+}
+ss {
+
+}
+st {
+    style - стиль, манера
+
+}
+su {
+    submission - представление, подчинения
+
+
+}
+sv {
+
+}
+sw {
+
+}
+sx {
+
+}
+sy {
+
+}
+sz {
+
+}
+
+
+
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+ta {
+    talk - говорить
+    take(took) - брать
+    
+}
+tb {
+    
+}
+tc {
+    
+}
+td {
+    
+}
+te {
+    
+}
+tf {
+    
+}
+tg {
+    
+}
+th {
     thread - нить
-3 - thing - вещь
-4 - threads - потоки 
-5 - treval -  путешествовать
-6 - thinking - мышление 
-7 - there - там, туда
+    thing - вещь
+    threads - потоки 
+    thinking - мышление 
+    there - там, туда
+    
+}
+ti {
+    
+}
+tj {
+    
+}
+tk {
+    
+}
+tl {
+    
+}
+tm {
+    
+}
+tn {
+    
+}
+to {
+    
+}
+tp {
+    
+}
+tq {
+    
+}
+tr {
+    treval -  путешествовать
+    
+}
+ts {
+    
+}
+tt {
+    
+}
+tu {
+    
+}
+tv {
+    
+}
+tw {
+    
+}
+tx {
+    
+}
+ty {
+    
+}
+tz {
+    
+}
 
-U:
+UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
 
-V:
-1 - variable (переменная)
+ua {
 
-W:
+}
+ub {
 
-X:
+}
+uc {
 
-Y:
+}
+ud {
 
-Z:
+}
+ue {
+
+}
+uf {
+
+}
+ug {
+
+}
+uh {
+
+}
+ui {
+
+}
+uj {
+
+}
+uk {
+
+}
+ul {
+
+}
+um {
+
+}
+un {
+
+}
+uo {
+
+}
+up {
+
+}
+uq {
+
+}
+ur {
+
+}
+us {
+
+}
+ut {
+
+}
+uu {
+
+}
+uv {
+
+}
+uw {
+
+}
+ux {
+
+}
+uy {
+
+}
+uz {
+
+}
+
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+va {
+    variable (переменная)
+
+}
+vb {
+
+}
+vc {
+
+}
+vd {
+
+}
+ve {
+
+}
+vf {
+
+}
+vg {
+
+}
+vh {
+
+}
+vi {
+
+}
+vj {
+
+}
+vk {
+
+}
+vl {
+
+}
+vm {
+
+}
+vn {
+
+}
+vo {
+
+}
+vp {
+
+}
+vq {
+
+}
+vr {
+
+}
+vs {
+
+}
+vt {
+
+}
+vu {
+
+}
+vv {
+
+}
+vw {
+
+}
+vx {
+
+}
+vy {
+
+}
+vz {
+
+}
+
+
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+
+
+wa {
+
+}
+wb {
+
+}
+wc {
+
+}
+wd {
+
+}
+we {
+
+}
+wf {
+
+}
+wg {
+
+}
+wh {
+
+}
+wi {
+
+}
+wj {
+
+}
+wk {
+
+}
+wl {
+
+}
+wm {
+
+}
+wn {
+
+}
+wo {
+
+}
+wp {
+
+}
+wq {
+
+}
+wr {
+    write(wrote) - писать
+
+}
+ws {
+
+}
+wt {
+
+}
+wu {
+
+}
+wv {
+
+}
+ww {
+
+}
+wx {
+
+}
+wy {
+
+}
+wz {
+
+}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 
 
 
 Разные фразы:
 
 1 - computational thinking - вычислительное мышление 
+
+
+
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+

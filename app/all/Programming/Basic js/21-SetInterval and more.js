@@ -92,8 +92,6 @@ let id  = setTimeout(function log(){ // запускаем наш stTimeout
 *                                       Анимация с помощью setInterval
  */
 
-
-
 function myAnimation() { // создаем функцию
     const elem = document.querySelector('.square'); // получаем наш квадратик на котором будет анимация
     let pos = 0; // наша поцизция квадратика. Равна пока что 0

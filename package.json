@@ -4,7 +4,8 @@
   "description": "Tabs",
   "main": "index.js",
   "dependencies": {
-    "@fancyapps/fancybox": "^3.5.7"
+    "@fancyapps/fancybox": "^3.5.7",
+    "markdown-doctest": "^1.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
