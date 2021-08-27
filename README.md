@@ -1,5 +1,4 @@
 # Мой собственный путеводитель по JS
 
-
-<a style="text-decoration:none;" href ='https://github.com/Aquariids/Learning-JS/blob/main/app/all/Programming/Basic%20js/1-Variables%20and%20use%20strict.js'> ssss </a>
+- [Переменные](https://github.com/Aquariids/MyJS/blob/main/app/all/Programming/Basic%20js/1-Variables%20and%20use%20strict.js 'Переменные в JS')
 
