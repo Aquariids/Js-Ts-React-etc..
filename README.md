@@ -1,4 +1,4 @@
 # Мой собственный путеводитель по JS
 
-- [*Переменные*](https://github.com/Aquariids/MyJS/blob/main/app/all/Programming/Basic%20js/1-Variables%20and%20use%20strict.js 'Переменные в JS')
+- [*Строгий режим(strict mode)*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/use%20strict.md'Строгий режим в js')
 
