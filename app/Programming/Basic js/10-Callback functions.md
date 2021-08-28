@@ -1,7 +1,7 @@
 ```js
 
 
-function first () {         // создаем функцию
+function first () {          создаем функцию
  
     // do something
 
