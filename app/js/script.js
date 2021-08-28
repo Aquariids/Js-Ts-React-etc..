@@ -1,11 +1,5 @@
-console.log(1);
+'use strict';
 
-setTimeout(()=> {
-    console.log('timeout');
-},2000);
 
-setTimeout(()=> {
-    console.log('timeout 4000');
-},4000);
-
-console.log(2);
+variable = 5;
+console.log(variable);
