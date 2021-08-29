@@ -200,4 +200,4 @@ let 2gays; //  не может начинаться с цифры
 let hi-hi; // дефис '-' не разрешён в имени
 ```
 
-Вернуться к [Строгому режиму]() </br>[тут что то будет]()
+Вернуться к [Строгому режиму](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/use%20strict.md) </br>[тут что то будет]()
