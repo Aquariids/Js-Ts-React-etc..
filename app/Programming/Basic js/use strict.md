@@ -40,7 +40,7 @@ console.log(variable) // variable is not defined
   ```javascript
   function f1() {
   'use strict'
-   // Все внутри будет в современном режиме, любая друга функция тоже
+   // Все внутри будет в современном режиме, любая другая функция тоже
   }
   ```
 
