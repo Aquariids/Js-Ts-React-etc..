@@ -177,12 +177,12 @@ console.log(obj.a) // 5
 ```javascript
 const MY_VARIABLE = 1;
 ```
-JavaScript чуствителен к регистру
+JavaScript чуствителен к регистру<br>
+Это две разные переменные:
 ```javascript
 let anime = 'gavno'
 let Anime = 'gavno'
 ```
-Это две разные переменные.
 В js есть ограничение для имён. Имя может содержать буквы, цифры и символы $ или _.<br>
 Примеры допустимых имён:
 ```javascript
