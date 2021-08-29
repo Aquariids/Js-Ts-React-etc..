@@ -173,6 +173,10 @@ console.log(obj.a) // 5
 В остальном const работает также как и let.
 
 ## <a name ='name'> Имена переменных </a> ##
+(Несколько слов про const. Хорошим тоном считается писать константы в верхнем регистре)
+```javascript
+const MY_VARIABLE = 1;
+```
 JavaScript чуствителен к регистру
 ```javascript
 let anime = 'gavno'
@@ -202,5 +206,4 @@ let vsemPrivetItMe;
 let 2gays; //  не может начинаться с цифры
 let hi-hi; // дефис '-' не разрешён в имени
 ```
-
 Вернуться к [Строгому режиму](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/use%20strict.md) </br>[тут что то будет]()
