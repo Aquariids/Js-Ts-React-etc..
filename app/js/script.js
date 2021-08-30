@@ -1,5 +1,5 @@
 'use strict';
 
 
-variable = 5;
-console.log(variable);
+
+console.log(-4 / 0);
