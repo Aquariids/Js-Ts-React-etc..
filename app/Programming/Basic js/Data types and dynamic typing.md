@@ -41,7 +41,7 @@ infinity и -infinity (Бесконечность):
 console.log(4 / 0); // Infinity
 console.log(-4 / 0); // -Infinity
 ```
-NaN:(Not a Number): NaN будем получать при ошибочных метематических операциях. Умножаем то, что нельзя умножать.
+NaN:(Not a Number): NaN будем получать при ошибочных метематических операциях. Например умножаем то, что нельзя умножать:
 ```javaScript
 'use strict';
 
