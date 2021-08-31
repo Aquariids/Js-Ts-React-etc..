@@ -17,7 +17,7 @@ let;
 const;
 var;
 ```
-Просто прописываем после них имя переменной и она готова;
+Просто прописываем после них имя переменной и она готова.
 ```javascript 
 let a;
 const b;
@@ -174,7 +174,7 @@ console.log(obj.a) // 5
 ```javascript
 const MY_VARIABLE = 1;
 ```
-JavaScript чуствителен к регистру<br>
+JavaScript чуствителен к регистру.
 Это две разные переменные:
 ```javascript
 let anime = 'gavno'
