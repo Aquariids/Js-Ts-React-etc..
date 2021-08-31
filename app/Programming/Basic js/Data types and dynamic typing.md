@@ -277,5 +277,5 @@ console.log('я что-то cделаю если в переменной, что
   console.log('he' && 12) // 12
   // Когда мы будем говорить про операторы, то все станет более ясно.
 ```
-[Строгий режим]()<br>
+[Строгий режим](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/use%20strict.md)<br>
 [Переменные](https://github.com/Aquariids/MyJS/edit/main/app/Programming/Basic%20js/Variables.md)
