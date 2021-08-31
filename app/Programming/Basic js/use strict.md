@@ -45,4 +45,5 @@ console.log(variable) // variable is not defined
   ```
   В строгом режиме кода много разных изменений. Описывать все изменения нет смысла, так как здесь, лишь конспектики, для глупого меня:з
   
-  [Переменные](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Variables.md)
+  [Переменные](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Variables.md)<br>
+  [Динамическая типизация и типы данных](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Data%20types%20and%20dynamic%20typing.md)
