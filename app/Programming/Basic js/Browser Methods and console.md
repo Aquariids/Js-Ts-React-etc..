@@ -3,7 +3,7 @@
 Если в коде есть ошибки, все они будут видны в консоли разработчика.
 Если нажать пкм на странице и нажать "Посмотреть код" или ctrl + shift + i. (По крайней мере в chrome и opera такая комбинация работает).
 Так мы откроем инспектор кода на вкладке console.
-
+![alt text](https://github.com/Aquariids/MyJS/blob/main/app/img/console.png)
 console.log() - Этот метод выводит информацию 
 ```javaScript
 console.log('Hello world') 
