@@ -43,7 +43,7 @@ console.log(variable) // variable is not defined
    // Все внутри будет в современном режиме, любая другая функция тоже
   }
   ```
-  В строгом режиме кода много разных изменений. Описывать все изменения нет смысла, так как здесь, лишь конспектики, для глупого меня:з
+  В строгом режиме кода много разных изменений. Описывать все изменения нет смысла, так как здесь, лишь конспектики, для глупого меня:з<br>
   [Консоль разработчика и общение с пользователем](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Browser%20Methods%20and%20console.md)<br>
   [Переменные](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Variables.md)<br>
   [Динамическая типизация и типы данных](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Data%20types%20and%20dynamic%20typing.md)
