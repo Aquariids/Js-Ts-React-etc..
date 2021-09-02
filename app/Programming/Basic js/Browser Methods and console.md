@@ -33,7 +33,7 @@ console.log(res); // в консоли появится содержимое п�
 let result = confirm('Ты за аниме?');
 ```
 ![text](https://github.com/Aquariids/MyJS/blob/main/app/img/confirm.png)<br>
-```javsScript
+```javaScript
 console.log(result) // true или false
 ```
 
