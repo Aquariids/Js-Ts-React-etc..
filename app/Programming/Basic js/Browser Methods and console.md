@@ -31,11 +31,10 @@ console.log(res); // в консоли появится содержимое п�
 -  Показывает модальное окно с сообщением и ждёт, пока пользователь нажмёт ok или Отмена. Возвращает true, если нажать ok, и false, если нажата кнопка «Отмена» или Esc.
 ```javaScript
 let result = confirm('Ты за аниме?');
-```
-![text](https://github.com/Aquariids/MyJS/blob/main/app/img/confirm.png)<br>
-```javaScript
+
 console.log(result) // true или false
 ```
+![text](https://github.com/Aquariids/MyJS/blob/main/app/img/confirm.png)<br>
 
 - [Строгий режим](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/use%20strict.md)<br>
 - [Переменные](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Variables.md)<br>
