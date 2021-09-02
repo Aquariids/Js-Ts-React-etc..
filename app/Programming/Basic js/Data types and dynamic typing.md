@@ -281,4 +281,5 @@ console.log('я что-то cделаю если в переменной, что
 
 - [Консоль разработчика и общение с пользователем](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Browser%20Methods%20and%20console.md)<br>
 - [Строгий режим](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/use%20strict.md)<br>
-- [Переменные](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Variables.md)
+- [Переменные](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Variables.md)<br>
+- [Интерполяция](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Interpolation.md 'Интерполяция')<br>
