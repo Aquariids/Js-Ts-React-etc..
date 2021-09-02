@@ -33,6 +33,9 @@ console.log(res); // в консоли появится содержимое п�
 let result = confirm('Ты за аниме?');
 ```
 ![text](https://github.com/Aquariids/MyJS/blob/main/app/img/confirm.png)<br>
+```javsScript
+console.log(result) // true или false
+```
 
 - [Строгий режим](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/use%20strict.md)<br>
 - [Переменные](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Variables.md)<br>
