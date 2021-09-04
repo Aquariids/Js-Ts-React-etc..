@@ -17,7 +17,7 @@ function sum (a,b) {
 return a + b
 }
 
-console.log(`У меня получилась в сумме ${sum(2,2)}`) // У меня получилась в сумме 4
+console.log(`У меня получилось в сумме ${sum(2,2)}`) // У меня получилось в сумме 4
 ```
 - [*Консоль разработчика и общение с пользователем*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Browser%20Methods%20and%20console.md 'Консоль разработчика и общение с пользователем')
 - [*Строгий режим (Strict mode)*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/use%20strict.md 'Строгий режим в js')
