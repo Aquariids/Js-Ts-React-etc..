@@ -13,7 +13,7 @@ if(4 == 9) {  // здесь мы получим false, так как 4 не ра
   // этот блок кода выполнится в том случае, если первый не выполнится!
 }
 ```
-В условии все превращается в boolean тип данных. Любое число или цифра всегда будут, true, кроме 0. Об этом в я говорил в [boolean](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Data%20types%20and%20dynamic%20typing.md#3boolean)
+В условии все превращается в boolean тип данных. Любое число или цифра всегда будут, true, кроме 0. о том, что приводит к логическому типу [мы уже говорили](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Data%20types%20and%20dynamic%20typing.md#3boolean)
 ```
 
 ```
