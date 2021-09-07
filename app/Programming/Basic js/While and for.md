@@ -85,7 +85,9 @@ const obj = { // объект
 };
 
 for (let key in obj) {
-    console.log(obj[key]); // выдаст нам значения 1,2,3
+    Через [] скобки мы обращаемся к key, внутрь key складываются свойства, таким синтаксисам мы получаем именно значения этих свойств
+    console.log(obj[key]); // выдаст нам значения 1,2,3. 
+    А для получениях самих свойств, просто указываем key
     console.log(key); // выдаст свойства a,b,c
 }
 ```
@@ -96,11 +98,7 @@ for (let key in obj) {
 - [*Интерполяция*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Interpolation.md 'Интерполяция')<br>
 - [*Операторы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Operators.md 'Операторы')<br>
 - [*Условные операторы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/if%20and%20switch.md 'Условные операторы')<br>
-   
-    
   
-    
-   
    
     
    
