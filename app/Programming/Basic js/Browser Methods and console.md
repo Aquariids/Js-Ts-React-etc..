@@ -11,7 +11,7 @@
 console.log('Hello world') // Выведет в консоль Hello world
 ```
 ![alt text](https://github.com/Aquariids/MyJS/blob/main/app/img/hello.png)<br>
-Так же есть console.dir() - этот метод отображает список свойств указанного JavaScript объекта. Сейчас важно запомнить только console.log()
+Так же будем использовать console.dir() - этот метод отображает список свойств указанного JavaScript объекта. Сейчас важно запомнить только console.log()
 
 ## Общение с пользователем ##
 
