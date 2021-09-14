@@ -87,6 +87,7 @@ console.log(obj) // { age: 30 }
 ```javaScript
 console.dir(Object); // проверяем глобально у Object его свойства
 ```
+Методы:
 #### Object.keys() - Возвращает массив из собственных перечисляемых свойств переданного объекта ####
 ```javaScript
 const obj = {
