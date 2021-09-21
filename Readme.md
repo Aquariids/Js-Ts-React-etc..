@@ -11,4 +11,4 @@
 - [*Callback функции*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Callback%20functions.md 'callback функции')<br>
 - [*Объекты, методы, свойства и деструктуризация*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Objects%20and%20destructuring.md 'Объекты')<br>
 - [*Методы строк и чисел*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Methods%20on%20strings%20and%20numbers.md 'Методы строк и чисел')<br>
-- [*Массивы*]()<br>
+- [*Массивы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Arrays%20and%20Destructuring.md 'Методы')<br>
