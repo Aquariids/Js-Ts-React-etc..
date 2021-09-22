@@ -43,7 +43,8 @@ for (let i = 0; i <= 8; i++) {
 }
 ```
 Операторы break и continue:<br>
-break:
+Эти операторы мы можем использовать в любом из циклов.
+break прерывает работу цикла.
 ```javaScript 
 for (let i = 0; i <= 8; i++) {
 
@@ -53,7 +54,7 @@ for (let i = 0; i <= 8; i++) {
     console.log(i);
 }
 ```
-continue:
+continue прерывает только определенную итерацию, далее цикл продолжает свою работу.
 ```javaScript
 for (let i = 0; i <= 8; i++) {
     console.log(i) // выведет от 0 до 8
