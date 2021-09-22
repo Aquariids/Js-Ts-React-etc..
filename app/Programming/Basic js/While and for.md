@@ -42,7 +42,7 @@ for (let i = 0; i <= 8; i++) {
  console.log(i) // выведет от 0 до 8
 }
 ```
-Операторы break и continue:
+Операторы break и continue:<br>
 break:
 ```javaScript 
 for (let i = 0; i <= 8; i++) {
