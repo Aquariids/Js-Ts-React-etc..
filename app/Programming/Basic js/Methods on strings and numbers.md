@@ -11,7 +11,7 @@ const arr = [1,4,5,6,7];
 console.log(test.length); // 4 буквы = 4 элемента
 console.log(arr.length); // 5 Так же можем узнать кол элементов в массиве
 ```
-[Более подробно о length в статье про массивы](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Arrays%20and%20Destructuring%20.md#length-%D0%B2-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0%D1%85).
+[Более подробно о length в статье про массивы](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Arrays%20and%20Destructuring.md#-length-%D0%B2-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0%D1%85-).
 ## <a name ='Strings'> Методы строк </a> ##
 
 
