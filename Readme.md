@@ -9,7 +9,7 @@
 - [*Циклы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/While%20and%20for.md 'Циклы')<br>
 - [*Функции*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Functions.md 'Функции')<br>
 - [*Callback функции*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Callback%20functions.md 'callback функции')<br>
-- [*Объекты, методы, свойства и деструктуризация*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Objects%20and%20destructuring.md 'Объекты')<br>
+- [*Объекты, методы и свойства*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Objects%20and%20destructuring.md 'Объекты')<br>
 - [*Методы строк и чисел*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Methods%20on%20strings%20and%20numbers.md 'Методы строк и чисел')<br>
 - [*Массивы и их методы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Arrays%20and%20Destructuring.md 'Методы')<br>
 - [*Деструктуризация массивов и объектов*]()<br>
