@@ -123,15 +123,15 @@ spread оператор разварачивает элементы массив
 const video = ['youtube', 'viemo', 'rutube'], // создаем массив
     blogs = ['wordpress', 'livejournal', 'blogger'], // еще один
     internet = [...video]; //  ... - это spread оператор, он развернул элементы из video в массив internet 
-    video[0] = 'ddddd';
-    console.log(internet); // [ 'youtube', 'viemo', 'rutube' ]
-    console.log(video); // [ 'ddddd', 'viemo', 'rutube' ] */
-    // сливаем массивы.
-    internet = [...video, ...blogs, 'vk', 'facebook']; // добавляем 2 массива и кое что свое
+    video[0] = 'ddddd'; // меняем значение для первого элемента в массиве video.
+    console.log(internet); // [ 'youtube', 'viemo', 'rutube' ] - массив где мы использовали ...
+    console.log(video); // [ 'ddddd', 'viemo', 'rutube' ]  - массив которого делали копию, первый элемент поменялся только у оригинала. Копия удалась.
+    // С помощью spread мы можем слить несколько массивов в единый новый массив и так же, что-то добавить еще.
+    internet = [...video, ...blogs, 'vk', 'facebook']; // сливаем 2 масива и добавляем еще 2 элемента - 'vk', 'facebook'
 console.log(internet);
 /*
-[                       Такой вот сочный массив
-'youtube',
+[                       Получился вот такой массив, содержащий в себе все из массива video и blogs и 2 доп элемента
+'ddddd',
 'viemo',
 'rutube',
 'wordpress',
@@ -144,15 +144,16 @@ console.log(internet);
 ```
 Еще один пример работы spread:
 ```javascript
+// cоздаем простую функцию с 3 - аргументами
 function log (a,b,c) {
-    console.log(a); // 2         // создаем простую функцию с 3 - аргументами
+    console.log(a); // 2          
     console.log(b); // 5
     console.log(c); // 7
 }
 
 const num = [2,5,7];   // и к нам вот пришел такой массив и нужно эти элементы добавить в наши 3 аргумента в функции
 
-log(...num); // вызываем нашу функцию и используем spread оператор на нашем массиве и все.
+log(...num); // вызываем нашу функцию и используем spread оператор на нашем массиве и все. Выше видно какая цифра и в какой аргумент пошла.
 ```
 Теперь spread оператор и копия объекта:
 ```javaScript
