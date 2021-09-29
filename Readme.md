@@ -13,4 +13,4 @@
 - [*Методы строк и чисел*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Methods%20on%20strings%20and%20numbers.md 'Методы строк и чисел')<br>
 - [*Массивы и их методы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Arrays%20and%20Destructuring.md 'Методы')<br>
 - [*Деструктуризация массивов и объектов и параметры по умолчанию*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/destr.md 'Деструктуризация')<br>
-- [*Передача данных по ссылке и значению. Копии объектов, оператор spread*]()<br>
+- [*Передача данных по ссылке и значению. Копии объектов, оператор spread*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Copying%20objects%20and%20links.md 'данные по ссылке и значению, копии объектов, оператор spread')<br>
