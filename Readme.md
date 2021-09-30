@@ -15,4 +15,6 @@
 - [*Деструктуризация массивов, объектов и параметры по умолчанию*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/destr.md 'Деструктуризация')<br>
 - [*Передача данных по ссылке и значению. Копии объектов, оператор spread*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Copying%20objects%20and%20links.md 'данные по ссылке и значению, копии объектов, оператор spread')<br>
 - [*DOM Дерево, элементы DOM, навигация по DOM*]()<br>
-- [*Дата атрибуты*]()
+- [*Дата атрибуты*]()<br>
+- [*События*]()<br>
+- [*Мобильные события*]()<br>
