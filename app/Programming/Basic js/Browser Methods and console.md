@@ -26,7 +26,7 @@ alert('Hello world')
 ```javaScript
 let res = prompt('Привет','111');
 // Как раз можно воспользоваться методом консоли и посмотреть что ввели.
-console.log(res); // в консоли появится содержимое переменной res
+console.log(res); // в консоли появится содержимое переменной res, а это будет то, что мы введем в поле.
 ```
 ![text](https://github.com/Aquariids/MyJS/blob/main/app/img/prompt.png)<br>
 ### confirm() ###
