@@ -61,7 +61,7 @@ let str2 = '12' // это строка
 console.log(typeof(str)); // string
 ```
 #### 3.Логический тип(boolean) ####
-Булевый тип принимает только два значения: true(истина) и false(ложь).
+Булевый тип принимает только два значения: true(истина) и false(ложь). [Используется для работый с условиями.](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/if%20and%20switch.md#-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80-ifelse-)
 ```javascript
 'use strict';
 
