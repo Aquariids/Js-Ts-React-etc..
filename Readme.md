@@ -14,4 +14,5 @@
 - [*Массивы и их методы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Arrays%20and%20Destructuring.md 'Методы')<br>
 - [*Деструктуризация массивов, объектов и параметры по умолчанию*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/destr.md 'Деструктуризация')<br>
 - [*Передача данных по ссылке и значению. Копии объектов, оператор spread*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Copying%20objects%20and%20links.md 'данные по ссылке и значению, копии объектов, оператор spread')<br>
-- [*Немного ООП, что такое __proto__ и prototype*]()<br>
+- [*DOM Дерево, элементы DOM, навигация по DOM*]()<br>
+- [*Дата атрибуты*]()
