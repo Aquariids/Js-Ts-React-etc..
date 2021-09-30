@@ -30,7 +30,7 @@ console.log(res); // в консоли появится содержимое п�
 ```
 ![text](https://github.com/Aquariids/MyJS/blob/main/app/img/prompt.png)<br>
 ### confirm() ###
--  Показывает модальное окно с сообщением и ждёт, пока пользователь нажмёт ok или Отмена. Возвращает true, если нажать ok, и false, если нажата кнопка «Отмена» или Esc.
+-  Показывает модальное окно с сообщением и ждёт, пока пользователь нажмёт ok или Отмена. Возвращает [true](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Data%20types%20and%20dynamic%20typing.md#3%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D0%B8%D0%BFboolean), если нажать ok, и [false](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Data%20types%20and%20dynamic%20typing.md#3%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D0%B8%D0%BFboolean), если нажата кнопка «Отмена» или Esc.
 ```javaScript
 let result = confirm('Ты за аниме?');
 
