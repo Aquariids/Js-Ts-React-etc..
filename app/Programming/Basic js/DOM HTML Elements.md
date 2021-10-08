@@ -210,7 +210,7 @@ inSection.forEach(item => { // удалили все элементы из secti
 ![remove and replace](https://github.com/Aquariids/MyJS/blob/main/app/img/remove%20and%20replace.png)<br>
 
 
-### Старые методы! ###
+### Старые методы для добавления элементов в DOM! ###
                                                    
 appendChild() - тот же append
 insertBefore () - указываем перед каким эдементом вставить наш, 2 аргумента первый - это то что вставляем, а второй, перед чем
