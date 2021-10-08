@@ -1,6 +1,7 @@
 [html как объект и документ или что такое DOM](#DOM)<br>
 [Получение элементов DOM. Устаревшие способы](#domStary)<br>
 [Получение элементов DOM. Современные способы](#newDOM)<br>
+[Действия с элементами на странице]()<br>
 
 ## <a name ='DOM'> html как объект </a> ##
 html - Это документ со своей структурой, и эта структура может быть представлена как дерево узлов, мы ее видим когда в браузере открываем в инспекторе кода Elements. Узлы связаны между собой отношениями родительскими дочерними.
@@ -66,69 +67,81 @@ console.log(className);
 ```
 ![getElementsByClassName](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%B4%D0%B8%D0%B2%D1%8B%D0%B4%D0%B8%D0%B2%D1%8B.png)
 ## <a name='newDOM'> Современные способы получения элементов DOM </a> ###
-#### querySelectorAll - позволяет получать элементы за счет селекторов css
+До этого мы получали html коллекции(HTMLCollection), c этими методами мы будем получать NodeList. Это все псевдомассивы, но разница в том, что у NodeList есть метод forEach.
+#### querySelectorAll( ) - позволяет получать псевдомассив за счет селекторов css
+[Здесь подробнее о селекторах](https://learn.javascript.ru/css-selectors)
 ```javaScript
 const inSection = document.querySelectorAll('.bg');  // тут мы получаем через класс, здесь обязательно ставить точку
 const bgId = document.querySelectorAll('#bg-id'); // через решетку получаем id
 ```
-
-
-// https://learn.javascript.ru/css-selectors тут подробнее о селекторах
-// Так же у querySelectorAll есть метод forEach!!  Об этом побробнее в файле 13 глава 2 часть 3
-
-// 5)  querySelector - все тоже самое, только получаем самый первый элемент который встретит (ПОЛУЧАЕМ ЭЛЕМЕНТ, НЕ ПСЕВДОМАССИВ!)
-    const inSectionOneElement = document.querySelector('.bg');
+![querySelectorAll](https://github.com/Aquariids/MyJS/blob/main/app/img/querySelector.png)<br>
+#### querySelector( ) - все тоже самое, только получаем самый первый элемент который встретит (ПОЛУЧАЕМ ЭЛЕМЕНТ, НЕ ПСЕВДОМАССИВ!).
+```javaScript
+const inSectionOneElement = document.querySelector('.bg');
 console.log(inSectionOneElement); // получили самый первый bg
+```
+![querySelector](https://github.com/Aquariids/MyJS/blob/main/app/img/querSelector1.png)<br>
+Так же если нам нужно получить элемент внутри какого-то родителя, а этого родителя мы уже получили, то нам не обязательно использовать document<br>
+Например:
+```javaScript
+const section = document.querySelector('.section'); // наш родитель
+// пишем вместо document нашу переменную с родителем
+const inSection = section.querySelectorAll(.bg);  // мы говорим получить наши элементы которые находятся только ВНУТРИ section
+```
+Вторая фишка - мы можем сразу указать нужный тег при получении.
+```javaScript
+const section = document.querySelector('.section div'); // получаем первый div в .section
+// если будем использовать querySelectorAll, то получим все div
+```
 
-/*                                                           1.2 Получаем элементы из родителя
-1)
-Так же если нам нужно получить элемент внутри какого-то родителя, а этого родителя мы уже получили,
-то нам не обязательно постоянно юзать document
-
-Например
-const section = document.querySelector('.section'); наш родитель
-const inSection = section.querySelectorAll(.bg);  мы говорим получить наши элементы которые находятся только  ВНУТРИ section
-2) вторая фишка. Мы можем сразу указать нужный тег например:
-const section = document.querySelector('.section img');  получаем все картинки в .section
-*/
-
-/*
-*                                               2 - Действия с элементами на странице         
-
-
-
-*                                                2.1 - Методы,объекты, а так же меняем стили!
- */                                                     
-// 1)  console.dir(); 
-
+ 
+## <a name =''> Действия с элементами на странице </a> ##
+Здесь нам поможет console.dir( ) -  напомню, что этот метод отображает список свойств указанного JavaScript объекта
+```javaScript
+const inSectionOneElement = document.querySelector('.bg');
 console.dir(inSectionOneElement); // смотрим на элемент в качестве объекта
-// в консоле браузера мы с помощью этой команды можем увидеть все свойства этого элемента(все что можем с ним сделать! )
-// так же и узнать нужные стили и поменять их.
-// Внутри это выглядит вот так style: CSSStyleDeclaration ( внутри этого объекта все свойства inline) (inline стили самые важные!
-// не важно, что будет в css, inline перебивают остальные. Сделано это для того, что бы вот так вот с помощью js мы могли манипулировать
-// такими стилями)
-// 2) style - это наш объект который мы нашли внутри нашего элемента
-inSectionOneElement.style.backgroundColor = 'green'; // обращаемся к нашему элементу к объекту style внутри него и к backgroundColor внутри style
-// в js css свойства пишем через CamelCase.
+```
+В консоли браузера мы с помощью этой команды можем увидеть все свойства этого элемента(все что можем с ним сделать!) 
+![dir](https://github.com/Aquariids/MyJS/blob/main/app/img/%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0.png)<br>
+Так же мы можем узнать нужные стили, что бы поменять их. для этого ищем объект style внутри объекта style все свойства inline (inline стили самые важные!),
+inline стили перебивают остальные. Сделано это для того, что бы с помощью js мы могли манипулировать такими стилями.
+![Style](https://github.com/Aquariids/MyJS/blob/main/app/img/Style.png)<br>
+### Меняем css свойства ###
+Внутри объекта style находим нужнЫе css свойства.
+```javaScript
+const inSectionOneElement = document.querySelector('.bg');
+const btns = document.querySelectorAll('button');
+
+inSectionOneElement.style.backgroundColor = 'green'; // обращаемся к нашему элементу и далее к объекту style внутри него и к backgroundColor внутри style
+// в js все css свойства пишем через CamelCase.
 inSectionOneElement.style.width = '100px'; // указываем все строками и с четкими ед измерениями
 btns[0].style.borderRadius = '100%'; // выбираем нашу первую кнопочку из псевдо массива.. 
-// 3) cssText - вставляем прямо строки в css
+```
+![Меняем свойства css](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%9C%D0%B5%D0%BD%D1%8F%D0%B5%D0%BC%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20css.png)
+Так же с помощью свойства cssText, можно вставлять строки прямо в style.
+```javaScript
+const inSectionOneElement = document.querySelector('.bg');
+
 let red = 'red';
 inSectionOneElement.style.cssText = `background-color: ${red}; width: 400px;`; // пишем уже обычный css код. Так же можем пользоваться интерполяцией
-// 4) меняем сразу несколько элементов! цикл for (редкая тема)
-
-for (let i = 0; i < btns.length; i++) { // говорим, что перебераем пока не закончатся элементы в нашем псевдо массиве
-    btns[i].style.backgroundColor ='green';  // обращаемся к нашему псевдомассиву и будем получать каждый элемент начиная с 0 (так как i = 0)
+```
+Меняем сразу несколько элементов с помощью цилка for (редко используется)
+```javaScript
+const btns = document.querySelectorAll('button');
+for (let i = 0; i < btns.length; i++) { // говорим, что перебираем пока не закончатся элементы в нашем псевдомассиве
+    btns[i].style.backgroundColor = 'green';  // обращаемся к нашему псевдомассиву и будем получать каждый элемент начиная с 0 (так как i = 0)
 }
-
-// 5) forEach() только для querySelectorAll. о forEach() в файле 13 глава 2 часть 3
-
-inSection.forEach(item => {
+```
+Но легче использовать forEach( )
+```javaScript
+const btns = document.querySelectorAll('button');
+btns.forEach(item => {
     item.style.backgroundColor ='green';
 });
-/*
- *                                                     2.2 Создаем свои элементы! (методы)
-*/                                                           
+```
+![Меняем циклом css свойства](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D0%BC%D0%A6%D0%B8%D0%BA%D0%BB%D0%BE%D0%BC.png)<br>
+
+### Методы для создания своих элементов ###                                                           
 
 // 1)  createElement()
 
