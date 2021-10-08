@@ -22,6 +22,7 @@ html - Это документ со своей структурой, и эта �
         <div class="bg">i</div>
         <div class="bg">й</div> 
     </section>
+    <div id="bg-id"> Это просто div </div>
     
 </body>
 </html>
