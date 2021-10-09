@@ -6,11 +6,10 @@
 [Создаем элементы(методы)](#create)<br>
 [Добавляем элементы в DOM(методы)](#addElements)<br>
 [Работаем с элементами DOM(методы)](#workDOM)<br>
-###### [Обо всех методах можно почитать на MDN](https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model)<br>
-
 Ключевые методы и свойства:
 ###### [classList](#classList), [querySelector](#querySelector), [querySelectorAll](#querySelectorAll), [innerHTML](#innerHTML)<br>
 ###### [textContent](#textContent), [createElement](#createElement), [append](#append)
+###### [Обо всех методах можно почитать на MDN](https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model)<br>
 ## <a name ='DOM'> html как объект </a> ##
 html - Это документ со своей структурой, и эта структура может быть представлена как дерево узлов, мы ее видим когда в браузере открываем в инспекторе кода Elements. Узлы связаны между собой отношениями родительскими дочерними.
 
