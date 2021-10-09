@@ -172,7 +172,7 @@ div.classList.add('black'); // add - это метод у свойства class
 
 ### <a name='addElements'> Добавляем наши элементы в DOM дерево (Методы) </a> ###
                                                     
-#### <a name=''> append( ) </a> - помещает наш элемент в самый конец.
+#### <a name='append'> append( ) </a> - помещает наш элемент в самый конец.
 ```javaScript
 const div = document.createElement('div');
 div.classList.add('black');
