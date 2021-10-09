@@ -7,6 +7,10 @@
 [Добавляем элементы в DOM(методы)](#addElements)<br>
 [Работаем с элементами DOM(методы)](#workDOM)<br>
 ###### [Обо всех методах можно почитать на MDN](https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model)<br>
+
+Ключевые методы и свойства:
+###### [classList](), [querySelector](#querySelector), [querySelectorAll](), [innerHTML]()<br>
+###### [textContent](), [createElement](), 
 ## <a name ='DOM'> html как объект </a> ##
 html - Это документ со своей структурой, и эта структура может быть представлена как дерево узлов, мы ее видим когда в браузере открываем в инспекторе кода Elements. Узлы связаны между собой отношениями родительскими дочерними.
 
@@ -79,7 +83,7 @@ const inSection = document.querySelectorAll('.bg');  // тут мы получа
 const bgId = document.querySelectorAll('#bg-id'); // через решетку получаем id
 ```
 ![querySelectorAll](https://github.com/Aquariids/MyJS/blob/main/app/img/querySelector.png)<br>
-#### querySelector( ) - все тоже самое, только получаем самый первый элемент который встретит (ПОЛУЧАЕМ ЭЛЕМЕНТ, НЕ ПСЕВДОМАССИВ!).
+#### <a name='querySelector'> querySelector( ) <a/> - все тоже самое, только получаем самый первый элемент который встретит (ПОЛУЧАЕМ ЭЛЕМЕНТ, НЕ ПСЕВДОМАССИВ!).
 ```javaScript
 const inSectionOneElement = document.querySelector('.bg');
 console.log(inSectionOneElement); // получили самый первый bg
