@@ -160,7 +160,7 @@ const div = document.createElement('div'); // Обращаемся к докум
 const text = document.createTextNode('Тут был я'); // создали текст.
 ```
 ### Работаем с css Селекторами! уже не inline! (classList) ###                                                    
-Для этого используем свойство <a name='classList'> classList </a>
+Для работы с селекторами используем свойство <a name='classList'> classList </a>
 ```javaScript
 const div = document.createElement('div');
 div.classList.add('black'); // add - это метод у свойства classList
