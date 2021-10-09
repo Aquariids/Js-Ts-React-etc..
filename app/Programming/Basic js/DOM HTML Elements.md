@@ -156,7 +156,7 @@ const div = document.createElement('div'); // Обращаемся к докум
 ```javaScript
 const text = document.createTextNode('Тут был я'); // создали текст.
 ```
-### Работаем с css Селекторами! уже не inline! (методы) ###                                                    
+### Работаем с css Селекторами! уже не inline! (classList) ###                                                    
 Для этого используем свойство classList
 ```javaScript
 const div = document.createElement('div');
