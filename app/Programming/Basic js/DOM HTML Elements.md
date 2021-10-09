@@ -10,7 +10,7 @@
 
 Ключевые методы и свойства:
 ###### [classList](#classList), [querySelector](#querySelector), [querySelectorAll](#querySelectorAll), [innerHTML](#innerHTML)<br>
-###### [textContent](#textContent), [createElement](#createElement), 
+###### [textContent](#textContent), [createElement](#createElement), [append](#append)
 ## <a name ='DOM'> html как объект </a> ##
 html - Это документ со своей структурой, и эта структура может быть представлена как дерево узлов, мы ее видим когда в браузере открываем в инспекторе кода Elements. Узлы связаны между собой отношениями родительскими дочерними.
 
@@ -172,7 +172,7 @@ div.classList.add('black'); // add - это метод у свойства class
 
 ### <a name='addElements'> Добавляем наши элементы в DOM дерево (Методы) </a> ###
                                                     
-#### append( ) - помещает наш элемент в самый конец.
+#### <a name=''> append( ) </a> - помещает наш элемент в самый конец.
 ```javaScript
 const div = document.createElement('div');
 div.classList.add('black');
