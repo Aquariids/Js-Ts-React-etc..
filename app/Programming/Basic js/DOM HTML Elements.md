@@ -71,7 +71,7 @@ console.log(className);
 ```
 ![getElementsByClassName](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%B4%D0%B8%D0%B2%D1%8B%D0%B4%D0%B8%D0%B2%D1%8B.png)
 ## <a name='newDOM'> Современные способы получения элементов DOM </a> ###
-До этого мы получали html коллекции(HTMLCollection), c этими методами мы будем получать NodeList. Это все псевдомассивы, но разница в том, что у NodeList есть метод forEach и еще пара методов. Их все можно узнать с помощью console.dir( ). [О том как это сделать мы поговрим ниже](#elementsPage)
+До этого мы получали html коллекции(HTMLCollection), c querySelectorAll мы будем получать NodeList. Это все псевдомассивы, но разница в том, что у NodeList есть метод forEach и еще пара методов. Их все можно узнать с помощью console.dir( ). [О том как это сделать мы поговрим ниже](#elementsPage). Напомню, что псевдомассив - это тоже самое, что и обычный массив, но только не имеющий методов обычного массива.
 #### querySelectorAll( ) - позволяет получать псевдомассив за счет селекторов css
 [Здесь подробнее о селекторах](https://learn.javascript.ru/css-selectors)
 ```javaScript
