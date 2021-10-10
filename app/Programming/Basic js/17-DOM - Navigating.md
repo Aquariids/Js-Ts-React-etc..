@@ -1,9 +1,13 @@
-[Навигация по DOM]()<br>
+[Навигация по DOM](#navigations)<br>
 [Методы получения узлов Родителей, детей, соседей]()<br>
  
- ## Навигация по DOM дереву и узлам. ##
-//1) document.documentElement
-console.log(document.documentElement); // получаем весь html
+ ## <a name='navigations'> Навигация по DOM дереву и узлам. </a> ##
+ Сейчас посмотрим на весь наш html документ. Для его получения используется свойство documentElement
+```javaScript
+console.log(document.documentElement);
+```
+![documentElement](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%B2%D0%B5%D1%81%D1%8Chtml.png)<br>
+console.log(document.documenElement); // получаем весь html
 // Родительский элемент это тот который объеденяет другие, находящийся внутри него
 // мы можем получать эти элементы
 //2 childNodes - позволяет нам получить все узлы которые находятся в родителе
