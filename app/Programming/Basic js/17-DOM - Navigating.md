@@ -7,12 +7,12 @@
 console.log(document.documentElement);
 ```
 ![documentElement](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%B2%D0%B5%D1%81%D1%8Chtml.png)<br>
-console.log(document.documenElement); // получаем весь html
-// Родительский элемент это тот который объеденяет другие, находящийся внутри него
-// мы можем получать эти элементы
-//2 childNodes - позволяет нам получить все узлы которые находятся в родителе
-console.log(document.body.childNodes); // получаем узлы которые являются детьми у body
-/*
+На скриншоте мы видим наше дерево, видим элементы, это все является узлами, но например текст не является элементом, но является узлом. "Каждая сущность в DOM будет узлом, но не каждый узел будет элементом." Теперь посмотрим как выглядят коллекции узлов, для этого используем свойство childNodes
+#### childNodes - позволяет нам получить все узлы которые находятся в родителе.
+```javaScript
+console.log(document.body.childNodes); // получаем узлы которые являются детьми у body.
+```
+Мы получим такую коллекцию узлов.
 NodeList(10) [script#__bs_script__, script, text, section.section, text, a, text, div.wrapper, text, script]
 0: script#__bs_script__
 1: script
@@ -37,7 +37,9 @@ __proto__: NodeList
 
             </ul>
  */
-
+//2 childNodes - позволяет нам получить все узлы которые находятся в родителе
+console.log(document.body.childNodes); // получаем узлы которые являются детьми у body
+/*
 //3) firstChild и lastChild - позволяют получить первого или последнего ребенка родителя
 console.log(document.body.firstChild);
 console.log(document.body.lastChild);
