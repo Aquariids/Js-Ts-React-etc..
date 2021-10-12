@@ -12,46 +12,31 @@ console.log(document.documentElement);
 ```javaScript
 console.log(document.body.childNodes); // получаем узлы которые являются детьми у body.
 ```
-Мы получим такую коллекцию узлов.
-NodeList(10) [script#__bs_script__, script, text, section.section, text, a, text, div.wrapper, text, script]
-0: script#__bs_script__
-1: script
-2: text // это переносы строки в нашем body (ну или просто текст, они помечаются одинаково)
-3: section.section
-4: text
-5: a
-6: text
-7: div.wrapper  - если мы в консоли открыли бы эту вкалду, внутри нашли бы и детей
-8: text
-9: script
-10: text
-length: 11
-__proto__: NodeList
+Мы получим такую коллекцию узлов:
+![узлы](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D1%83%D0%B7%D0%BB%D0%BE%D0%B2.png)<br>
+Под индексом 0 у нас узел 'text' - это перенос строки, далее идет комментарий '\<!-- body родитель section -->', потом опять перенос и так далее. Наши комментарии узлы, но не элементы.
 
-В общем пока так выглядит мое body
+## <a name='methods'> Методы получения узлов </a> ##
 
-каждая сущность находящаяся в DOM по сути будет узлом, но не каждый узел будет элементом, например наш text(перенос) - это узел, он находится в дом дереве, но это не элемент
-А если взять например
-              <ul>
-                <li>1</li>  - Сама li это дом элемент, но 1 внутри это текстовый дом узел
+#### firstChild и lastChild - позволяют получить первого или последнего ребенка родителя
 
-            </ul>
- */
-//2 childNodes - позволяет нам получить все узлы которые находятся в родителе
-console.log(document.body.childNodes); // получаем узлы которые являются детьми у body
-/*
-//3) firstChild и lastChild - позволяют получить первого или последнего ребенка родителя
+```javaScript
 console.log(document.body.firstChild);
 console.log(document.body.lastChild);
-
-
+```
+![firstChild and last](https://github.com/Aquariids/MyJS/blob/main/app/img/first%20and%20end.png)<br>
 // Сейчас поработаемс командами которые позволяют получить родителя, соседей и детей
 
-//4) parentNode получаем родителя элемента
-console.log(document.querySelector('#current').parentNode); // получаем кнопку по id и затем ее родителя 
-// Допустим нам нужно при клике на кнопку получить родителя этой кнопки и родителя diva в котором эта кнопка
-console.log(document.querySelector('#current').parentNode.parentNode); // просто дублируем команду два раза
-//5)  nextSibling - позволяет получить соседа впереди
+#### parentNode - получаем родителя элемента.
+```javaScript
+const bg = document.querySelector('.bg').parentNode;
+console.log(bg);
+```
+![section узел](https://github.com/Aquariids/MyJS/blob/main/app/img/section.png)<br>
+#### nextSibling - позволяет получить соседа впереди.
+```javaScript
+
+```
 console.log(document.querySelector('[data-current="3"]').nextSibling); // получили text ( перенос строки)
 //6) previousSibling - предыдущий сосед
 console.log(document.querySelector('[data-current="3"]').previousSibling); // Тоже text ( перенос)
