@@ -2,7 +2,7 @@
 [Методы получения узлов Родителей, детей, соседей]()<br>
  
  ## <a name='navigations'> Навигация по DOM дереву и узлам. </a> ##
- Сейчас посмотрим на весь наш html документ. Для его получения используется свойство documentElement
+ Сейчас посмотрим на весь DOM. Для его получения используется свойство documentElement
 ```javaScript
 console.log(document.documentElement);
 ```
