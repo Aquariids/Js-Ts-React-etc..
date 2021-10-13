@@ -21,12 +21,10 @@ console.log(document.body.childNodes); // получаем узлы которы
 #### firstChild и lastChild - позволяют получить первого или последнего ребенка родителя
 
 ```javaScript
-console.log(document.body.firstChild);
-console.log(document.body.lastChild);
+console.log(document.body.firstChild); // первым получим перенос строки.
+console.log(document.body.lastChild); // последним будет файл подключения js
 ```
 ![firstChild and last](https://github.com/Aquariids/MyJS/blob/main/app/img/first%20and%20end.png)<br>
-// Сейчас поработаемс командами которые позволяют получить родителя, соседей и детей
-
 #### parentNode - получаем родителя элемента.
 ```javaScript
 const bg = document.querySelector('.bg').parentNode;
@@ -35,41 +33,22 @@ console.log(bg);
 ![section узел](https://github.com/Aquariids/MyJS/blob/main/app/img/section.png)<br>
 #### nextSibling - позволяет получить соседа впереди.
 ```javaScript
-
+console.log(document.querySelector('.section').nextSibling); // получим text - перенос строки.
 ```
-console.log(document.querySelector('[data-current="3"]').nextSibling); // получили text ( перенос строки)
-//6) previousSibling - предыдущий сосед
-console.log(document.querySelector('[data-current="3"]').previousSibling); // Тоже text ( перенос)
-// мы путшествуем по всему дом дереву, не только по элементам, поэтому нужно помнить обо всех узлах в доме
-// для элементов есть аналоги
-//7) nextElementSibling.previousElementSibling  - работают также, но с элементами
-//8) parentElement - тоже самое, но получаем родителя только элементы
-// Такие же аналоги есть и firstChild и  lastChild
-//9) firstElementChild и lastElementChild
-
-// childNodes - у него нет такого аналога, но мы можем есго сделать сами с помощью for of
-
-for (let node of document.body.childNodes) { // используем for of, а не forEach потому что в нем мы можем использовать continue и brake
+#### previousSibling - Позволяет получить предыдущего соседа.
+```javaScript
+ console.log(document.querySelector('.section').previousSibling); // так же получим text
+```
+Мы передвигаемся по всему дом дереву, не только по элементам, поэтому нужно помнить обо всех узлах в доме. Для получения только элементов есть аналоги.
+#### nextElementSibling и previousElementSibling  - работают также, но с элементами.
+#### parentElement -  получаем родителя, только элементы.
+#### firstElementChild и lastElementChild - получаем у родителя первый элемент или последний 
+Аналога childNodes  нет, но мы можем есго сделать сами с помощью for of:
+```javaScript
+for (let node of document.body.childNodes) { // используем for of, а не forEach потому что в нем мы можем использовать continue и brake.
   if (node.nodeName == "#text"){ continue;} // по факту мы получаем наш псевдомассив нодузел и говорим если нода(каждый наш элемент)
-// если его свойство nodeName равно #text - (это я зашел в псевдо массив раскрыл ноду text и нашел имя.) То мы пропускаем эту итерацию 
-  console.log(node); // в итоге в консоль мы получаем только элементы без  текстовых узлов
+// если его свойство nodeName равно #text - (это я зашел в псевдомассив раскрыл ноду text и нашел имя.) То мы пропускаем эту итерацию 
+  console.log(node); // в итоге в консоль мы получаем только элементы без текстовых узлов
 }
-
-
-/*
-*                                                                         2 - Дата атрибуты
- */
-//1) Зачем?
-// в дата атрибутах мы можем хранить информацию разного характера.
-// атрибут class например  создан для назначения стилей, в нем не получится хранить, что угодно. в дата атрибутах можно.
-// например id какого нибудь товара или здания, если вдруг это какой то поиск или карты и тд
-//2) как выглядит 
-// выглядит это так: <li data-current = '3'>3</li> Первая часть это всегда data потом дефис и след часть произвольная
-//3) немного о data
-// Тип хранимых в атрибуте данных должен быть string (строка). 
-// Также в data-атрибуте могут храниться любые данные, которые можно перекодировать в строку. Преобразования типов должны выполняться в JS.
-// data-атрибуты необходимо использовать только в крайнем случае, если ни один другой HTML-элемент или атрибут не подходит.
-// Например, нельзя хранить класс элемента в атрибуте data-class.
-//У одного элемента может быть сколько угодно много data-атрибутов с самыми различными значениями.
-//4) получаем data
-// console.log(document.querySelector('[data-curren="3"]')); // пишем в квадратных скобках имя data атрибута, далее устанавливем значение
+```
+![forOF](https://github.com/Aquariids/MyJS/blob/main/app/img/forOf.png)<br>
