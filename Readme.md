@@ -17,7 +17,7 @@
 - [*Передача данных по ссылке и значению. Копии объектов, оператор spread*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Copying%20objects%20and%20links.md 'данные по ссылке и значению, копии объектов, оператор spread')<br>
 - [*DOM Дерево, навигация по DOM, узлы. Работа с элементами DOM*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/DOM%20HTML%20Elements.md 'DOM дерево')<br>
 - [*DOM свойства и data атрибуты*]()<br>
-- [Немного про ООП]()<br>
+- [*Немного про ООП*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md)<br>
 - [*События*]()<br>
 - [*Мобильные события*]()<br>
 ### Более продвинутый javaScript
