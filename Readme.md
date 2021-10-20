@@ -1,5 +1,5 @@
 # Мой путеводитель по JS🈯
-### Базовый javaScript
+### Более базовые темы
 - [*Консоль разработчика и общение с пользователем*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Browser%20Methods%20and%20console.md 'Консоль разработчика и общение с пользователем')<br>
 - [*Строгий режим (Strict mode)*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/use%20strict.md 'Строгий режим в js')<br>
 - [*Переменные*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Variables.md 'переменные')<br>
@@ -20,4 +20,4 @@
 - [*Немного про ООП*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md)<br>
 - [*События*]()<br>
 - [*Мобильные события*]()<br>
-### Более продвинутый javaScript
+### Более продвинутые темы
