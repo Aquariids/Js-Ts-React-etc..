@@ -100,3 +100,8 @@ console.log(jack); //{ health: 150 }
 console.log(jonh); // { health: 100 }
 // два бравых солдата с разным хп, но одинаковой броней из за их общего прототипа
 ```
+Если мы посмотрим на нашего солдата через console.dir() мы увидим от кого он наследуется.
+```javaScript
+console.dir(jonh);
+```
+![dir](https://github.com/Aquariids/MyJS/blob/main/app/img/Безымянsssный.png)
