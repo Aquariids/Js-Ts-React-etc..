@@ -18,6 +18,6 @@
 - [*DOM Дерево. Работа с элементами DOM. Навигация по DOM, узлы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/DOM%20HTML%20Elements.md 'DOM дерево')<br>
 - [*DOM свойства и data атрибуты*]()<br>
 - [*Немного про ООП*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md)<br>
-- [*События*]()<br>
+- [*События*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Events.md)<br>
 - [*Мобильные события*]()<br>
 ### Более продвинутые темы
