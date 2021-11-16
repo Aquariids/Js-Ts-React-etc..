@@ -105,3 +105,4 @@ console.log(jonh); // { health: 100 }
 console.dir(jonh);
 ```
 ![dir](https://github.com/Aquariids/MyJS/blob/main/app/img/Безымянsssный.png)
+В нашем случае, это некий объект со свойствами  health:400, armor:100, и методом sayHello. Никого не напоминает?
