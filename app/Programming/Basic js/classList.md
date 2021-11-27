@@ -1,18 +1,23 @@
-//                  Ранее мы использовали один метод add у classList для добавления класса, сейчас же мы будем работать с полную силу
-
-const section = document.querySelector('.section-two'),
-    btns = section.querySelectorAll('button');
-
+[Методы classList]()<br>
+[Что внутри у метода toggle]()<br>
+Ранее мы использовали один метод add у classList для добавления класса, сейчас же мы будем работать в полную силу
 
 
 // что бы обратиться к списку классов, пишем .classList это свойство котороые есть у дом узла!
 console.log(btns[0].classList.length); // так мы узнаем сколько классов у нашей кнопки
 // так как у нас псевдо массив, мы не можем просто обратиться так btns.classList
 // нам нужно обращаться к элементу
-//                                                      1 - Методы classList
+## Методы classList ##
+```javaScript
+const section = document.querySelector('.section-two'),
+      btns = section.querySelectorAll('button');
+// Заранее получаем наши элементы.
+```
 
+### item() - позволяет получить класс с помощью индекса<br>
+```javaScript
 
-//1) item() - позволяет получить класс с помощью индекса
+```
 console.log(btns[0].classList.item(0)); //  получим blue - первый класс у элемента
 //2) add() - уже знакомы с этим методом. добавляет класс
 console.log(btns[1].classList.add('red', 'ssss')); // через запятую можно передавать несколько классов
