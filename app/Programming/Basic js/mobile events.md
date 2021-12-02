@@ -16,4 +16,5 @@ touchcancel - возникает когда точка соприкоснове�
 ![touchstart](https://github.com/Aquariids/MyJS/blob/main/app/img/touchstart.gif)<br>
 #### touchmove - жмем и двигаем пальчиком:
 ![touchmove](https://github.com/Aquariids/MyJS/blob/main/app/img/touchmove.gif)<br>
-
+#### touchend - Срабатывает когда отпускаем палец после нажатия
+![touchend](https://github.com/Aquariids/MyJS/blob/main/app/img/touchend.gif)<br>
