@@ -29,7 +29,7 @@ section.addEventListener('click', (e) => {
 #### matches и contains - проверяем класс и селектор
 ```javaScript
 (e.target && e.target.classList.contains('blue')) // так мы проверяем на класс, с contains уже знакомы.
-(e.target && e.target.matches("button.bg")) - а эта штука проверяет на совпадение с селектором.
+(e.target && e.target.matches("button.bg")) // а этот метод проверяет на совпадение с селектором.
 ```
 ### Разница между делегированием и forEach перебором?
 Фишка в том, что forEach будет юзаться на всех кнопках из верстки, но когда мы будем уже после применения forEach сооздавать динамически доп кнопки, они не будут работать.
