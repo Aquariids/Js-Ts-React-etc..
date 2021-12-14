@@ -21,5 +21,5 @@
 - [*Немного про ООП*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md)<br>
 - [*События*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Events.md)<br>
 - [*Мобильные события*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/mobile%20events.md)<br>
-- [*Делегироание событий*]()<br>
+- [*Делегироание событий*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/delegation.md)<br>
 ### Более продвинутые темы
