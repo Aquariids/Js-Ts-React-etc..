@@ -33,7 +33,6 @@ section.addEventListener('click', (e) => {
 ```
 ### Разница между делегированием и forEach перебором?
 Фишка в том, что forEach будет юзаться на всех кнопках из верстки, но когда мы будем уже после применения forEach сооздавать динамически доп кнопки, они не будут работать.
-ПРИМЕР:
 ```javaScript
 const btns = document.querySelectorAll('button')
 btns.forEach(btn => {
