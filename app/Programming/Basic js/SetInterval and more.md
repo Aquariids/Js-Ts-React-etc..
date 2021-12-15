@@ -65,18 +65,18 @@ let id = setTimeout(function log() { // запускаем наш stTimeout с �
 ## Анимация с помощью setInterval
 ```javaScript
 function myAnimation() { // создаем функцию
-    const elem = document.querySelector('.square'); // получаем наш квадратик на котором будет анимация.
+    const elem = document.querySelector('.square'); // получаем наш квадратик на котором будет анимация
     let pos = 0; // наша поцизция квадратика. Равна пока что 0
 
-    const id = setInterval(frame, 10);
+    const id = setInterval(frame, 10); // запускаем функцию frame каждые 10мл. 
 
     function frame (){ // это функция которая будет запускаться через опр промежуток времени
         if (pos == 370) {
             clearInterval(id);
         } else {
-            pos++;
-            elem.style.left =   pos + 'px';
-            elem.style.right = pos + 'px';
+            pos++; // позиция увеличивается.
+            elem.style.left =   pos + 'px'; // наша позиция будет пикселями в свойстве left
+            elem.style.top = pos + 'px'; // и так же в свойстве top, что значит мы сместим элемент вправо и вниз
         }
 
     }
@@ -85,5 +85,6 @@ function myAnimation() { // создаем функцию
 
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', myAnimation);
+
 ```
 ![setInterval](https://github.com/Aquariids/MyJS/blob/main/app/img/setInterval.gif)<br>
