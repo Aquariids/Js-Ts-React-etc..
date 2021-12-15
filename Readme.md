@@ -22,5 +22,5 @@
 - [*События*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Events.md)<br>
 - [*Мобильные события*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/mobile%20events.md)<br>
 - [*Делегироание событий*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/delegation.md)<br>
-- [*setTimeout, setInterval, clearInterval, рекурсивный вызов setTimeout, анимация с помощью setInterval*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/SetInterval%20and%20more.js)<br>
+- [*setTimeout, setInterval, clearInterval, рекурсивный вызов setTimeout, анимация с помощью setInterval*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/SetInterval%20and%20more.md)<br>
 ### Более продвинутые темы
