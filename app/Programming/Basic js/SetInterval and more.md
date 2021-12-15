@@ -85,5 +85,5 @@ function myAnimation() { // создаем функцию
 
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', myAnimation);
-
 ```
+![setInterval](https://github.com/Aquariids/MyJS/blob/main/app/img/setInterval.gif)<br>
