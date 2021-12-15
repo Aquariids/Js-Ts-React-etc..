@@ -52,25 +52,20 @@ btn.addEventListener('click', () => { // вешаем обработчик на 
 ```
 У setInterval есть проблема. Таймер не учитывает как долго будет работать функция вунтри него. Еасли наша функция logger будет долго выполняться или будет очень тяжелой, то setInterval не будет ждать свои 2 секунды, он будет думать, что 2 секунды прошли, во время выполнения функции и сразу запустит опять logger.<br>
 Поэтому лучший способ это setTimeout в рекурсии.
-## Небольшая рекурсия setTimeout
+## Рекурсивный вызов setTimeout
 
-```javaScript
-
+```javaScript                           
+let id = setTimeout(function log() { // запускаем наш stTimeout с интервалом 500мл
+    console.log('hello gay'); // тут выполняются действия
+    id = setTimeout(log, 500); // замещаем id новым setTimeout который ждет когда выполнится код выше, ждет пол секунды и опять выполняет функцию log
+}, 500);
 ```
+Такой варинат всегда будет строго дожидаться выполнения функции вне зависимости от ее нагрузки и долготы.
 
-
-//                                              рекурсивный вызов setTimeout
-let id  = setTimeout(function log(){ // запускаем наш stTimeout
-    console.log('hello gay'); // тут выполняютсся опр действия
-    id = setTimeout(log, 500); // этот setTimeout ждет когда выполнится код выше, ждет  пол секунды и опять выполняет функцию log
-},500); // код ждет пол секунды и потом запускает код выше
-
-/*
-*                                       Анимация с помощью setInterval
- */
-
+## Анимация с помощью setInterval
+```javaScript
 function myAnimation() { // создаем функцию
-    const elem = document.querySelector('.square'); // получаем наш квадратик на котором будет анимация
+    const elem = document.querySelector('.square'); // получаем наш квадратик на котором будет анимация.
     let pos = 0; // наша поцизция квадратика. Равна пока что 0
 
     const id = setInterval(frame, 10);
@@ -88,5 +83,7 @@ function myAnimation() { // создаем функцию
 }    
 
 
-const btn = document.querySelector('.btn-set');
+const btn = document.querySelector('.btn');
 btn.addEventListener('click', myAnimation);
+
+```
