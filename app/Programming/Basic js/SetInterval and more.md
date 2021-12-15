@@ -1,6 +1,6 @@
 [setTimeout](#setTimeout)<br>
 [setInterval](#setInterval)<br>
-[Немного рекурсии](#recursion)<br>
+[Рекурсивный setTimeout](#recursion)<br>
 [Анимация setInterval](#animation)
 
 
