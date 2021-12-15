@@ -1,8 +1,7 @@
-[setTimeout]()<br>
-[setInterval]()<br>
-[clearInterval]()<br>
-[Немного рекурсии]()<br>
-[Анимация setInterval]()
+[setTimeout](#setTimeout)<br>
+[setInterval](#setInterval)<br>
+[Немного рекурсии](#recursion)<br>
+[Анимация setInterval](#animation)
 
 
 setTimeout и setInterval это методы которые позволяют планировать вызов функции, с помощью этих методов мы можем вызвать функцию через определенное время.
@@ -25,7 +24,7 @@ function logger() {
 }
 const timeIdTwo = setTimeout(logger, 2000); // передаем именно ссылку, не вызываем !
 ```
-## setInterval и clearInterval
+## <a name "setInterval" setInterval и clearInterval </a>
 setInterval позволяет вызывать функцию регулярно, повторяя вызов через определённый интервал времени.<br>
 clearInterval - сбрасывает наш таймер, с setTimeout работает также. <br>
 ```javaScript
