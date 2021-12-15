@@ -43,7 +43,7 @@ console.log(year); // 2021
  const month = new Date()
     .getMonth()
 
-console.log(month); // 11 сейчас у меня 12 месяц, но так как счет идет от 0 мы получаем 11
+console.log(month); // 11. сейчас у меня 12 месяц, но так как счет идет от 0 мы получаем 11
 ```
  .getDate() - Получаем число<br>
 ```javaScript
