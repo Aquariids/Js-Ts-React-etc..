@@ -1,4 +1,4 @@
-[описание document, window,screen](#hi)<br>
+[Описание document, window,screen](#hi)<br>
 [Свойства получаемых элементов](#prop)<br>
 
 ## <a name='hi'> Описание </a>
