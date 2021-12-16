@@ -58,17 +58,12 @@ console.log(long.calcArea()); // 2000
 Наследование это способность нашего объекта или класса базировться на основе другого объекта или класса.
 ```javaScript
 
-class Rectangle { // пишем ключевое слово class и название класса  с большой буквы
+class Rectangle { 
 
-    // Теперь нам нужно его сконструировать. Что он умеет делать, какие изначальные будут свойства.
-    // для этого есть свойство constructor
-
-    constructor(height, width) { /*тут аргументы, которые будут приходить из вне при создании экземпляра*/
-        
-        this.height = height; // далее все как в функции конструктор.
+    constructor(height, width) {
+        this.height = height;
         this.width = width;
     }
-    // так же добавим метод
     calcArea() {
         return this.height * this.width;
     }
