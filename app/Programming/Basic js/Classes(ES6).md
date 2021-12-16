@@ -86,6 +86,7 @@ class ColoredRectangleWithText extends Rectangle { // прописываем ext
 const div = new ColoredRectangleWithText(25, 10, 'helolo', 'red');
 
 
-div.showMyProps(); // юзаем метод из нового класса
-console.log(div.calcArea()); // и юзаем метод нашего главного класса
+div.showMyProps(); // юзаем метод из нового класса.
+console.log(div.calcArea()); // и юзаем метод нашего главного класса.
 ```
+![](https://github.com/Aquariids/MyJS/blob/main/app/img/classes.png)<br>
