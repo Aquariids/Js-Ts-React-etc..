@@ -27,5 +27,5 @@
 - [*document, window, screen их параметры и работа с ними. Получаем размеры наших элементов и тд*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Document,%20window%20options.md)<br>
 - [*Функция конструктор*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Constructor%20function.md)<br>
 - [*this и все его воплощения*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/context%20(this).md)<br>
-- [*Классы и опять чуть-чуть ООП*]()<br>
+- [*Классы и опять чуть-чуть ООП*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Classes(ES6).md)<br>
 ### Более продвинутые темы
