@@ -24,7 +24,7 @@ console.log(width, height); // 386 336
 // если мы например пропишем padding: 5px; , то будет 396 и 346. Но если пропишем border или margin ничего не изменится.
 ```
 #### offsetWidth и offsetHeigth 
-- получаем видимую часть, с учетом прокрутки и тд. Как написано в css 
+Получаем видимую часть, с учетом прокрутки и тд. Как написано в css 
 ```javaScript
 const box = document.querySelector('.block');
 const width = box.offsetWidth;
@@ -32,40 +32,40 @@ const height = box.offsetHeight;
 
 console.log(width, height); // 404 354. У меня border 2px поэтому на 4px больше с каждой стороны. Scroll при этом уже не отнимает px так как он учитывается.
 ```
+#### scrollWidth, scrollHeight scrollTop
+Получаем ширину и высоту полностью, то есть внутренний элемент который нужно проскроллить. А scrollTop - показывает сколько скрыто вне скролла ( с помощью этой штуки можно сделать шкалу сколько пользователь уже пролистал что то).
+![scroll](https://github.com/Aquariids/MyJS/blob/main/app/img/btnScroll.png)<br>
+У меня такой блок шириной 400px и высотой 350px. Так вот scrollWidth и scrollHeight показывают именно то, что внутри.
+```javaScript
+const btn = document.querySelector('.btnscroll');
+const box = document.querySelector('.block')
+const width = box.scrollWidth;
+const height = box.scrollHeight;
+
+console.log(height, width); // 537 и 386. 537 - это внутри блока, высота увеличилась из за текста внутри. 386 ширина, 14px забрал scroll
+
+btn.addEventListener('click', () => { // вешаем событие на кнопку
+    box.style.height = box.scrollHeight + 'px'; // и изменяем высоту блока при нажатии. немного раскрываем так сказать.
 
 
-
-//3) scrollWidth и scrollHeight - получаем ширину и высоту полностью, то есть внутренний элемент который нужно проскроллить
-//4) scrollTop - показывает сколько скрыто вне скролла ( с помощью этой штуки можно сделать шкалу сколько пользователь уже пролистал что то)
-
-const _3width  = box.scrollWidth;
-const _3height= box.scrollHeight;
-
-console.log(_3height); // 642 - это вот с учетом всего текста внутри!
-
-btnScroll.addEventListener('click', () =>{  // вешаем событие на кнопку
-   // box.style.height = box.scrollHeight + 'px';  // и изменяем высоту блока при нажатии 
-
-   console.log(box.scrollTop); // при нажатии будет показывать сколько пикселей осталось вне нашего поля зрения 
+    console.log(box.scrollTop); // А тут после нажатия будет показывать сколько пикселей вверху осталось вне нашего поля зрения(сколько мы проскролили) 
 
 });
-
-
-// кусочек кода с работой всякиш штук
+```
+#### pageXOffset/pageYOffset
+Эти свойства показывают сколько прокручено у окна window. Как и scrollTop только это все окно.
+```javaScript
 function showModalByScroll() {
     if (window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight) {
-        showModal();
-        // window.pageYOffset - это свойство показывает сколько прокрученно
-        // document.documentElement.clientHeight - а здесь видимая часть окна 
-        // здесь мы их складываем и сравниваем scrollHeight.  тое сть если прокрученная часть и видимая совпадают с scrollHeight, значит мы прокрутили страницу до самого конца  
-        window.removeEventListener('scroll',showModalByScroll);
+        console.log('ПРИВЕТ ДУРАК');
+        // window.pageYOffset - это свойство показывает сколько прокрученно у всего окна
+        // document.documentElement.clientHeight - а здесь видимая часть всего html
+        // document.documentElement - мы так получили по сути элемент html
+        // здесь мы их складываем и сравниваем scrollHeight.  то есть если прокрученная окна часть и видимая совпадают с scrollHeight у всего html, значит мы прокрутили страницу до самого конца.
+        window.removeEventListener('scroll', showModalByScroll); // удаляем обработчик
     }
 }
-    window.addEventListener('scroll', showModalByScroll);
+window.addEventListener('scroll', showModalByScroll); // вешаем событие scroll На окно и передаем нашу функцию
+```
 
-
-    console.log(new Date());
-
-/*
-*                                                   Координаты
-*/
+    
