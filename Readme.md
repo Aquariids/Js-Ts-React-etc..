@@ -25,4 +25,5 @@
 - [*setTimeout, setInterval, clearInterval, рекурсивный вызов setTimeout, анимация с помощью setInterval*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/SetInterval%20and%20more.md)<br>
 - [*Объект Data*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Date.md)<br>
 - [*document, window, screen их параметры и работа с ними. Получаем размеры наших элементов и тд*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Document,%20window%20options.md)<br>
+- [*Функция конструктор*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Constructor%20function.md#prototype)<br>
 ### Более продвинутые темы
