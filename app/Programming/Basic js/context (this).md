@@ -129,6 +129,7 @@ obj.sayNumber(); // контекстом будет объект  {num: 2, sayNu
 
 ```
 ### <a name="call"> Ручная привязка this к функции: call, apply, bind. </a>
+
  как подвязать этой функции контекст объекта us?
 ```javaScript
 function sayName(sername) {           
