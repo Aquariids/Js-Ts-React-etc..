@@ -26,4 +26,5 @@
 - [*Объект Data*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Date.md)<br>
 - [*document, window, screen их параметры и работа с ними. Получаем размеры наших элементов и тд*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Document,%20window%20options.md)<br>
 - [*Функция конструктор*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Constructor%20function.md#prototype)<br>
+- [*this и все его воплощения*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/context%20(this).md#oye)<br>
 ### Более продвинутые темы
