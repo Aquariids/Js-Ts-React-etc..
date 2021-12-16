@@ -18,7 +18,7 @@
 - [*DOM Дерево. Работа с элементами DOM. Навигация по DOM, узлы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/DOM%20HTML%20Elements.md 'DOM дерево')<br>
 - [*DOM свойства и data атрибуты*]()<br>
 - [*Подробнее про classList*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/classList.md)<br>
-- [*Немного про ООП*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md)<br>
+- [*Немного про ООП и Прототипное наследование*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md)<br>
 - [*События*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Events.md)<br>
 - [*Мобильные события*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/mobile%20events.md)<br>
 - [*Делегироание событий*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/delegation.md)<br>
@@ -27,5 +27,5 @@
 - [*document, window, screen их параметры и работа с ними. Получаем размеры наших элементов и тд*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Document,%20window%20options.md)<br>
 - [*Функция конструктор*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Constructor%20function.md)<br>
 - [*this и все его воплощения*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/context%20(this).md)<br>
-- [*Классы*]()<br>
+- [*Классы и опять чуть-чуть ООП*]()<br>
 ### Более продвинутые темы
