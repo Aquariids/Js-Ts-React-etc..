@@ -61,7 +61,7 @@ function showModalByScroll() {
         // window.pageYOffset - это свойство показывает сколько прокрученно у всего окна
         // document.documentElement.clientHeight - а здесь видимая часть всего html
         // document.documentElement - мы так получили по сути элемент html
-        // здесь мы их складываем и сравниваем scrollHeight.  то есть если прокрученная окна часть и видимая совпадают с scrollHeight у всего html, значит мы прокрутили страницу до самого конца.
+        // здесь мы их складываем и сравниваем scrollHeight.  то есть если прокрученная часть окна и видимая совпадают с scrollHeight у всего html, значит мы прокрутили страницу до самого конца.
         window.removeEventListener('scroll', showModalByScroll); // удаляем обработчик
     }
 }
