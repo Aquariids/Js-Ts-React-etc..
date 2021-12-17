@@ -32,7 +32,7 @@ rest('привет', 10, 1, 2, 3, 4, 5) // вызываем функцию и п
 ```javaScript
 class User { // создаем класс
 
-    constructor(element,...classes) { // тут используем rest. classes теперь пустой массив
+    constructor(element = '.block',...classes) { // тут используем rest. classes теперь пустой массив
         this.classes = classes; // записываем новому экземпляру свойство classes.
         this.element = element; // записываем наш элемент в свойсва экземпляра.
         const el = document.querySelector(this.element); // получаем элемент.
