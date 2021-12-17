@@ -28,4 +28,5 @@
 - [*Функция конструктор*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Constructor%20function.md)<br>
 - [*this и все его воплощения*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/context%20(this).md)<br>
 - [*Классы и опять чуть-чуть ООП*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Classes(ES6).md)<br>
+- [*rest оператор*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Rest%20operator.md)<br>
 ### Более продвинутые темы
