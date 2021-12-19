@@ -3,6 +3,7 @@
 <table border="1">
  <tr>
     <td><b style="font-size:30px">Базовый javaScript</b></td>
+  <td><b style="font-size:30px"> Более продвинутые темы javaScript</b></td>
  </tr>
  <tr>
    <td>
@@ -40,6 +41,10 @@
      
 </td>
   
+  <td>
+   
+   
+  </td>
   
 
    
