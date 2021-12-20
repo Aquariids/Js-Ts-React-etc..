@@ -1,4 +1,4 @@
-[Загрузка html](#html)
+[Загрузка html](#html)<br>
 [defer](#defer)<br>
 [async](#async)<br>
 [Динамические скрипты](#dynamic)<br>
