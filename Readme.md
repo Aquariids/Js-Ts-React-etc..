@@ -3,7 +3,6 @@
 <table border="1">
  <tr>
     <td><b style="font-size:30px">Базовый javaScript</b></td>
-  <td><b style="font-size:30px"> Более продвинутые темы javaScript</b></td>
  </tr>
  <tr>
    <td>
@@ -41,17 +40,25 @@
      
      
 </td>
-  
-  <td>
-   
-   [*JSON*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/JSON.md)<br>
-   
-  </td>
-  
-
+ 
    
 </tr>
 
 </table>
 
-### Более продвинутые темы
+<table border="1">
+ <tr>
+    <td><b style="font-size:30px"> Более продвинутые темы javaScript</b></td>
+ </tr>
+ <tr>
+   <td>
+
+[*JSON*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/JSON.md)<br>
+     
+     
+</td>
+ 
+   
+</tr>
+
+</table>
