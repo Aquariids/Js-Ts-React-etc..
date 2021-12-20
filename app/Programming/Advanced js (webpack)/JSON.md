@@ -35,19 +35,17 @@ console.log(JSON.parse(JSON.stringify(person)));
 ```
 ![parse](https://github.com/Aquariids/MyJS/blob/main/app/img/parse.png)<br>
 
-
-/*
-*                                       ГЛУБОКАЯ КОПИЯ ОБЪЕКТА УРА
-*/
-
+<a name="object"> Глубокая копия объекта </a>
+С помощью JSON можно создать глубокую копию объекта.[О копиях мы уже говорили.](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Copying%20objects%20and%20links.md#-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%B4%D0%B8%D0%BC-%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D1%83%D1%8E-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8E-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0-)
+```javaScript
 const clone = JSON.parse(JSON.stringify(person)); // короче изменили формат объекта, а потом распарсили в переменную clone
 // и получили другой объект, полностью глубокая копия
 clone.parent.mom = 'ss';
 
 console.log(clone);
 console.log(person);
-
-
+```
+![clone](https://github.com/Aquariids/MyJS/blob/main/app/img/clone.png)<br>
 /*
 *                                                     СЕРИАЛИЗАЦИЯ И ДЕСЕРИАЛИЗАЦИЯ
 Сериализация означает преобразование объекта в эту строку,
