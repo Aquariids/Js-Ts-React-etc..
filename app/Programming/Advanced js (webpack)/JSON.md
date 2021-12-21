@@ -25,7 +25,7 @@ const person = { // представим, что этот объект нам н
 у JSON есть два метода:
 #### stringify() - превращает объект в нужный нам формат для отправки данных.
 ```javaScript
-console.log(JSON.stringify(person)); // получаем объект в котором все в "" кавычках
+console.log(JSON.stringify(person)); // получаем объект в строковм представлении в котором все в "" кавычках
 ```
 ![strigify](https://github.com/Aquariids/MyJS/blob/main/app/img/stringify.png)<br>
 #### parse() - возвращаем былой вид.
