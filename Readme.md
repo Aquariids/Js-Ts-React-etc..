@@ -54,6 +54,7 @@
    <td>
 
 [*JSON*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/JSON.md)<br>
+[*AJAX, XMLHttpRequest*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/AJAX.md)<br>
      
      
 </td>
