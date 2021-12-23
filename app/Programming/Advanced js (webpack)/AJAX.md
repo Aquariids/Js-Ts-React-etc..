@@ -1,7 +1,7 @@
 [ну давай AJAX иди сюда.](#AJAX)<br>
 [Get и Post запросы](#getPost)<br>
 [Старый способ полученмя данных: XMLHttpRequest](#XML)<br>
-[Свойства XMLHttpRequest и коды http](#http)
+[Свойства XMLHttpRequest и коды http](#http)<br>
 [Ссылка на современный способ](#a)<br>
 
 ## <a name="AJAX"> Что за AJAX такой </a><br>
