@@ -3,7 +3,7 @@
 
 ## <a name="rest"> rest оператор </a>
 
-rest оператор это брат оператора spread, только spread может взять массив и раскинуть его по аргументам. 
+rest оператор это брат оператора spread, только [spread](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Copying%20objects%20and%20links.md#%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80-spread) может взять массив и раскинуть его по аргументам. 
 ```javaScript
 function spread(a,b,c) {
     console.log(a); //1
