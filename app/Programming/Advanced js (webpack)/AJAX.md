@@ -1,4 +1,4 @@
-[ну давай AJAX иди сюда.](#AJAX)<br>
+[Ну давай AJAX иди сюда.](#AJAX)<br>
 [Get и Post запросы](#getPost)<br>
 [Старый способ полученмя данных: XMLHttpRequest](#XML)<br>
 [Свойства XMLHttpRequest и коды http](#http)<br>
