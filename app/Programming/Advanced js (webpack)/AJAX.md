@@ -1,8 +1,8 @@
 [ну давай AJAX иди сюда.](#AJAX)<br>
 [Get и Post запросы](#getPost)<br>
-[старый способ полученмя данных: XMLHttpRequest](#XML)<br>
+[Старый способ полученмя данных: XMLHttpRequest](#XML)<br>
 [Свойства XMLHttpRequest и коды http](#http)
-[ссылка на современный способ](#a)<br>
+[Ссылка на современный способ](#a)<br>
 
 ## <a name="AJAX"> Что за AJAX такой </a><br>
 AJAX — это аббревиатура, которая означает Asynchronous Javascript and XML.На самом деле, AJAX не является новой технологией, так как и Javascript, и XML существуют уже довольно продолжительное время, а AJAX— это синтез обозначенных технологий. AJAX чаще всего ассоцириуется с термином Web 2.0 и преподносится как новейшее Web - приложение.
@@ -155,4 +155,4 @@ inputRub.addEventListener('input', () => {
 И вот, что получаем:<br>
 ![XML](https://github.com/Aquariids/MyJS/blob/main/app/img/XMLhttp.gif)<br>
 
-[Про современный способ fetch для работы с AJAX мы говорим тут!]()
+## <a name="a"> Про современный способ fetch для работы с AJAX мы говорим [тут!]() </a>
