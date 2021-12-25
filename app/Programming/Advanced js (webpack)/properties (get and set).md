@@ -1,6 +1,9 @@
-[Почему? зачем? а как?]()<br>
+[Почему? а как?](#getAndSet)<br>
+[Инкапсуляция](#encapsulation)<br>
+[Старый вариант геттер и сеттер]()<br>
+[Используем наши гет и сет в классе уже современно]()<br>
 
-## <a name=""> Свойства - геттеры и сеттеры </a>
+## <a name="getAndSet"> Свойства - геттеры и сеттеры </a>
               
 Есть два типа свойств у объекта.<br>
 1 - это свойства данные (data properties)<br>
@@ -27,3 +30,4 @@ console.log(user.userAge); // при вызове мы не пишем userAge()
 console.log(user.userAge = 30);
 console.log(user.userAge); // 30
 ``` 
+## <a name="encapsulation"> Инкапсуляция </a>
