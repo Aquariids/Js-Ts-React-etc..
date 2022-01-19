@@ -55,6 +55,7 @@
 
 [*JSON*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/JSON.md)<br>
 [*AJAX, XMLHttpRequest*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/AJAX.md)<br>
+[*Инкапсуляция. Свойства геттер и сеттер.*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/properties%20(get%20and%20set).md)<br>
      
      
 </td>
