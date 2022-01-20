@@ -1,10 +1,16 @@
-// __proto__ и prototype - это всё свойства объекта
+[Что такое __proto__ и prototype?](#protoAndPrototype)<br>
+[Примеры __proto__]()<br>
+[Примеры prototype]()<br>
 
 
-/*
-*                   __proto__ 
-__proto__ есть у всех объектов!
-*/
+
+
+
+## <a name="protoAndPrototype"> Что такое __proto__ и prototype </a>
+__proto__ и prototype - это всё свойства объекта.
+Любой объект в javaScript имеет свойство __proto__<br>
+Но свойство prototype имеют только функции конструкторы или классы.
+
 
 let obj = {} // есть obj.__proto__
 let arr = [] // arr.__proto__  массив объект так что тоже есть
