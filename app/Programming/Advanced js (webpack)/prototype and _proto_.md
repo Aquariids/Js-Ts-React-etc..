@@ -1,5 +1,5 @@
 [Что такое __proto__ и prototype?](#protoAndPrototype)<br>
-[Примеры __proto__]()<br>
+[Примеры <span> __proto__ </span>]()<br>
 [Примеры prototype]()<br>
 
 
