@@ -10,6 +10,7 @@
 ### <a name ="proto"> \_\_proto__ </a>
 Каждое свойство \_\_proto__ ссылается на prototype класса с помощью которого был создан объект.
 Например мы создаем строку и \_\_proto__ этой строки будет ссылаться на функцию с помощью которой она была создана. Строки появляются с помощью new String().
+[О работе примитивовов здесь.](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md#-%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-%D0%BF%D1%80%D0%B8%D0%BC%D0%B8%D1%82%D0%B8%D0%B2%D1%8B-%D0%B2-js-)<br
 ```javaScript
 let str = 'я строка'; // new String оборачивает нашу строку и у нее появляется __proto__
 
@@ -133,4 +134,5 @@ console.dir(Function.prototype.__proto__ === Object.prototype); // true
 
 // наша конечная станция null.
 console.log(Object.prototype.__proto__ === null); true
-``
+```
+Когда мы обсуждали ООП, то уже касались [прототипов и как работает наследование](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md#-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D1%82%D0%B8%D0%BF%D0%BD%D0%BE%D0%B5-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-)<br>
