@@ -1,12 +1,13 @@
 [Что такое \_\_proto__ и prototype?](#protoAndPrototype)<br>
-[Примеры \_\_proto__]()<br>
-[Примеры prototype]()<br>
+[Примеры \_\_proto__](#proto)<br>
+[Цепочка прототипов](#цепь)<br>
+[Примеры prototype](#prototype)<br>
 
 ## <a name="protoAndPrototype"> Что такое \_\_proto__ и prototype </a>
-```__proto__``` и prototype - это всё свойства объекта.
+\_\_proto___ и prototype - это всё свойства объекта.
 Любой объект в javaScript имеет свойство \_\_proto__<br>
 Но свойство prototype имеют только функции конструкторы или классы. 
-### \_\_proto__
+### <a name ="proto"> \_\_proto__ </a>
 Каждое свойство __proto__ ссылается на свой prototype с помощью которого был создан объект.
 Например мы создаем строку и __proto__ этой строки будет ссылаться на функцию с помощью которой она была создана. С помощью какой функции появляются все строки в js?
 ```javaScript
@@ -50,7 +51,7 @@ console.log(ivan.__proto__ === User.prototype); // true
 // в тоже время наш класс по сути функция поэтому
 console.log(User.__proto__ === Function.prototype); // true
 ```
-Немного про наследовательность и работу __proto__:<br>
+### <a name="цепь"> Немного про наследовательность и цепочку прототипов </a>
 ```javaScript
 
 let str = 'hi'; // у нас есть строка.
@@ -93,7 +94,7 @@ console.log(arr1.__proto__ === num.__proto__); // false  у них разные 
 let str = '111';
 console.log(str.__proto__ === age.__proto__); // false
 ```
-## prototype
+## <a name="prototype"> prototype </a>
 У любого объекта есть \_\_proto__ но prototype есть только у функции конструктор и класса. \_\proto__ позволяет перемещаться по цепочке прототипов. А prototype это свойство функции  которое позволяет добавлять что-то в конструктор. Например выше я уже добавлял в Object.prototype свою функцию.
 ```javaScript
 // Это все встроенный классы, они все имеют прототип
