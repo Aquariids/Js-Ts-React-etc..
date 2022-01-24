@@ -123,8 +123,8 @@ console.log(Array.prototype === Object.prototype); // false и тд
 \_\_proto__ ссылается на prototype класса с помощью которого был создан объект.
 Когда мы создали массив то его \_\_proto__ будет равно Array.prototype
 потому что \_\_proto__ ссылается на этот прототип.
-\_\_proto__ есть у любого объектая
-prototype у class либо function. Так же и \_\_proto__ есть у функций и классов это свойство есть У ВСЕХ!
+\_\_proto__ есть у любого объекта,
+а prototype у class либо function. Так же и \_\_proto__ есть у функций и классов это свойство есть У ВСЕХ!
 ```javaScript
 // Немного примеров.
 console.dir(Function.__proto__ === Function.prototype); // true
