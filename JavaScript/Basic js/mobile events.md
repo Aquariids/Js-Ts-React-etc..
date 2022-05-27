@@ -11,10 +11,10 @@ touchleave - наоборот когда мы скользим пальцем и
 touchcancel - возникает когда точка соприкосновения не регистрируется на поверхности. Если например наш палец выйдет за пределы браузера, тогда сработает это событие.<br>
 ## Наглядно показываю ##
 Для перехода в режим телефона в браузере, заходим в инспектор кода и нажимаем на телефончик в углу или комбинацию клавиш как на скриншоте.<br>
-![mobile](https://github.com/Aquariids/MyJS/blob/main/app/img/mobile.png)<br>
+![mobile](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/mobile.png)<br>
 #### touchstart -  просто жмем пальчиком на элемент:
-![touchstart](https://github.com/Aquariids/MyJS/blob/main/app/img/touchstart.gif)<br>
+![touchstart](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/touchstart.gif)<br>
 #### touchmove - жмем и двигаем пальчиком:
-![touchmove](https://github.com/Aquariids/MyJS/blob/main/app/img/touchmove.gif)<br>
+![touchmove](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/touchmove.gif)<br>
 #### touchend - Срабатывает когда отпускаем палец после нажатия
-![touchend](https://github.com/Aquariids/MyJS/blob/main/app/img/touchend.gif)<br>
+![touchend](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/touchend.gif)<br>
