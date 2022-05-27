@@ -19,24 +19,23 @@
 [*Callback функции*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Callback%20functions.md 'callback функции')<br>
 [*Объекты, методы и свойства*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Objects.md 'Объекты')<br>
 [*Методы строк и чисел*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Methods%20on%20strings%20and%20numbers.md 'Методы строк и чисел')<br>
-[*Массивы и их методы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Arrays%20and%20Destructuring.md 'Методы')<br>
-[*Деструктуризация массивов, объектов и параметры по умолчанию*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/destr.md 'Деструктуризация')<br>
-[*Передача данных по ссылке и значению. Копии объектов, оператор spread*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Copying%20objects%20and%20links.md 'данные по ссылке и значению, копии объектов, оператор spread')<br>
-[*DOM Дерево. Работа с элементами DOM. Навигация по DOM, узлы*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/DOM%20HTML%20Elements.md 'DOM дерево')<br>
- [*DOM свойства и data атрибуты*]()<br>
-[*Подробнее про classList*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/classList.md)<br>
-[*Немного про ООП и Прототипное наследование*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md)<br>
-[*События*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Events.md)<br>
-[*Мобильные события*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/mobile%20events.md)<br>
-[*Делегироание событий*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/delegation.md)<br>
-[*setTimeout, setInterval, clearInterval, рекурсивный вызов setTimeout, анимация с помощью setInterval*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/SetInterval%20and%20more.md)<br>
-[*Объект Data*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Date.md)<br>
-[*document, window, screen их параметры и работа с ними. Получаем размеры наших элементов и тд*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Document,%20window%20options.md)<br>
-[*Функция конструктор*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Constructor%20function.md)<br>
-[*this и все его воплощения*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/context%20(this).md)<br>
-[*Классы и опять чуть-чуть ООП*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Classes(ES6).md)<br>
-[*rest оператор*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Rest%20operator.md)<br>
-[*Динамические скрипты. Атрибуты async, defer*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Async%2Cdefer.md)<br>    
+[*Массивы и их методы*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Arrays%20and%20Destructuring.md 'Методы')<br>
+[*Деструктуризация массивов, объектов и параметры по умолчанию*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/destr.md 'Деструктуризация')<br>
+[*Передача данных по ссылке и значению. Копии объектов, оператор spread*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Copying%20objects%20and%20links.md 'данные по ссылке и значению, копии объектов, оператор spread')<br>
+[*DOM Дерево. Работа с элементами DOM. Навигация по DOM, узлы*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/DOM%20HTML%20Elements.md 'DOM дерево')<br>
+[*Подробнее про classList*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/classList.md)<br>
+[*Немного про ООП и Прототипное наследование*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/OOP%20and%20prototype.md)<br>
+[*События*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Events.md)<br>
+[*Мобильные события*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/mobile%20events.md)<br>
+[*Делегироание событий*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/delegation.md)<br>
+[*setTimeout, setInterval, clearInterval, рекурсивный вызов setTimeout, анимация с помощью setInterval*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/SetInterval%20and%20more.md)<br>
+[*Объект Date*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Date.md)<br>
+[*document, window, screen их параметры и работа с ними. Получаем размеры наших элементов и тд*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Document%2C%20window%20options.md)<br>
+[*Функция конструктор*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Constructor%20function.md)<br>
+[*this и все его воплощения*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/context%20(this).md)<br>
+[*Классы и опять чуть-чуть ООП*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Classes(ES6).md)<br>
+[*rest оператор*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Rest%20operator.md)<br>
+[*Динамические скрипты. Атрибуты async, defer*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Async%2Cdefer.md)<br>    
      
      
 </td>
@@ -53,10 +52,10 @@
  <tr>
    <td>
 
-[*JSON*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/JSON.md)<br>
-[*AJAX, XMLHttpRequest*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/AJAX.md)<br>
-[*Инкапсуляция. Свойства геттер и сеттер.*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/properties%20(get%20and%20set).md)<br>
-[*Свойство \_\_proto__ и prototype*](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Advanced%20js%20(webpack)/prototype%20and%20_proto_.md)<br>
+[*JSON*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Advanced%20js%20(webpack)/JSON.md)<br>
+[*AJAX, XMLHttpRequest*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Advanced%20js%20(webpack)/AJAX.md)<br>
+[*Инкапсуляция. Свойства геттер и сеттер.*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Advanced%20js%20(webpack)/properties%20(get%20and%20set).md)<br>
+[*Свойство \_\_proto__ и prototype*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Advanced%20js%20(webpack)/prototype%20and%20_proto_.md)<br>
      
      
 </td>
