@@ -57,4 +57,4 @@ let twoNewUser = new User('.btnscroll','hi','friend')// в этом случае
 
 
 ```
-![rest](https://github.com/Aquariids/MyJS/blob/main/app/img/rest.png)<br>
+![rest](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/rest.png)<br>
