@@ -8,7 +8,7 @@
 В общем мы создаем простую функцию, эта функция и будет нашим конструктором. 
 Это важный момент, функция конструктор - это просто функция и все. Вся разница в том, что она просто используется в будущем с new. Например как new Date()<br>
 Имя начинается с большой буквы, мы пишем с большой буквы не потому, что это синтаксис языка, а потому что так удобнее понимать где класс и где функция конструктор. Так принято.
-##### [про this](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/context%20(this).md)<br>
+##### [про this](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/context%20(this).md)<br>
 ```javaScript
 function User(name, age) { // задаем нужные аргументы. В нашем случае это имя и возраст пользователя
     //записываем свойства как в объект. Используем ключевое слово this.
@@ -36,7 +36,7 @@ console.log(dima);
 console.log(alex); // получаем двух разных пользователя(объекта). С общим свойством human
 alex.hello(); // используем метод 
 ```
-![constructor](https://github.com/Aquariids/MyJS/blob/main/app/img/constructor.png)<br>
+![constructor](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/constructor.png)<br>
 
 ## <a name="prototype"> Добавляем свойства - prototype </a>
 С помощью prototype мы можем добавлять в наш конструктор новые свойства и методы,(Они будут наследоваться у потомков)
