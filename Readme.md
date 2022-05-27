@@ -2,7 +2,7 @@
 
 <table border="1">
  <tr>
-    <td><b style="font-size:30px">Базовый javaScript</b></td>
+    <td><b style="font-size:30px">Базовый ssssssssjavaScript</b></td>
  </tr>
  <tr>
    <td>
