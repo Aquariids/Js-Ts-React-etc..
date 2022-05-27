@@ -102,7 +102,7 @@ console.log(timeZone); // -240 минут. Так как у меня UTC +4
 console.log(time); // 1639594207301 миллисекунд
 ```
  У всех этих методов есть аналог с UTC. Кроме getTimezoneOffset и getTime.<br>
- ![UTC](https://github.com/Aquariids/MyJS/blob/main/app/img/UTC.png)<br>
+ ![UTC](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/UTC.png)<br>
  Например:
  ```javaScript
  const hours = new Date()
