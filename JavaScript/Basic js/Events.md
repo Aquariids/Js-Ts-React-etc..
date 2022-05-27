@@ -52,7 +52,7 @@ btn.addEventListener('click', () => {
 });
 // События в js выполняются в порядке очереди!
 ```
-![hello serega and dima](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9.png)<br>
+![hello serega and dima](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9.png)<br>
 ## <a name="event"> Объект event </a>
 Иногда нам нужно получать данные о том элементе с которым мы взаимодействуем, для этого у нас есть специальный объект event, этот объект передается как аргумент в колбек функцию (называть можем как угодно, но обычно это event или e).
 ```javaScript
@@ -103,12 +103,12 @@ overlay.addEventListener('click', showElement);
 btn.addEventListener('click', showElement);
 ```
 При нажатии на кнопку мы получим такую картину:
-![всплытие](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%B2%D1%81%D0%BF%D0%BB%D1%8B%D1%82%D0%B8%D0%B5.png)<br>
+![всплытие](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%B2%D1%81%D0%BF%D0%BB%D1%8B%D1%82%D0%B8%D0%B5.png)<br>
 Сначала обработчик срабатывает на элементе вложеннее, а после по иерархии вверх, в нашем случае кнопка и див в котором она находится - это и называется всплытие событий.
 Мы можем немного изменить такое поведение с помощью свойства currentTurget.<br>
 currentTarget -  используется, когда один и тот же обработчик события присваивается нескольким элементам ( target используем сам элемент, а currentTarget - его родителя)
 Если в коде выше мы поменяем target на currentTarget, то получим более наглядный пример.
-![всплытие два](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%B2%D1%81%D0%BF%D0%BB%D1%8B%D1%82%D0%B8%D0%B5%20%D0%B4%D0%B2%D0%B0.png)<br>
+![всплытие два](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%B2%D1%81%D0%BF%D0%BB%D1%8B%D1%82%D0%B8%D0%B5%20%D0%B4%D0%B2%D0%B0.png)<br>
 Теперь мы наглядно получаем вторым элементом родителя.
  ## <a name="preventDefault"> Отмена стандартного поведения браузера </a>
 preventDefault - это метод у объекта события, нашего event, он отменяет стандартное поведение браузера.
