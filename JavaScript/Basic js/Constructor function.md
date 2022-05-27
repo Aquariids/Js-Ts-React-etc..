@@ -1,7 +1,7 @@
 [Делаем функцию конструктор](#constructor)<br>
 [Добавляем свойства в функцию конструктор](#prototype)<br>
 ### Важная информация конструктор это ES5!
-Все это делается с помощью [классов](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Classes(ES6).md), они появились в es6.
+Все это делается с помощью [классов](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Classes(ES6).md), они появились в es6.
 (но все что ниже, это то что под копотом у этих классов) поэтому знать нужно.
 
 ## <a name ="constructor"> Создаем конструктор </a>
