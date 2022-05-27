@@ -55,26 +55,26 @@ const bg = document.getElementById('bg-id');
 
 console.log(bg);
 ```
-![getElementById](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%20%D0%B4%D0%B8%D0%B2.png)<br>
+![getElementById](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%20%D0%B4%D0%B8%D0%B2.png)<br>
 #### getElementsByTagName( ) -  получаем [псевдомассив]() по тегу (Даже если будет один элемент, мы все равно получим псевдомассив)
 ```javaScript
 const btns = document.getElementsByTagName('button');
 console.log(btns); 
 ```
-![getElementsByTagName](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%9A%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA.png)<br>
+![getElementsByTagName](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%9A%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA.png)<br>
 Для получения нужного элемента указываем индекс.
 ```javaScript
 const btns = document.getElementsByTagName('button')[2]; 
 console.log(btns); 
 // или же указываем уже у готовой html коллекции при использовании console.log(btns[2]); 
 ```
-![getElementsByTagName](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B01.png)<br>
+![getElementsByTagName](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B01.png)<br>
 #### getElementsByClassName( ) - получаем по имени класса    
 ```javaScript
 const className = document.getElementsByClassName('bg'); // Точку не ставим, этот метод уже знает, что работает с классом
 console.log(className);
 ```
-![getElementsByClassName](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%B4%D0%B8%D0%B2%D1%8B%D0%B4%D0%B8%D0%B2%D1%8B.png)
+![getElementsByClassName](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%B4%D0%B8%D0%B2%D1%8B%D0%B4%D0%B8%D0%B2%D1%8B.png)
 ## <a name='newDOM'> Современные способы получения элементов DOM </a> ###
 До этого мы получали html коллекции(HTMLCollection), c querySelectorAll мы будем получать NodeList. Это все псевдомассивы, но разница в том, что у NodeList есть метод forEach и еще пара методов. Их все можно узнать с помощью console.dir( ). [О том как это сделать мы поговрим ниже](#elementsPage). Напомню, что псевдомассив - это тоже самое, что и обычный массив, но только не имеющий методов обычного массива.
 #### <a name ='querySelectorAll'> querySelectorAll( ) </a> - позволяет получать псевдомассив за счет селекторов css
@@ -83,13 +83,13 @@ console.log(className);
 const inSection = document.querySelectorAll('.bg');  // тут мы получаем через класс, здесь обязательно ставить точку
 const bgId = document.querySelectorAll('#bg-id'); // через решетку получаем id
 ```
-![querySelectorAll](https://github.com/Aquariids/MyJS/blob/main/app/img/querySelector.png)<br>
+![querySelectorAll](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/querySelector.png)<br>
 #### <a name='querySelector'> querySelector( ) <a/> - все тоже самое, только получаем самый первый элемент который встретит (ПОЛУЧАЕМ ЭЛЕМЕНТ, НЕ ПСЕВДОМАССИВ!).
 ```javaScript
 const inSectionOneElement = document.querySelector('.bg');
 console.log(inSectionOneElement); // получили самый первый bg
 ```
-![querySelector](https://github.com/Aquariids/MyJS/blob/main/app/img/querSelector1.png)<br>
+![querySelector](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/querSelector1.png)<br>
 Так же если нам нужно получить элемент внутри какого-то родителя, а этого родителя мы уже получили, то нам не обязательно использовать document<br>
 Например:
 ```javaScript
@@ -109,10 +109,10 @@ const inSectionOneElement = document.querySelector('.bg');
 console.dir(inSectionOneElement); // смотрим на элемент в качестве объекта
 ```
 В консоли браузера мы с помощью этой команды можем увидеть все свойства этого элемента(все что можем с ним сделать!) 
-![dir](https://github.com/Aquariids/MyJS/blob/main/app/img/%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0.png)<br>
+![dir](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0.png)<br>
 Так же мы можем узнать нужные стили, что бы поменять их. для этого ищем объект style, внутри этого объекта находятся все css свойства которые мы можем применить. Это все inline стили (inline стили самые важные!).<br>
 inline стили перебивают остальные. Сделано это для того, что бы с помощью js мы могли манипулировать такими стилями.
-![Style](https://github.com/Aquariids/MyJS/blob/main/app/img/Style.png)<br>
+![Style](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/Style.png)<br>
 ### <a name ='css'> Меняем css свойства </a> ###
 Внутри объекта style находим нужные css свойства.
 ```javaScript
@@ -124,7 +124,7 @@ inSectionOneElement.style.backgroundColor = 'green'; // обращаемся к 
 inSectionOneElement.style.width = '100px'; // указываем все строками и с четкими ед измерениями
 btns[0].style.borderRadius = '100%'; // выбираем нашу первую кнопочку из псевдо массива.. 
 ```
-![Меняем свойства css](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%9C%D0%B5%D0%BD%D1%8F%D0%B5%D0%BC%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20css.png)<br>
+![Меняем свойства css](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%9C%D0%B5%D0%BD%D1%8F%D0%B5%D0%BC%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20css.png)<br>
 Так же с помощью свойства cssText, можно вставлять строки прямо в style.
 ```javaScript
 const inSectionOneElement = document.querySelector('.bg');
@@ -146,7 +146,7 @@ btns.forEach(item => {
     item.style.backgroundColor ='green';
 });
 ```
-![Меняем циклом css свойства](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D0%BC%D0%A6%D0%B8%D0%BA%D0%BB%D0%BE%D0%BC.png)<br>
+![Меняем циклом css свойства](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D0%BC%D0%A6%D0%B8%D0%BA%D0%BB%D0%BE%D0%BC.png)<br>
 
 ### <a name="create"> Методы для создания своих элементов </a> ###                                                           
 
@@ -177,7 +177,7 @@ const div = document.createElement('div');
 div.classList.add('black');
 document.body.append(div); // в нашем случае мы в конец body кладем div который создали.
 ```
-![addElement](https://github.com/Aquariids/MyJS/blob/main/app/img/addElement.png)<br>
+![addElement](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/addElement.png)<br>
 Так же можем при получении родителя, добавить в него элемент.
 ```javaScript
 document.querySelector('.section').append(div); // Мы получили наш элемент по селектору и в него сразу добавили div
@@ -187,7 +187,7 @@ document.querySelector('.section').append(div); // Мы получили наш 
 const section = document.querySelector('.section');
 section.prepend(div);
 ```
-![prepend](https://github.com/Aquariids/MyJS/blob/main/app/img/prepend.png)<br>
+![prepend](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/prepend.png)<br>
 
 #### before and after - говорим перед (before) каким элементом вставить наш элемент или после(after) какого.
 ```javaScript
@@ -199,7 +199,7 @@ const inSection = document.querySelectorAll('.bg');
 inSection[1].before(div); // ставим наш див перед 1 элементом (по индексу)
 inSection[2].after(div2); // ставим после 2 элемента наш див (все по индексу!) 
 ```
-![before and after](https://github.com/Aquariids/MyJS/blob/main/app/img/beforAfter.png)<br>
+![before and after](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/beforAfter.png)<br>
 #### remove() - удаляет элемент и replaceWith() - заменяет один элемент на другой
 ```javaScript
 const inSection = document.querySelectorAll('.bg'); // получули все из section
@@ -210,7 +210,7 @@ inSection.forEach(item => { // удалили все элементы из secti
 });
 ```
 Так как в inSection находятся только div с классом bg которые мы получили, то кнопка которой мы заменили div осталась.
-![remove and replace](https://github.com/Aquariids/MyJS/blob/main/app/img/remove%20and%20replace.png)<br>
+![remove and replace](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/remove%20and%20replace.png)<br>
 
 
 ### Старые методы для добавления элементов в DOM! ###
@@ -230,7 +230,7 @@ const section = document.querySelector('.section');
 div.innerHTML = '<h1> ПРивет </h1>'; // добавили в див h1 с текстом. Можно и просто без тега вставить текст.
 section.append(div);
 ```
-![innerHTML](https://github.com/Aquariids/MyJS/blob/main/app/img/innerHTML.png)<br>
+![innerHTML](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/innerHTML.png)<br>
  #### <a name='textContent'> textContent </a> - Добавляет только текст
 Сделано это для безопасности. Когды мы получаем данные прямо от пользователя (может ввел в модал окне и тд)
 суть такова, что если мы будем использовать  innerHTML то пользователь сможет менять структуру DOM и сломать верстку. Поэтому для простого текста используется textContent.
@@ -246,20 +246,20 @@ section.append(div);
 const section = document.querySelector('.section');
 section.insertAdjacentHTML('afterbegin', '<h2> привет </h2>');
 ```
-![insertHTML](https://github.com/Aquariids/MyJS/blob/main/app/img/insertHTML.png)<br> 
+![insertHTML](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/insertHTML.png)<br> 
  ## <a name='navigations'> Навигация по DOM дереву и узлам. </a> ##
  Сейчас посмотрим на весь DOM. Для его получения используется свойство documentElement
 ```javaScript
 console.log(document.documentElement);
 ```
-![documentElement](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%B2%D0%B5%D1%81%D1%8Chtml.png)<br>
+![documentElement](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%B2%D0%B5%D1%81%D1%8Chtml.png)<br>
 На скриншоте мы видим наше дерево, видим элементы, это все является узлами, но например текст не является элементом, но является узлом. "Каждая сущность в DOM будет узлом, но не каждый узел будет элементом." Теперь посмотрим как выглядят коллекции узлов, для этого используем свойство childNodes
 #### childNodes - позволяет нам получить все узлы которые находятся в родителе.
 ```javaScript
 console.log(document.body.childNodes); // получаем узлы которые являются детьми у body.
 ```
 Мы получим такую коллекцию узлов:
-![узлы](https://github.com/Aquariids/MyJS/blob/main/app/img/%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D1%83%D0%B7%D0%BB%D0%BE%D0%B2.png)<br>
+![узлы](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D1%83%D0%B7%D0%BB%D0%BE%D0%B2.png)<br>
 Под индексом 0 у нас узел 'text' - это перенос строки, далее идет комментарий '\<!-- body родитель section -->', потом опять перенос и так далее. Наши комментарии узлы, но не элементы.
 
 ## <a name='uzelMethods'> Методы получения узлов </a> ##
@@ -270,13 +270,13 @@ console.log(document.body.childNodes); // получаем узлы которы
 console.log(document.body.firstChild); // первым получим перенос строки.
 console.log(document.body.lastChild); // последним будет файл подключения js
 ```
-![firstChild and last](https://github.com/Aquariids/MyJS/blob/main/app/img/first%20and%20end.png)<br>
+![firstChild and last](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/first%20and%20end.png)<br>
 #### parentNode - получаем родителя элемента.
 ```javaScript
 const bg = document.querySelector('.bg').parentNode;
 console.log(bg);
 ```
-![section узел](https://github.com/Aquariids/MyJS/blob/main/app/img/section.png)<br>
+![section узел](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/section.png)<br>
 #### nextSibling - позволяет получить соседа впереди.
 ```javaScript
 console.log(document.querySelector('.section').nextSibling); // получим text - перенос строки.
@@ -297,5 +297,5 @@ for (let node of document.body.childNodes) { // используем for of, а 
   console.log(node); // в итоге в консоль мы получаем только элементы без текстовых узлов
 }
 ```
-![forOF](https://github.com/Aquariids/MyJS/blob/main/app/img/forOf.png)<br>
+![forOF](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/forOf.png)<br>
 
