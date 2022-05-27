@@ -32,7 +32,7 @@ function showThis (){
 
 showThis(); // получим объект window
 ```
-![window](https://github.com/Aquariids/MyJS/blob/main/app/img/windowThis.png)<br>
+![window](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/windowThis.png)<br>
 А что если внутри функции будет еще функция с this?
 ```javaScript
 "use strict"
@@ -71,7 +71,7 @@ const obj = { // Объект
 obj.sum()
 ```
 Важно понимать, что функция внутри метода не является методом.<br>
-![thisInObject](https://github.com/Aquariids/MyJS/blob/main/app/img/thisInObject.png)<br>
+![thisInObject](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/thisInObject.png)<br>
 
 
 ### <a name="classes"> this в конструкторах и классах </a>
@@ -97,7 +97,7 @@ console.log(ivan);
 ```
 Немного рассказываю, что происходит. Мы создаем переменную ivan, в нее помещаем наш конструктор и указываем свойства. Внутри конструктора под this подставляется наш ivan
 И ему записываются свойства(значения из аргументов в функции) ivan.name = name. ivan.age = age и так далее, мы таким образом конструируем объект. Когда мы создадим dima, вместо this уже подставится dima и так далее.<br>
-![ivan](https://github.com/Aquariids/MyJS/blob/main/app/img/ivanThis.png)<br>
+![ivan](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/ivanThis.png)<br>
 
 
 ### <a name="add"> this в событии с обычной функцией. </a>
@@ -159,7 +159,7 @@ f1.call(us, 'anime');// просто вызываем у функции мето
 // далее передаем объект, а после аргументы для функции.
 ```
 Как видим контекст объект и мы можем использовать его свойства внутри функции с аргументами.
-![call()](https://github.com/Aquariids/MyJS/blob/main/app/img/call.png)<br>
+![call()](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/call.png)<br>
 #### apply()
 Оба  метода делают одно и тоже, но у них разный синтаксис.
 ```javaScript
