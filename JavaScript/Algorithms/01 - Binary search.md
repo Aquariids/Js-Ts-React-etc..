@@ -135,3 +135,7 @@ if (array[middle] === item) { // под индексом 3 в массиве у 
     }
 ```
 Все конец.
+```javaScript
+console.log(binarySearch(array, 4)); // 3
+console.log(count); // 3
+```
