@@ -72,7 +72,7 @@
 ## <a name="indexjs"> index js и App js </a>
 ### App js
 В папке src мы увидим наши компоненты:<br>
-![src]([../../img/src.png](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/img/src.png))<br>
+![src](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/img/src.png)<br>
 Именно App.js будет помещаться в нашем index.html внутри дива с id root.
 Здесь мы можем все удалить кроме App.js и index.js.<br>
 Внутри App.js удаляем все ненужное и импортируем сам реакт. Реакт импортируется там, где используются компоненты.<br>
