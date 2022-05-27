@@ -34,7 +34,7 @@ console.log(width, height); // 404 354. У меня border 2px поэтому н
 ```
 #### scrollWidth, scrollHeight scrollTop
 Получаем ширину и высоту полностью, то есть внутренний элемент который нужно проскроллить. А scrollTop - показывает сколько скрыто вне скролла ( с помощью этой штуки можно сделать шкалу сколько пользователь уже пролистал что то).
-![scroll](https://github.com/Aquariids/MyJS/blob/main/app/img/btnScroll.png)<br>
+![scroll](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/btnScroll.png)<br>
 У меня такой блок шириной 400px и высотой 350px. Так вот scrollWidth и scrollHeight показывают именно то, что внутри.
 ```javaScript
 const btn = document.querySelector('.btnscroll');
