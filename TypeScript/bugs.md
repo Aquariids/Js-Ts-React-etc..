@@ -1,8 +1,8 @@
 # TypeScript
 Тут немного будет про ошибки typeScript<br>
-[Ошибка: cannot find module or its corresponding type declarations.]()<br>
+[Ошибка: cannot find module or its corresponding type declarations.](#cannot)<br>
 
-### cannot find module or its corresponding type declarations
+### <a name="cannot"> cannot find module or its corresponding type declarations </a>
 У меня такая ошибка вылезла, когда я решил использовать svg и scss в react c ts.
 Короче при использовании разных сторонних библиотек на Js или в нашем случае svg, импортируемому модулю нужно указать типы данных. Иначе тс не находит тип и выдает об этом ошибку. Я могу ошибаться!!!!.<br>
 В общем суть такова, что нужно самому создать декларацию с нужным типом данных.<br>
