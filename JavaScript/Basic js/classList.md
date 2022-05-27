@@ -28,7 +28,7 @@ btns[0].classList.item(0); //  получим red - первый класс у �
 btns[1].classList.add('hi', 'bb'); // через запятую можно передавать несколько классов
 // теперь у второй кнопки 3 класса blue hi bb
 ```
-![add](https://github.com/Aquariids/MyJS/blob/main/app/img/Add.png)<br>
+![add](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/Add.png)<br>
 ### remove( ) - удаляет классы
 ```javaScript
 btns[1].classList.remove('blue'); // удалили класс blue.
