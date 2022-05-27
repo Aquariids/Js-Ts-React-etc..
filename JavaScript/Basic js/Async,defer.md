@@ -47,9 +47,9 @@ script ставят в конце body для того, что бы сначал
         
 </body>
 ```
-![defer](https://github.com/Aquariids/MyJS/blob/main/app/img/deferYES.png)<br>
+![defer](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/deferYES.png)<br>
 Если же мы уберем defer, то получим пустой псевдомассив:<br>
-![](https://github.com/Aquariids/MyJS/blob/main/app/img/deferNO.png)<br>
+![](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/deferNO.png)<br>
 Также defer не блокирует html документ.<br>
 Если у нас будет два скрипта, то с defer они будут грузиться по очередно в не зависимости от своих объемов.
 ## <a name="async"> async </a>
