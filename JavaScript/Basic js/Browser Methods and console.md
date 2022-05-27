@@ -3,14 +3,14 @@
 Консоль нужна для отлова ошибок и для разных тестов, потому что если в коде есть ошибки, все они будут видны в консоли разработчика.
 Если нажать пкм на странице "Посмотреть код" или набрать комбинацию клавиш ctrl + shift + i. (По крайней мере в chrome и opera такая комбинация работает).
 Так мы откроем инспектор кода на вкладке Console(в случае с "Посмотреть код" мы будем на вкладке Elements, Console будет правее).<br>
-![alt text](https://github.com/Aquariids/MyJS/blob/main/app/img/console.png)<br>
+![alt text](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/console.png)<br>
 В инспекторе кода много чего интересного, но сейчас только о Console.
 Мы очень часто будем работать с консолью, один из методов для консоли это console.log() - этот метод просто выводит информацию в консоль.
 
 ```javaScript
 console.log('Hello world') // Выведет в консоль Hello world
 ```
-![console.log](https://github.com/Aquariids/MyJS/blob/main/app/img/hello.png)<br>
+![console.log](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/hello.png)<br>
 Так же будем использовать console.dir() - этот метод отображает список свойств указанного JavaScript объекта. Сейчас важно запомнить только console.log()
 
 ## Методы для общения с пользователем ##
@@ -20,7 +20,7 @@ console.log('Hello world') // Выведет в консоль Hello world
 ```javaScript
 alert('Hello world')
 ```
-![alert](https://github.com/Aquariids/MyJS/blob/main/app/img/alert.png)<br>
+![alert](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/alert.png)<br>
 ### prompt() ###
 - Позволяет получить ответ от пользователя, то что пользователь введет в поле ввода, будет присвоено в переменную в которую поместим метод. Принимает в себя два аргумента. Первый - это title, второй - текст который будет сразу внутри поля ввода. Обычно вторым аргументом ставят просто пустые кавычки ' '.  Для примера я ввел 111.
 ```javaScript
@@ -28,7 +28,7 @@ let res = prompt('Привет','111');
 // Как раз можно воспользоваться методом консоли и посмотреть что ввели.
 console.log(res); // в консоли появится содержимое переменной res, а это будет то, что мы введем в поле.
 ```
-![prompt](https://github.com/Aquariids/MyJS/blob/main/app/img/prompt.png)<br>
+![prompt](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/prompt.png)<br>
 ### confirm() ###
 -  Показывает модальное окно с сообщением и ждёт, пока пользователь нажмёт ok или Отмена. Возвращает [true](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Data%20types%20and%20dynamic%20typing.md#3%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D0%B8%D0%BFboolean), если нажать ok, и [false](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/Data%20types%20and%20dynamic%20typing.md#3%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D0%B8%D0%BFboolean), если нажата кнопка «Отмена» или Esc.
 ```javaScript
@@ -36,7 +36,7 @@ let result = confirm('Ты за аниме?');
 
 console.log(result) // true или false
 ```
-![confirm](https://github.com/Aquariids/MyJS/blob/main/app/img/confirm.png)<br>
+![confirm](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/confirm.png)<br>
 
 
 
