@@ -61,11 +61,11 @@ while (found === false && start <= end) {
 Далее мы проверяем, равен ли элемент под индексом middle - 5 нашему искомому элементу - item
 ```javaScript
 
-if (array[middle] === item) { // если вдруг искомый элемент равен, элементу под индексом 5
-      found = true; // флаг в true.
-      position = middle; // в переменную position мы помещаем индекс искомого элемента
+if (array[middle] === item) {  // 6 не равно 4, 
+      found = true; 
+      position = middle; 
 
-      return position; // и возвращаем этот индекс.
+      return position; 
     }
 
 ```
