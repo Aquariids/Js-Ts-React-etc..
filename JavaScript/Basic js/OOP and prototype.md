@@ -104,5 +104,5 @@ console.log(jonh); // { health: 100 }
 ```javaScript
 console.dir(jonh);
 ```
-![dir](https://github.com/Aquariids/MyJS/blob/main/app/img/Безымянsssный.png)<br>
+![dir](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/Безымянsssный.png)<br>
 В нашем случае, это некий объект со свойствами  health:400, armor:100, и методом sayHello. Никого не напоминает?
