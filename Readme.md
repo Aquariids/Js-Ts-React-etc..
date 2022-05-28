@@ -3,5 +3,5 @@
 [TypeScript](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/TypeScript/TypeScript.md)<br>
 [React](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/React.md)<br>
 [Algorithms js](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Algorithms/Algorithms.md)<br>
-[tasks js]()<br>
+[tasks js](https://github.com/Aquariids/Js-Ts-React-etc../tree/main/JavaScript/Tasks)<br>
 [Some basic themes in programming]()<br>
