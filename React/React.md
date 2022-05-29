@@ -1,5 +1,4 @@
 # React
-Конспектирую все по React <br>
 Для установки React устанавливаем node.js и в консоли прописываем [npx create-react-app my-app](https://github.com/facebook/create-react-app#quick-overview)<br>
 <br>
 [node.js]()<br>
