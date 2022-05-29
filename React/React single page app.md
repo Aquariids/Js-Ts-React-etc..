@@ -6,5 +6,5 @@ REACT - это библиотека для создания пользовате
 
 ## Single page application
 На классических multi page application нужно создавать несколько html файлов, и каждый из них подгружать это сулит большими размерами файлов и постоянной перезагрузкой страницы.
-Single page в свою очередь единожды загружает html файл, "index.html" внутрь которого монтируется компонента app с помощью бибилиотеки [ReactDOM и метода render](https://github.com/Aquariids/React/blob/main/folder/JSX-indexjs-App.md#index-js).
-Так мы формируем всё приложение на javaScript использовав всего один html файл. Вся верстка создается с помощью [JSX](https://github.com/Aquariids/React/blob/main/folder/JSX-indexjs-App.md#jsx) который в свою очередь будет компилироваться в обычный JavaScript язык.
+Single page в свою очередь единожды загружает html файл, "index.html" внутрь которого монтируется компонента app с помощью бибилиотеки [ReactDOM и метода render](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/JSX-indexjs-App.md#-index-js-%D0%B8-app-js-).
+Так мы формируем всё приложение на javaScript использовав всего один html файл. Вся верстка создается с помощью [JSX](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/JSX-indexjs-App.md#-jsx-) который в свою очередь будет компилироваться в обычный JavaScript язык.
