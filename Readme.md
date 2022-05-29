@@ -5,4 +5,4 @@
 [Algorithms js](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Algorithms/Algorithms.md)<br>
 [tasks js](https://github.com/Aquariids/Js-Ts-React-etc../tree/main/JavaScript/Tasks)<br>
 [Grid](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/Grid/README.md)<br>
-[Some basic themes in programming]()<br>
+[Some basic themes in programming](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/Basic/README.md)<br>
