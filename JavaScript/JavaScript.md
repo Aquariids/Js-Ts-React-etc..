@@ -3,7 +3,6 @@
 <table border="1">
  <tr>
     <td><b style="font-size:30px">Базовый javaScript</b></td>
-  <a href" https://aquariids.github.io/Quiz-for-JS/"> Пройти мой тест по JS </a>
  </tr>
  <tr>
    <td>
