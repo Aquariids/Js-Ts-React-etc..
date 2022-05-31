@@ -1,7 +1,7 @@
 # JS🈯
  
 <table border="1">
- <td> <p style="font-size:50px"><a href="https://aquariids.github.io/Quiz-for-JS/"> Пройти мой тест по JS </a></p> </td>
+ <td> <p style="font-size:50px"><a target="_blank" href="https://aquariids.github.io/Quiz-for-JS/"> Пройти мой тест по JS </a></p> </td>
  <tr>
     <td><b style="font-size:30px">Базовый javaScript</b></td>
  </tr>
