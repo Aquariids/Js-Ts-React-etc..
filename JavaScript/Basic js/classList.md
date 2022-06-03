@@ -1,5 +1,5 @@
-[Методы classList]()<br>
-[Что внутри у метода toggle]()<br>
+[Методы classList](#classList)<br>
+[Что внутри у метода toggle](#toggle)<br>
 
 
 Ранее мы использовали один метод add у classList для добавления класса, сейчас же мы будем работать в полную силу
@@ -10,7 +10,7 @@
 console.log(btns[0].classList.length); // так мы узнаем сколько классов у нашей первой кнопки их 2.
 // так как у нас псевдо массив, мы не можем просто обратиться так btns.classList, нам нужно обращаться к элементу
 ```
-## Методы classList ##
+## <a name="classList"> Методы classList </a>
 ```javaScript
 <button class="red yellow">  кнопка 1 </button>
 <button class="blue"> кнопка 2 </button>
@@ -47,7 +47,7 @@ if (btns[0].classList.contains('red')) { // проверяет на наличи
     console.log('red'); // выполнили код
 }
 ```
-## Что внутри toggle(Небольшая практика)
+## <a name="toggle"> Что внутри toggle(Небольшая практика) </a>
 ```javaScript
 btns[0].addEventListener('click', () => {
     if (!btns[2].classList.contains('red')) { // мы проверяем, если у btns[2] нету класса red, то мы его добавляем
