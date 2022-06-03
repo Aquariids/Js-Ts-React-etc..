@@ -11,7 +11,7 @@ console.log(btns[0].classList.length); // так мы узнаем скольк�
 // так как у нас псевдо массив, мы не можем просто обратиться так btns.classList, нам нужно обращаться к элементу
 ```
 ### <a name="classList"> Методы classList </a>
-```javaScript
+```html
 <button class="red yellow">  кнопка 1 </button>
 <button class="blue"> кнопка 2 </button>
 <button class="green"> кнопка 3</button>
