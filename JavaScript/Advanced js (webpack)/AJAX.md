@@ -38,7 +38,7 @@ Post - запрос  это постить запросы, например ре
      <input id="usd" type="text">
 </div>
 ```
-![input](https://github.com/Aquariids/MyJS/blob/main/app/img/JSON.png)<br>
+![input](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/JSON.png)<br>
 Получаем элементы и погнали:
 ```javaScript
 const inputRub = document.querySelector('#rub'),
