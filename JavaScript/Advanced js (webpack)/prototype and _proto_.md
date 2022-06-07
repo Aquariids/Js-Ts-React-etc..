@@ -135,4 +135,4 @@ console.dir(Function.prototype.__proto__ === Object.prototype); // true
 // наша конечная станция null.
 console.log(Object.prototype.__proto__ === null); true
 ```
-Когда мы обсуждали ООП, то уже касались [прототипов и как работает наследование](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/OOP%20and%20prototype.md#-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D1%82%D0%B8%D0%BF%D0%BD%D0%BE%D0%B5-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-)<br>
+Когда мы обсуждали ООП, то уже касались [прототипов и как работает наследование](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/OOP%20and%20prototype.md#-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D1%82%D0%B8%D0%BF%D0%BD%D0%BE%D0%B5-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-)<br>
