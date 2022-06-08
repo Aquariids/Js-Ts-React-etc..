@@ -58,7 +58,7 @@
 [*Инкапсуляция. Свойства геттер и сеттер.*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Advanced%20js%20(webpack)/properties%20(get%20and%20set).md)<br>
 [*Свойство \_\_proto__ и prototype*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Advanced%20js%20(webpack)/prototype%20and%20_proto_.md)<br>
 [Методы перебора массива map, filter, some/every, reduce](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Advanced%20js%20(webpack)/map%2Cfilter%2Creduce%20(array%20methods).md)<br>
-     
+[localStorage](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Advanced%20js%20(webpack)/localStorage.md)<br>     
      
 </td>
  
