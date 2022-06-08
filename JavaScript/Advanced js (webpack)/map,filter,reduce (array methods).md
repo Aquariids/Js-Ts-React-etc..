@@ -2,7 +2,7 @@
 [filter](#filter)<br>
 [some](#some)<br>
 [every](#every)<br>
-[reduce]()<br>
+[reduce](#reduce)<br>
 [Разница forEach, map, filter](#forEach)<br>
 
 ## Методы перебора массива map, filter, some/every, reduce
@@ -84,7 +84,6 @@ console.log(array2.every(even)); // false - Так как в этом масси
 
 
 ### reduce
-
 
 const numb = [5,1,3,2,6,9,8,4]; // допустим нам нужно получить сумму всех этих элементов
 // можно с помощью forEach все это перебрать и сложить в какую то глобл переменную все значения или циклом, а можно с reduce
