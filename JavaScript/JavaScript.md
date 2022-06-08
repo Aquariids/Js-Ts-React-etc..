@@ -1,6 +1,6 @@
 # JS🈯
  
-<table border="1">
+<table border="1" border-spacing='0 10px';>
  <td> <p style="font-size:50px"><a href="https://aquariids.github.io/Quiz-JS/" target="_blank"> Пройти мой тест по JS </a></p> </td>
  <tr>
     <td><b style="font-size:30px">Базовый javaScript</b></td>
