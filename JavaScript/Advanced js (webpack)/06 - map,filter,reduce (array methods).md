@@ -73,7 +73,7 @@ if (some.every(item => typeof (item) === 'number')) { // внутри колбе
 Пример с четными и нечетными числами:
 ```javaScript
 const array = [4, 2, 6, 8, 112]; // только четные
-const array2 = [4, 2, 4, 8, 7]; // только нечетные.
+const array2 = [4, 2, 4, 8, 7]; // здесь все четные кроме одной цифры
 const even = (element) => element % 2 === 0; // функция для четных
 
 console.log(array.every(even)); // true - потому что там все числа четные
