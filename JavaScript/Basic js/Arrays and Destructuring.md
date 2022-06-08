@@ -144,7 +144,7 @@ for (let value of arr) {    // создаем переменную, в ней б
 ### forEach( ) ###
 forEach( ) - метод и его фишка в том, что его можно подробнее настроить.
 forEach( ) принимает в себя еще одну функцию, так как метод это функция то выходит, что наша функция внутри это - (callback)
-Так же метод forEach ( ) есть у псевдомассива получаемым с помощью [querySelectorAll( )]()
+Так же метод forEach ( ) есть у псевдомассива получаемым с помощью [querySelectorAll( )](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/DOM%20HTML%20Elements.md#-queryselectorall-----%D0%BF%D0%BE%D0%B7%D0%B2%D0%BE%D0%BB%D1%8F%D0%B5%D1%82-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B0%D1%82%D1%8C-%D0%BF%D1%81%D0%B5%D0%B2%D0%B4%D0%BE%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2-%D0%B7%D0%B0-%D1%81%D1%87%D0%B5%D1%82-%D1%81%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2-css)
 ```javaScript
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 arr.forEach(function (item, i, arr) { // callback функция может принимать в себя 3 аргумента
@@ -160,4 +160,4 @@ arr.forEach(function (item, i, arr) { // callback функция может пр
 ## <a name='psevdo'> Псевдомассивы </a> ##
 Псевдо массивы - это сруктура которая просто хранит данные по порядку! Без всяких методов и тд.
 Когда мы будем получать элементы со страницы, мы все будем получать в псевдомассивах.<br>
-В псевдомассивах есть свойство length и на некоторых из них можно использовать forEach. [О псевдо массивах мы поговорим когда научимся получать элементы со страницы.](https://github.com/Aquariids/MyJS/blob/main/app/Programming/Basic%20js/DOM%20HTML%20Elements.md#-%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D1%8B-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-dom-)
+В псевдомассивах есть свойство length и на некоторых из них можно использовать forEach. [О псевдо массивах мы поговорим когда научимся получать элементы со страницы.](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/DOM%20HTML%20Elements.md#-%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D1%8B-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-dom-)
