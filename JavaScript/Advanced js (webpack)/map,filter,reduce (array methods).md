@@ -3,7 +3,7 @@
 [some](#some)<br>
 [every](#every)<br>
 [reduce](#reduce)<br>
-[Разница forEach, map, filter](#Разница forEach, map, filter)<br>
+[Разница forEach, map, filter](#all)<br>
 [Практика](#Практика)<br>
 
 ## Методы перебора массива map, filter, some/every, reduce
@@ -106,7 +106,7 @@ const strArr = ['я','л','о',"х"];
 const resArr = strArr.reduce((sum,current)=> `${sum},${current}`); // так же можем слепить строки, тут мы добавили между ними запятые
 console.log(resArr); // я,л,о,х
 ```
-### Разница forEach, map, filter
+### <a name="all"> Разница forEach, map, filter </a>
 forEach это функция которая перебирает элементы, а в filter это функция которая перебирает элементы и возваращет те которые подходят нам под условие.
 коротко разница в том, что forEach просто пускает цикл и выполняет наш колбек. А filter пускает цикл, выполняет колбек и проверяет возращаемое значение. Если оно верное, то оно будет положено в новый массив.<br>
 map по сути тот же forEach только он возвращает новый массив измененный, а forEach нет. forEach меняет исходный  массив.<br>
