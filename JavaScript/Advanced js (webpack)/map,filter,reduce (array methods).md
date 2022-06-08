@@ -4,7 +4,7 @@
 [reduce](#reduce)<br>
 [Разница forEach, map, filter](#forEach)<br>
 
-## Методы перебора массива map, filter, reduce..
+## Методы перебора массива map, filter, some/every, reduce
 
 
 ### <a name='#map'> map( )  </a>
