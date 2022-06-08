@@ -1,12 +1,12 @@
 # JS🈯
  
-<table border="1">
+<table border="1" >
  <td> <p style="font-size:50px"><a href="https://aquariids.github.io/Quiz-JS/" target="_blank"> Пройти мой тест по JS </a></p> </td>
  <tr>
     <td><b style="font-size:30px">Базовый javaScript</b></td>
  </tr>
  <tr>
-   <td>
+   <td vertical-align="middle" padding="10px" text-align='center'>
      
 [*Консоль разработчика и общение с пользователем*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Browser%20Methods%20and%20console.md 'Консоль разработчика и общение с пользователем')<br>
 [*Строгий режим (Strict mode)*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/use%20strict.md)<br>
