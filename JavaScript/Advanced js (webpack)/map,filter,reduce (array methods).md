@@ -2,7 +2,7 @@
 [filter](#filter)<br>
 [some](#some)<br>
 [every](#every)<br>
-[reduce](#reduce)<br>
+[reduce]()<br>
 [Разница forEach, map, filter](#forEach)<br>
 
 ## Методы перебора массива map, filter, some/every, reduce
