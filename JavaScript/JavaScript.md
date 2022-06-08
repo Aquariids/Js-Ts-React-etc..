@@ -6,7 +6,7 @@
     <td><b style="font-size:30px">Базовый javaScript</b></td>
  </tr>
  <tr>
-   <td vertical-align="middle" padding="10px" text-align='center'>
+   <td>
      
 [*Консоль разработчика и общение с пользователем*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/Browser%20Methods%20and%20console.md 'Консоль разработчика и общение с пользователем')<br>
 [*Строгий режим (Strict mode)*](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Basic%20js/use%20strict.md)<br>
