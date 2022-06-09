@@ -8,7 +8,7 @@
 [Стили CSS](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/css.md)<br>
 [Функциональные компоненты](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/functionComponent.md)<br>
 [Объект props](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/props.md)<br>
-[Работа со списками и преобразование массивов!](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/array-react-Working%20with%20lists.md)<br>
+[Работа со списками и преобразование массивов map!](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/array-react-Working%20with%20lists.md)<br>
 [Как я вставлял svg]()<br>
 [Маршрутзация Router]()<br>
 [hook useRef]()<br>
