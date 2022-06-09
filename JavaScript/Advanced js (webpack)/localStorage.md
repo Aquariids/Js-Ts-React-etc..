@@ -34,7 +34,7 @@ console.log(localStorage.getItem('number')); // получим 5
 ```
 Далее код:
 ```javaScript
-const checkbox = document.querySelector('#checkbox_id'),// получаем инпуты
+const checkbox = document.querySelector('#checkbox_id'),// получаем инпут
       form = document.querySelector('form'); // получаем форму
     
       if(localStorage.getItem('isCheked')) { // тут работаем с чекбоксом. Если в хранилище есть isCheked
