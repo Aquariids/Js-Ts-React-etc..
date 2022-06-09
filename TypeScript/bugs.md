@@ -25,7 +25,7 @@ declare module '*.svg'; // в таком случае тип автоматом 
 Далее переходим в файл `tsconfig.json`<br>
 Если в корне нет этого файла, пишем в консоли `tsc --init`<br>
 ![image](https://user-images.githubusercontent.com/70824286/170343464-f0a684d3-dee1-4daf-aa89-b4d6f3a878c6.png)<br>
-Внутри будет `json` объект. Нужно после объекта `"compilerOption"` дописать через запятую строчу `"include": ["src","src/component","types/svg/index.d.ts"]`<br>
+Внутри будет `json` объект. <br> Нужно после объекта `"compilerOption"` дописать через запятую строчку `"include": ["src","src/component","types/svg/index.d.ts"]`<br>
 Вот как это должно выглядеть:
 ```json
 {
