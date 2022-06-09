@@ -29,8 +29,8 @@ console.log(localStorage.getItem('number')); // получим 5
 Наш `html` файл:
 ```html
 <form>
-        <input id="checkbox_id" type="checkbox" >
-    </form>
+  <input id="checkbox_id" type="checkbox" >
+</form>
 ```
 Далее код:
 ```javaScript
