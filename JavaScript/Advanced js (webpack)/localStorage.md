@@ -25,52 +25,44 @@ console.log(localStorage.getItem('number')); // получим 5
 #### clear()
 - очищает хранилище
 
-### Небольшой пример работы с формой
+### Небольшой пример работы с checkbox
+Наш `html` файл:
+```html
+<form>
+        <input id="checkbox_id" type="checkbox" >
+    </form>
+```
+Далее код:
 ```javaScript
-const checkbox = document.querySelector('#checkbox_id'), // получаем наши элементы 
-        form = document.querySelector('form'),
-        change = document.querySelector('.btn-color');
-
-        
-        if(localStorage.getItem('isCheked')) { // тут работаем с чекбоксом. Если в хранилище есть isCheked
+const checkbox = document.querySelector('#checkbox_id'),// получаем инпуты
+      form = document.querySelector('form'); // получаем форму
+    
+      if(localStorage.getItem('isCheked')) { // тут работаем с чекбоксом. Если в хранилище есть isCheked
             checkbox.checked = true; // то ставим чекбокс в положение true то есть с галочкой
         } 
-        checkbox.addEventListener('change',()=> { // навешиваем событие, при нажатии добавляем в хранилище наш isCheked
-            localStorage.setItem('isCheked', true);
-        });
 
-
-
-
-        if(localStorage.getItem('bg') === 'changed'){ // проверяем если в хранилище есть bg равное changed
-            form.style.backgroundColor = 'red'; // то красим форму в красный цвет
-
-        }
-        change.addEventListener('click',(e)=> { // теперь событие на кнопку
-            e.preventDefault();
-            if(localStorage.getItem('bg') === 'changed'){ // если в хранилище есть bg в котором changed
-                localStorage.removeItem('bg');   // мы удаляем bg из хранилища
-                form.style.backgroundColor = '#fff'; // и красим форму в белый цвет
-
+        checkbox.addEventListener('change',(e)=> { // навешиваем событие
+            if(localStorage.getItem('isCheked')) { // если в localStorage есть ключ isCheked
+                localStorage.removeItem('isCheked'); // то удаляем его
             } else {
-                localStorage.setItem('bg','changed'); // иначе добавлем bg в позиции changed 
-                form.style.backgroundColor = 'red'; // и красим в красный цвет
-            } // тут цвет добавляем при нажатии, а выше в if, добавляем именно проверку, если мы удалим там выще, то при обновлении ст, цвет спадет
-        });
+                localStorage.setItem('isCheked',true) // иначе устанавливем ключ isCheked и значение true
+            }
 
+        });
+// Теперь чекбокс будет активен после нажатия и останется в таком состоянии, пока мы еще раз не нажем на него. Он будет активен или не активендаже если мы закроем браузер.        
 ```
 
-        // Работа с массивами и объектами. Что бы с ними норм работать их нужно перевести в формат JSON
-        // иначе мы будем получать стркоу Object Object
+Работа с массивами и объектами. Что бы с ними нормально работать их нужно перевести в формат JSON. Иначе мы будем получать стркоу Object Object.
 
-
-        const persone = {
+```javaScript
+  const persone = {
             name: 'Alex',
             age: 24
         };
 
+        const serializedPesron = JSON.stringify(persone); // парсим в JSON
 
-        const serializedPesron = JSON.stringify(persone);
-
-        localStorage.setItem('Alex', serializedPesron);
-        console.log(JSON.parse(localStorage.getItem('Alex')));
+        localStorage.setItem('Alex', serializedPesron); // если мы здесь значение впишем presone, то в localStorage будет Object Object.
+        console.log(JSON.parse(localStorage.getItem('Alex'))); // парсим обратно и получаем наш обычный объект
+        // по сути нам просто нужно превратить объект в строку, что бы хранить его в localStorage
+```
