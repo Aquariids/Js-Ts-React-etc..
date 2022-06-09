@@ -1,4 +1,5 @@
-
+### Мы учимся всяким штукам вместе!
+###### да кто мы, я тут один
 [JavaScript](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/JavaScript.md#js)<br>
 [TypeScript](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/TypeScript/TypeScript.md)<br>
 [React](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/React.md)<br>
