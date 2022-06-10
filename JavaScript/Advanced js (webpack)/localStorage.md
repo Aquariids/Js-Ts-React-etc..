@@ -1,6 +1,5 @@
 [localStorage](#localstorage)<br>
 [Методы localStorage](#методы-localstorage)<br>
-[Пример работы с формой](#небольшой-пример-работы-с-checkbox)<br>
 [Пример работы с checkbox](#небольшой-пример-работы-с-checkbox)<br>
 ### localStorage
 `localStorage` - это свойство глобального объекта `window`, локальное хранилище.<br>
