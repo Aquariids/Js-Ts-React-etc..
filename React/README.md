@@ -1,7 +1,6 @@
 # React
-Для установки React устанавливаем node.js и в консоли прописываем [npx create-react-app my-app](https://github.com/facebook/create-react-app#quick-overview)<br>
+Для установки React устанавливаем node.js[](https://nodejs.org/en/) и в консоли прописываем [npx create-react-app my-app](https://github.com/facebook/create-react-app#quick-overview)<br>
 <br>
-[node.js]()<br>
 [REACT и single page application](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/React%20single%20page%20app.md)<br>
 [JSX,index и App](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/JSX-indexjs-App.md)<br>
 [Используем State и hook (useState)](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/UseState.md)<br>
