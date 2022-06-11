@@ -20,7 +20,7 @@ const factorial = (n) => {
 console.log(factorial(5)); // 120
 ```
 ### Уже попроще 
-Ну выглядит зато сочно.
+С тернарным оператором. Наверное лучшее решение, но все же следующее читается приятнее
 ```javaScript
 function factorial(n) {
     return (n != 1) ? n * factorial(n - 1) : 1;
