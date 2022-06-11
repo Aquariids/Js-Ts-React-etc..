@@ -41,7 +41,7 @@ function factorial(n) {
 
 console.log(factorial(5)); //120
 ```
-### Ну или можно так записать
+### Ну и его можно сделать с тернарным
 ```javaScript
 const factorial = (n) => (n === 1)? n: n * factorial(n - 1);
 console.log(factorial(5)); // 120
