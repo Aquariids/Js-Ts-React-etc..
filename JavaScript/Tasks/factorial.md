@@ -31,20 +31,20 @@ console.log(factorial(5)); // 120
 ### Ну и наверное самое популярное решение, хотя может и нет, просто я дурак(
 Понятное условие.Тоже рекурсия, но как по мне намного легче читается.
 ```javaScript
-function fact(n) {
+function factorial(n) {
     if (n === 1) { 
         return n;
     } else {
-        return n * fact(n - 1);
+        return n * factorial(n - 1);
     }
 }
 
-console.log(fact(5)); //120
+console.log(factorial(5)); //120
 ```
 ### Ну или можно так записать
 ```javaScript
 const factorial = (n) => (n === 1)? n: n * factorial(n - 1);
-console.log(factorial(5));
+console.log(factorial(5)); // 120
 
 ```
 Ну вот и все, просто хотел записать свои мыслишки.
