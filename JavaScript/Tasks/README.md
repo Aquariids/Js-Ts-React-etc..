@@ -6,4 +6,4 @@
 [Convert the number to a roman numeral. Числа в римские числа](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Tasks/convert%20the%20number%20to%20a%20roman%20numeral.md)<br>
 ## Простое
 [Факториал](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Tasks/factorial.md)<br>
-[Текст в обратном порядке]()<br>
+[Текст в обратном порядке](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/Tasks/reverseText.md)<br>
