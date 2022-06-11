@@ -41,4 +41,10 @@ function fact(n) {
 
 console.log(fact(5)); //120
 ```
+### Ну или можно так записать
+```javaScript
+const factorial = (n) => (n === 1)? n: n * factorial(n - 1);
+console.log(factorial(5));
+
+```
 Ну вот и все, просто хотел записать.
