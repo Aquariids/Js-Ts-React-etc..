@@ -3,7 +3,7 @@
 <table border="1" >
  <td> <p style="font-size:50px"><a href="https://aquariids.github.io/Quiz-JS/" target="_blank"> Пройти мой тест по JS </a></p> </td>
  <tr>
-    <td><b style="font-size:30px">Базовый javaScript</b></td>
+    <td><b style="font-size:30px">javaScript</b></td>
  </tr>
  <tr>
    <td>
@@ -48,7 +48,7 @@
 
 <table border="1">
  <tr>
-    <td><b style="font-size:30px"> Более продвинутые темы javaScript</b></td>
+    <td><b style="font-size:30px"> Уже поинтереснее javaScript</b></td>
  </tr>
  <tr>
    <td>
