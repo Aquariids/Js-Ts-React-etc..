@@ -2,18 +2,18 @@
 [Свойства получаемых элементов](#prop)<br>
 
 ## <a name='hi'> Описание </a>
-document - это по факту объект который содержит всю html структуру.<br>
-window - это окно в котором показывается наш документ.
-Если мы будем уменьшать браузер или откроем консоль и будем ее вытягивать и тд, то меняться будет именно window<br>
-screen - Экран. Это именно видимый монитор. У разных людей будут разные мониторы и поэтому screen будет отличаться.<br>
+`document` - это по факту объект который содержит всю `html` структуру.<br>
+`window` - это окно в котором показывается наш документ.
+Если мы будем уменьшать браузер или откроем консоль и будем ее вытягивать и тд, то меняться будет именно `window`<br>
+`screen` - Экран. Это именно видимый монитор. У разных людей будут разные мониторы и поэтому `screen` будет отличаться.<br>
 
 
 
 ## <a name="prop"> Элементы и их свойства </a>
 У элементов которые мы получаем со страницы, есть свойства для получения разных метрик.
 
-#### clientHeight и clientWidth
-Они нам нужны если мы хотим получить высоту и ширину включая padding, но без border и margin, а scroll отнимает нашу ширину и высоту. 
+#### `clientHeight` и `clientWidth`
+Они нам нужны если мы хотим получить высоту и ширину включая `padding`, но без `border` и `margin`, а `scroll` отнимает нашу ширину и высоту. 
 ```javaScript
 const box = document.querySelector('.block');
 const width = box.clientWidth,
@@ -23,8 +23,8 @@ console.log(width, height); // 386 336
 // в css у меня этот блок 400px на 350px и есть scroll который отнимает 14px.
 // если мы например пропишем padding: 5px; , то будет 396 и 346. Но если пропишем border или margin ничего не изменится.
 ```
-#### offsetWidth и offsetHeigth 
-Получаем видимую часть, с учетом прокрутки и тд. Как написано в css 
+#### `offsetWidth` и `offsetHeigth` 
+Получаем видимую часть, с учетом прокрутки и тд. Как написано в `css` 
 ```javaScript
 const box = document.querySelector('.block');
 const width = box.offsetWidth;
@@ -32,10 +32,10 @@ const height = box.offsetHeight;
 
 console.log(width, height); // 404 354. У меня border 2px поэтому на 4px больше с каждой стороны. Scroll при этом уже не отнимает px так как он учитывается.
 ```
-#### scrollWidth, scrollHeight scrollTop
-Получаем ширину и высоту полностью, то есть внутренний элемент который нужно проскроллить. А scrollTop - показывает сколько скрыто вне скролла ( с помощью этой штуки можно сделать шкалу сколько пользователь уже пролистал что то).
+#### `scrollWidth`, `scrollHeight`, `scrollTop`
+Получаем ширину и высоту полностью, то есть внутренний элемент который нужно проскроллить. А `scrollTop` - показывает сколько скрыто вне скролла ( с помощью этой штуки можно сделать шкалу сколько пользователь уже пролистал что то).
 ![scroll](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/JavaScript/img/btnScroll.png)<br>
-У меня такой блок шириной 400px и высотой 350px. Так вот scrollWidth и scrollHeight показывают именно то, что внутри.
+У меня такой блок шириной `400px` и высотой `350px`. Так вот `scrollWidth` и `scrollHeight` показывают именно то, что внутри.
 ```javaScript
 const btn = document.querySelector('.btnscroll');
 const box = document.querySelector('.block')
@@ -52,8 +52,8 @@ btn.addEventListener('click', () => { // вешаем событие на кно
 
 });
 ```
-#### pageXOffset/pageYOffset
-Эти свойства показывают сколько прокручено у окна window. Как и scrollTop только это все окно.
+#### `pageXOffset`/`pageYOffset`
+Эти свойства показывают сколько прокручено у окна `window`. Как и `scrollTop` только это все окно.
 ```javaScript
 function showModalByScroll() {
     if (window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight) {
@@ -67,4 +67,4 @@ function showModalByScroll() {
 }
 window.addEventListener('scroll', showModalByScroll); // вешаем событие scroll На окно и передаем нашу функцию
 ```
-Когда мы доскролим страницу до конца, то в консоль получим ПРИВЕТ ДУРАК. Таким способом можно на странице вызвать модальное окно, например.
+Когда мы доскролим страницу до конца, то в консоль получим `ПРИВЕТ ДУРАК`. Таким способом можно на странице вызвать модальное окно, например.
