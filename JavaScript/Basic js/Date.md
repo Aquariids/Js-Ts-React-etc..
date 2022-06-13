@@ -3,7 +3,7 @@
 
 
 ## <a name="Data"> Объект Дата </a>
-Date - спецефический объект который в себе содержит различные методы и свойства, позволяющие работать со временем и датами.
+`Date` - спецефический объект который в себе содержит различные методы и свойства, позволяющие работать со временем и датами.
 
 ```javaScript
 // создаем объект даты с помощью конструктора
@@ -31,70 +31,70 @@ console.log(now); // Thu Jan 01 1970 04:00:00 GMT+0400 (GMT+04:00) - это на
 // что бы получить дату меньше, просто ставим минус и все.
 ```
 ## <a name ="methods"> Методы Date() </a>
- .getFullYear()  - Получаем год<br>
+ `.getFullYear()`  - Получаем год<br>
 ```javaScript
  const year = new Date()
     .getFullYear();
 
 console.log(year); // 2021
 ```
- .getMonth() - Получаем месяц<br>
+ `.getMonth()` - Получаем месяц<br>
 ```javaScript
  const month = new Date()
     .getMonth();
 
 console.log(month); // 11. сейчас у меня 12 месяц, но так как счет идет от 0 мы получаем 11
 ```
- .getDate() - Получаем число<br>
+ `.getDate()` - Получаем число<br>
 ```javaScript
  const date = new Date()
     .getDate();
 
 console.log(date); // 15 число
 ```
- .getDay()  -  Получаем день недели<br>
+ `.getDay()`  -  Получаем день недели<br>
 ```javaScript
  const day = new Date()
     .getDay();
 
 console.log(day); // 3 день (среда)
 ```
- .getHours() - Получаем часы<br>
+ `.getHours()` - Получаем часы<br>
 ```javaScript
  const hours = new Date()
     .getHours();
 
 console.log(hours); // 22 часа
 ```
- .getMinutes() - Получаем минуты<br>
+ `.getMinutes()` - Получаем минуты<br>
 ```javaScript
  const minutes = new Date()
     .getMinutes();
 
 console.log(minutes); // 45 Минут
 ```
- .getSeconds() - Получаем секунды<br>
+ `.getSeconds()` - Получаем секунды<br>
 ```javaScript
  const seconds = new Date()
     .getSeconds();
 
 console.log(seconds); // 8 секунд
 ```
- .getMilliseconds() - Получаем миллисекунды<br>
+ `.getMilliseconds()` - Получаем миллисекунды<br>
 ```javaScript
  const milliSeconds = new Date()
     .getMilliseconds();
 
 console.log(milliSeconds); // 132 миллисекунды
 ```
- .getTimezoneOffset() - получает разницу в минутах между часовым поясом системы и UTC 0 <br>
+ `.getTimezoneOffset()` - получает разницу в минутах между часовым поясом системы и UTC 0 <br>
  ```javaScript
  const timeZone = new Date()
     .getTimezoneoffset();
 
 console.log(timeZone); // -240 минут. Так как у меня UTC +4
 ```
-.getTime() - получаем время в миллисекундах прошедшее с 1970, с точки отчета <br>
+`.getTime()` - получаем время в миллисекундах прошедшее с 1970, с точки отчета <br>
 ```javaScript
  const time = new Date()
     .getTime();
