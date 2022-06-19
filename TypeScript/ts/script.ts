@@ -1,2 +1,1 @@
-let c:undefined = undefined;
-
+console.log(Object.prototype);
