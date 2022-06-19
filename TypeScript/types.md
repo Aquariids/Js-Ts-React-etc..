@@ -119,3 +119,5 @@ function countCoord (coord: {lat:number, long?:number}) {
 }
 ```
 По сути этот знак, это короткая запись `свойство | undefined`.<br>
+![image](https://user-images.githubusercontent.com/70824286/174483541-e36777de-b2e0-4c96-98cc-bb387a7842cf.png)
+
