@@ -9,7 +9,7 @@
 function sum(a: number[] | number) {
   // у нас есть union тип
   if (Array.isArray(a)) {
-    let num = a.reduce((sum: number, current: number) => { //  и тут просто тип number
+    let num = a.reduce((sum: number, current: number) => { // здесь не нужно указывать тип, так как мы  в любом случае можем получить только number
       return sum + current;
     });
     return num;
@@ -20,9 +20,9 @@ function sum(a: number[] | number) {
 ```
 Так вот с помощью `type` мы можем наши типы вынести отдельно.
 ```ts
-type Calc = number[] | number; // создали псевдоним для типа
+type Calc = number[] | number; // создали псевдоним для типов
 
-function sum(a:Calc) { // указали тут
+function sum(a:Calc) { // указали тут и все
     if(Array.isArray(a)) {
         let num = a.reduce((sum,current) => {
             return sum + current; 
