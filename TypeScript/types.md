@@ -128,7 +128,7 @@ function countCoord (coord: {lat:number, long?:number}) {
 }
 ```
 По сути этот знак, это короткая запись `свойство | undefined`.<br>
-Вот что мы увидим, если наведем на наш аргумент
+Вот что мы увидим, если наведем на наш аргумент<br>
 ![image](https://user-images.githubusercontent.com/70824286/174483541-e36777de-b2e0-4c96-98cc-bb387a7842cf.png)<br>
 ## Проверка на тип
 Например у нас в функции аргумент union тип.
