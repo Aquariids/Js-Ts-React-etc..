@@ -68,3 +68,7 @@ btn.addEventListener('click', () => requestAnimationFrame(myAnimation));
 let id =  requestAnimationFrame(myAnimation);
 
 cancelAnimationFrame(id); // типо как clearInterval ток для анимации
+
+
+
+
