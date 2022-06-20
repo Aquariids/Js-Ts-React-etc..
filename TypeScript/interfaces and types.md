@@ -158,8 +158,11 @@ const fun = (point:IPoint) => {
 ```
 Классический пример с `html`.
 ```ts
-const myCanvas = document.getElementById('canvas') as HTMLCanvasElement; 
+const myCanvas = document.getElementById('canvas'); 
 ```
 Если мы наведем на элемент, то увидим, что ожидается<br>
 ![image](https://user-images.githubusercontent.com/70824286/174643986-7173df44-9fd0-48c1-8205-2459f1c5c496.png)<br>
-
+С помощью `as` мы указываем конкретнее.
+```ts
+const myCanvas = document.getElementById('canvas') as HTMLCanvasElement; 
+```

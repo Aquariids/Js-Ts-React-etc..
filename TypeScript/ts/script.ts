@@ -1,1 +1,1 @@
-const myCanvas = document.getElementById('canvas') as HTMLCanvasElement;
+const myCanvas = document.getElementById('canvas');
