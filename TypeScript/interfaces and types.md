@@ -1,5 +1,7 @@
 [types]()<br>
 [interface]()<br>
+[разница между ними]()<br>
+[as]()<br>
 
 ## types
 
@@ -9,7 +11,8 @@
 function sum(a: number[] | number) {
   // у нас есть union тип
   if (Array.isArray(a)) {
-    let num = a.reduce((sum: number, current: number) => { // здесь не нужно указывать тип, так как мы  в любом случае можем получить только number
+    let num = a.reduce((sum: number, current: number) => {
+      // здесь не нужно указывать тип, так как мы  в любом случае можем получить только number
       return sum + current;
     });
     return num;
@@ -18,34 +21,142 @@ function sum(a: number[] | number) {
   }
 }
 ```
+
 Так вот с помощью `type` мы можем наши типы вынести отдельно.
+
 ```ts
 type Calc = number[] | number; // создали псевдоним для типов
 
-function sum(a:Calc) { // указали тут и все
-    if(Array.isArray(a)) {
-        let num = a.reduce((sum,current) => {
-            return sum + current; 
-        })
-        return num;
-    } else {
-        return a; 
-    }
+function sum(a: Calc) {
+  // указали тут и все
+  if (Array.isArray(a)) {
+    let num = a.reduce((sum, current) => {
+      return sum + current;
+    });
+    return num;
+  } else {
+    return a;
+  }
 }
 ```
+
 Можно создать объект с типами.
+
 ```ts
-type Point = { // представление нашего будущего объекта.
-    x:number,
-    y:number
-}
-function print (coord:Point):string { // функция ждет, что получит, объект типа Point
-return `x:${coord.x}, y:${coord.y}`;
+type Point = {
+  // представление нашего будущего объекта.
+  x: number;
+  y: number;
+};
+function print(coord: Point): string {
+  // функция ждет, что получит, объект типа Point
+  return `x:${coord.x}, y:${coord.y}`;
 }
 
 // мы передаем объект с x и y. То чего от нас и ждали!
-console.log(print({x:10,y:11})); // x:10, y:11
+console.log(print({ x: 10, y: 11 })); // x:10, y:11
 ```
 
-## interfaces 
+## interfaces
+Аналогично работают и интерфейсы.
+```ts
+interface IPoint {
+  x: number,
+  y: number
+}
 
+interface Calc = number | number;
+
+function print(coord: IPoint): string {
+  return `x:${coord.x}, y:${coord.y}`;
+}
+
+console.log(print({ x: 10, y: 11 })); // x:10, y:11
+```
+Так зачем нам и `interface` и `type`?
+В `ts` рекомендуется использовать `interface`.
+Когда же полезен `type`?<br>
+В таких случаях как в первом примере:`type Calc = number[] | number;`. Когда нам нужно или то или то, без всяких заморочек.
+### Отличие interface и type
+Первое отличие это `extends`.
+```ts
+interface IPoint extends IPoint3D { // указываем, что наследуем все от IPoint3D
+    x: number,
+    y: number
+//  z:number - по сути теперь у нас тут и z
+  }
+
+interface IPoint3D { // Создаем новый интерфейс с z
+    z?: number; // сделаем его необязательным
+}
+  
+  function print(coord: IPoint): string { 
+    return `x:${coord.x}, y:${coord.y}`;
+  }
+  
+  console.log(print({ x: 10, y: 11, z:1 })); // x:10, y:11, z:1
+```
+В `type` было бы чуть по другому.
+```ts
+type Point = Zpoint & { // указываем, что Point принимает Zpoint и x,y используем &
+    x:number,
+    y:number
+}
+
+type Zpoint = {
+    z?:number; // сделаем необязательным
+};
+  
+  function print(coord: Point): string { 
+    return `x:${coord.x}, y:${coord.y} ${(coord.z ? `z:${coord.z}`: '')}`; 
+    // небольшое условие, если есть z - укажем, нет, то и нечего указывать.
+  }
+  
+  console.log(print({ x: 10, y: 11,z:1})); // x:10, y:11, z:1
+
+```
+А вот что недоступно `type` это добавление свойств.
+```ts
+interface ITest { // допустим есть у нас такой интерфейс
+    name: string
+  }
+  
+  // где то в другом месте мы можем опять его объявить
+  interface ITest { 
+    surname:string // только тут уже будет surname
+  }
+  
+  function hiDima(myName:ITest):string { // указываем ITest
+  return `Hello ${myName.name} ${myName.surname}`
+  }
+
+  // получаем строку hello Dima Chernomashentsev
+  console.log(hiDima({name:'Dima',surname:'Chernomashentsev'}));
+  
+```
+Мы объявили два одинаковых `interface` и они как бы объеденились. Если мы сделаем так с `type`, то будет ошибка.
+## as
+`as` - Значит как! Мы говорим что-то вроде, как вот это!
+```ts
+interface IPoint {
+  x:number,
+  y:number
+}
+
+
+interface I3DPoint extends IPoint { // если уберем extends, то as не сможем использовать
+  z:string
+}
+
+const fun = (point:IPoint) => {
+    // допустим мы хотим преобразовать d к типу I3DPoint
+  let d:I3DPoint = point; // в таком случае будет ошибка
+    // для этого мы будем использовать as
+  const c = point as I3DPoint; // Теперь тип c I3DPoint
+  // point как I3DPoint
+}
+```
+Классический пример с `html`.
+```ts
+const myCanvas = document.getElementById('canvas') as HTMLCanvasElement; 
+```
