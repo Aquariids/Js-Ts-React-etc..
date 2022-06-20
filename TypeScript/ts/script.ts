@@ -1,1 +1,1 @@
-const myCanvas = document.getElementById('canvas');
+let b = 'hi';
