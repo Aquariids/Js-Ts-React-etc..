@@ -160,3 +160,6 @@ const fun = (point:IPoint) => {
 ```ts
 const myCanvas = document.getElementById('canvas') as HTMLCanvasElement; 
 ```
+Если мы наведем на элемент, то увидим, что ожидается<br>
+![image](https://user-images.githubusercontent.com/70824286/174643986-7173df44-9fd0-48c1-8205-2459f1c5c496.png)<br>
+
