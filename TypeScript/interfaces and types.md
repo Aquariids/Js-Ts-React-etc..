@@ -166,3 +166,5 @@ const myCanvas = document.getElementById('canvas');
 ```ts
 const myCanvas = document.getElementById('canvas') as HTMLCanvasElement; 
 ```
+Теперь будет только `HTMLCanvasElement`<br>
+![image](https://user-images.githubusercontent.com/70824286/174644389-29c2dc6d-529a-42d1-9ddd-b9a700a269f5.png)<br>
