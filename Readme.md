@@ -6,4 +6,3 @@
 [tasks js](https://github.com/Aquariids/Js-Ts-React-etc../tree/main/JavaScript/Tasks)<br>
 [Grid](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/Grid/README.md)<br>
 [webpack]()<br>
-[Some basic themes in programming](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/Basic/README.md)<br>
