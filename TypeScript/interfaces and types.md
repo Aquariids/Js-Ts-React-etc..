@@ -1,7 +1,7 @@
-[types]()<br>
-[interface]()<br>
-[разница между ними]()<br>
-[as]()<br>
+[types](#types)<br>
+[interface](#interfaces)<br>
+[разница между ними](#отличие-interface-и-type)<br>
+[as](#as)<br>
 
 ## types
 
