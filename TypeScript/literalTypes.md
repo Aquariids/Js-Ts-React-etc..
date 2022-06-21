@@ -12,3 +12,5 @@ let b:'hello' = 'hello';
 Теперь переменная `b` может принимать только `'hello'`, и ничего больше. 
 ![image](https://user-images.githubusercontent.com/70824286/174761116-2d691797-396a-4b5f-9faf-4c8670e01f39.png)<br>
 Теперь посмотрим как это можно применить на практике
+
+![image](https://user-images.githubusercontent.com/70824286/174765836-06a951df-5a73-4802-9c8d-4e443b7e8e8b.png)
