@@ -1,5 +1,4 @@
-function hiDima(myName) {
-    return `Hello ${myName.name} ${myName.surname}`;
+function move(distance, direction) {
+    return console.log(` I walk ${distance == 1 ? `${distance} meter` : `${distance} meters`} ${direction}`);
 }
-// получаем строку hello Dima Chernomashentsev
-console.log(hiDima({ name: 'Dima', surname: 'Chernomashentsev' }));
+move(2, 'West'); // Здесь мы ничего не можем указать, кроме указанных нами типов
