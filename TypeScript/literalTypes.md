@@ -3,4 +3,11 @@
 ```ts
 let b = 'hi';
 ```
-Если мы глянем на переменную, ее тип будет `string`
+Если мы глянем на переменную, ее тип будет `string`<br>
+![image](https://user-images.githubusercontent.com/70824286/174760931-5c7429ea-0df8-43ef-8076-00147bb4c792.png)<br>
+Но мы можем задать по сути кастомный тип, например вот так:
+```ts
+let b:'hello' = 'hello';
+```
+Теперь тип переменной `b` должен быть `'hello'`
+![image](https://user-images.githubusercontent.com/70824286/174761116-2d691797-396a-4b5f-9faf-4c8670e01f39.png)<br>
