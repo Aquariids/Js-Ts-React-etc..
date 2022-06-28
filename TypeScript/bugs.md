@@ -1,6 +1,10 @@
 # TypeScript
 Тут немного будет про ошибки typeScript<br>
 [Ошибка: cannot find module or its corresponding type declarations.](#cannot)<br>
+[Ошибка стратегии разрешения модулей]()<br>
+
+    "moduleResolution": "node",
+
 
 ### <a name="cannot"> cannot find module or its corresponding type declarations </a>
 У меня такая ошибка вылезла, когда я решил использовать `svg` и `scss` в `react` c `ts`.
@@ -53,6 +57,12 @@ declare module '*.svg'; // в таком случае тип автоматом 
   "include": ["src","src/component","types/svg/index.d.ts"] // тут путь того, что будет участвовать в компиляции и указываем путь до нашей декларации.
 }
 ```
-На этом все.
-
-
+### Ошибка с разрешением стратегии модулей
+Такая ошибочка у меня вылезла при работе с `nextjs`, по идеи ее не должно быть, так как по умолчанию используется стратегия `node`.<br>
+В `tsconfig.json` у нас будет здесь ошибочка.
+![image](https://user-images.githubusercontent.com/70824286/176172279-72863be7-4890-403a-ad50-776917c86e79.png)<br>
+И при импорте в `index.tsx`.<br>
+![image](https://user-images.githubusercontent.com/70824286/176172506-6b309163-fc46-48ff-b591-c0876ad4d340.png)<br>
+Нам в ошибке уже напсали, что нужно указать опцию `moduleResolution:node`. Так мы и сделаем.<br>
+![image](https://user-images.githubusercontent.com/70824286/176173506-9d828171-2e4d-4b77-8f43-8a6a984a7328.png)<br>
+Все ошибка исчезла.
