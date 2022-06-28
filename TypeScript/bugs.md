@@ -63,6 +63,6 @@ declare module '*.svg'; // в таком случае тип автоматом 
 ![image](https://user-images.githubusercontent.com/70824286/176172279-72863be7-4890-403a-ad50-776917c86e79.png)<br>
 И при импорте в `index.tsx`.<br>
 ![image](https://user-images.githubusercontent.com/70824286/176172506-6b309163-fc46-48ff-b591-c0876ad4d340.png)<br>
-Нам в ошибке уже напсали, что нужно указать опцию `moduleResolution:node`. Так мы и сделаем.<br>
+Нам в ошибке уже напсали, что нужно указать опцию `moduleResolution:"node"`. Так мы и сделаем.<br>
 ![image](https://user-images.githubusercontent.com/70824286/176173506-9d828171-2e4d-4b77-8f43-8a6a984a7328.png)<br>
 Все ошибка исчезла.
