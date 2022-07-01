@@ -3,8 +3,6 @@
 [Ошибка: cannot find module or its corresponding type declarations.](#cannot)<br>
 [Ошибка стратегии разрешения модулей]()<br>
 
-    "moduleResolution": "node",
-
 
 ### <a name="cannot"> cannot find module or its corresponding type declarations </a>
 У меня такая ошибка вылезла, когда я решил использовать `svg` и `scss` в `react` c `ts`.
