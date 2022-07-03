@@ -5,4 +5,4 @@
 [Algorithms js](https://github.com/Aquariids/Js-Ts-React-etc../tree/main/JavaScript/Algorithms#readme)<br>
 [tasks js](https://github.com/Aquariids/Js-Ts-React-etc../tree/main/JavaScript/Tasks)<br>
 [Grid](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/Grid/README.md)<br>
-[webpack]()<br>
+[next.js]()<br>
