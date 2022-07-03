@@ -1,4 +1,4 @@
-[@svgr/webpack]()
+[@svgr/webpack]()<br>
 [Включаем auto complete]()
 ### @svgr/webpack
 Этот загрузчик позволяет из svg сделать компонент. Здесь очень коротко покажу настройки и установку.
@@ -124,4 +124,13 @@ declare module "*.svg" {
 ```ts
 /// <reference types="next"/>
 /// <reference types="next/types/global"/>
+```
+Внутри `tsconfig` меняем и дополняем `include`
+```ts
+ "include": [ 
+    "next-env-custom.d.ts", // указываем уже наш кастомный файл
+    "**/*.ts",
+    "**/*.tsx",
+    "@types/image-types.d.ts" // и указываем файл с типами которые копировали
+  ],
 ```
