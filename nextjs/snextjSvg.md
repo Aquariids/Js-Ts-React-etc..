@@ -1,7 +1,7 @@
 [@svgr/webpack]()<br>
 [Включаем auto complete]()
 ### @svgr/webpack
-Этот загрузчик позволяет из svg сделать компонент. Здесь очень коротко покажу настройки и установку.<br>
+Этот загрузчик позволяет из `svg` сделать компонент. Здесь очень коротко покажу настройки и установку.<br>
 Устанавливается с помощью `npm i -D @svgr/webpack`<br>
 И мой `next.config` с настройками вебпак.
 ```js
@@ -32,7 +32,7 @@ declare module "*.svg" {
     export default content;
 }
 ```
-Настроить `tsconfig` и тд, но auto complete Не будет работать у svg компоненты. Компонент все равно будет `any` типа.<br>
+Настроить `tsconfig` и тд, но auto complete Не будет работать у `svg` компоненты. Компонент все равно будет `any` типа.<br>
 Вот мой компонент, и он `any` типа. Нам нужно, что бы он был `React.FunctionComponent`. Почему же не работает? ведь мы указали деклорацию.<br>
 ![image](https://user-images.githubusercontent.com/70824286/177039418-79ecf171-df8a-4f02-80b6-698af4b22dbe.png)<br>
 ### Включаем auto complete
@@ -43,7 +43,7 @@ declare module "*.svg" {
 /// <reference types="next/types/global"/>
 /// <reference types="next/image-types/global"/>  - Вот эта строка нам и мешает.
 ```
-`<reference types="next/image-types/global"/>` - эта строка отвечает за определение типов картиночек, и всякого такого в том числе svg. Если мы ее нажмем, то попадем туда где все и описано.
+`<reference types="next/image-types/global"/>` - эта строка отвечает за определение типов картиночек, и всякого такого в том числе `svg`. Если мы ее нажмем, то попадем туда где все и описано.
 ```ts
 
 // this file is conditionally added/removed to next-env.d.ts
@@ -111,7 +111,7 @@ declare module '*.bmp' {
 ```
 Мы Удаляем ту часть где описывается `svg`, а остальное копируем и переносим в свой `d.ts` файл. У меня это выглядит так:
 ![image](https://user-images.githubusercontent.com/70824286/177039786-0c2375db-cd10-4e3a-8493-8cb7f82bcb56.png)<br>
-Ну и само собой добавляем туда свое определние.
+Ну и само собой добавляем туда свое определние для `svg`.
 ```ts
 declare module "*.svg" {
     const content: React.FunctionComponent<React.SVGAttributes<SVGAElement>>;
