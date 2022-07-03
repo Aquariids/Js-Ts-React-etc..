@@ -134,3 +134,8 @@ declare module "*.svg" {
     "@types/image-types.d.ts" // и указываем файл с типами которые копировали
   ],
 ```
+Теперь компонент полноценный.<br>
+![image](https://user-images.githubusercontent.com/70824286/177040287-9cba0639-5f28-4121-9f71-369f67a1a2c9.png)<br>
+И рабочий auto complete.<br>
+![image](https://user-images.githubusercontent.com/70824286/177040319-d8f58b6f-bd8c-4599-b4ca-dc7fe8eae342.png)<br>
+
