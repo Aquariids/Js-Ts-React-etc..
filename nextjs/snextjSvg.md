@@ -43,7 +43,7 @@ declare module "*.svg" {
 /// <reference types="next/types/global"/>
 /// <reference types="next/image-types/global"/>  - Вот эта строка нам и мешает.
 ```
-`<reference types="next/image-types/global"/>` - эта строка отвечает за определение типов. Если мы ее нажмем, то попадем туда где все и описано.
+`<reference types="next/image-types/global"/>` - эта строка отвечает за определение типов картиночек, и всякого такого в том числе svg. Если мы ее нажмем, то попадем туда где все и описано.
 ```ts
 
 // this file is conditionally added/removed to next-env.d.ts
