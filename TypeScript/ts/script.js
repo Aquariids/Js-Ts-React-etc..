@@ -1,4 +1,11 @@
-function move(distance, direction) {
-    return console.log(` I walk ${distance == 1 ? `${distance} meter` : `${distance} meters`} ${direction}`);
+function doAction(action) {
+    switch (action) {
+        case 'CREATE':
+            return "CREATED";
+        case 'ACTIVATE':
+            return 'ACTIVATED';
+        default:
+            const a = action;
+            throw new Error(`НЕ ПОНЯЛ ЧТО ТУТ ${a}`);
+    }
 }
-move(2, ''); // Здесь мы ничего не можем указать, кроме указанных нами типов

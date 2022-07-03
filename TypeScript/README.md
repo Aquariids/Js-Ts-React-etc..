@@ -3,3 +3,4 @@
 [Типы данных](types.md)<br>
 [interfaces и types](./interfaces%20and%20types.md)<br>
 [Литеральные типы](literalTypes.md)<br>
+[Enums](./Enums.md)<br>

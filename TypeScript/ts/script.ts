@@ -1,7 +1,14 @@
-type CardinalDirection = 'North' | 'East' | 'South' | 'West'; // у нас есть тип с литеральными значениями
+type AdminAction = 'CREATE' | 'ACTIVATE';
 
-function move(distance: number, direction: CardinalDirection) {
-    return console.log(` I walk ${distance == 1 ? `${distance} meter`: `${distance} meters`} ${direction}`);
+function doAction (action:AdminAction) {
+  switch(action) {
+    case 'CREATE':
+      return "CREATED"
+    case 'ACTIVATE':
+      return 'ACTIVATED'
+    default:
+      const a: never = action;
+      throw new Error (`НЕ ПОНЯЛ ЧТО ТУТ ${a}`)
   }
-
-move(2,''); // Здесь мы ничего не можем указать, кроме указанных нами типов
+    
+}
