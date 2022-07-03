@@ -1,5 +1,5 @@
 [@svgr/webpack]()
-
+[Включаем auto complete]()
 ### @svgr/webpack
 Этот загрузчик позволяет из svg сделать компонент. Здесь очень коротко покажу настройки и установку.
 Устанавливается с помощью `npm i -D @svgr/webpack`<br>
@@ -25,8 +25,7 @@ module.exports = {
 	},
 };
 ```
-После этого мы можем указать деклорацию для `svg`.<br>
-Типа такой
+После этого мы можем [указать деклорацию](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/TypeScript/bugs.md#cannot) для `svg`.<br>
 ```ts
 declare module "*.svg" {
     const content: React.FunctionComponent<React.SVGAttributes<SVGAElement>>;
@@ -34,8 +33,9 @@ declare module "*.svg" {
 }
 ```
 Настроить `tsconfig` и тд, но auto complete Не будет работать у svg компоненты. Компонент все равно будет `any` типа.<br>
-Вот мой компонент, и он `any` типа. Нам нужно, что бы он был React.FunctionComponent. Почему же не работает? ведь мы указали деклорацию.
+Вот мой компонент, и он `any` типа. Нам нужно, что бы он был React.FunctionComponent. Почему же не работает? ведь мы указали деклорацию.<br>
 ![image](https://user-images.githubusercontent.com/70824286/177039418-79ecf171-df8a-4f02-80b6-698af4b22dbe.png)<br>
+### Включаем auto complete
 Не работает потому что в проекте `next.js` в файле `next-env.d.ts` прописаны свои определения типов и там есть определение `image` в которое и входит svg.<br>
 Вот как выглядит файл.
 ```ts
