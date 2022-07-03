@@ -1,5 +1,5 @@
-[@svgr/webpack]()<br>
-[Включаем auto complete]()
+[@svgr/webpack](#)<br>
+[Включаем auto complete](#)
 ### @svgr/webpack
 Этот загрузчик позволяет из `svg` сделать компонент. Здесь очень коротко покажу настройки и установку.<br>
 Устанавливается с помощью `npm i -D @svgr/webpack`<br>
