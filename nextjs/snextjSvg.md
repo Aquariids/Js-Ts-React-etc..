@@ -1,9 +1,9 @@
 [@svgr/webpack]()<br>
 [Включаем auto complete]()
 ### @svgr/webpack
-Этот загрузчик позволяет из svg сделать компонент. Здесь очень коротко покажу настройки и установку.
+Этот загрузчик позволяет из svg сделать компонент. Здесь очень коротко покажу настройки и установку.<br>
 Устанавливается с помощью `npm i -D @svgr/webpack`<br>
-И мой `next.config`. с настройками вебпак.
+И мой `next.config` с настройками вебпак.
 ```js
 module.exports = {
 	webpack(config) {
@@ -38,7 +38,7 @@ declare module "*.svg" {
 ### Включаем auto complete
 Не работает потому что в проекте `next.js` в файле `next-env.d.ts` прописаны свои определения типов и там есть определение `image` в которое и входит svg.<br>
 Вот как выглядит файл.
-```ts
+```
 /// <reference types="next"/>
 /// <reference types="next/types/global"/>
 /// <reference types="next/image-types/global"/>  - Вот эта строка нам и мешает.
