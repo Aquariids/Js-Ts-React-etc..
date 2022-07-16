@@ -5,7 +5,7 @@
 [JSX,index и App](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/JSX-indexjs-App.md)<br>
 [Используем State и hook (useState)](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/UseState.md)<br>
 [Компоненты(функциональные)](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/functionComponent.md)<br>
-[Классовые компоненты]()<br>
+[Классовые компоненты](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/Component-class.md)<br>
 [Стили CSS](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/css.md)<br>
 [Объект props](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/props.md)<br>
 [Работа со списками и преобразование массивов map!](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/React/array-react-Working%20with%20lists.md)<br>
