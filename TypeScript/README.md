@@ -3,4 +3,4 @@
 [Типы данных](types.md)<br>
 [interfaces и types](./interfaces%20and%20types.md)<br>
 [Литеральные типы](literalTypes.md)<br>
-[Enums](./Enums.md)<br>
+[Enums](https://github.com/Aquariids/Js-Ts-React-etc../blob/main/TypeScript/Enums%20and%20type%20never.md)<br>
