@@ -1,7 +1,7 @@
 # TypeScript
 Тут немного будет про ошибки typeScript<br>
 [Ошибка: cannot find module or its corresponding type declarations.](#cannot)<br>
-[Ошибка стратегии разрешения модулей]()<br>
+[Ошибка стратегии разрешения модулей](#Ошибка-с-разрешением-стратегии-модулей)<br>
 
 
 ### <a name="cannot"> cannot find module or its corresponding type declarations </a>
