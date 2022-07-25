@@ -1,7 +1,8 @@
+В классовой компоненте использовать хуки нельзя. И классовые компоненты это уже устаревший способ.
+
+
 Сделаем счетчик теперь с помощью класса
 ```javaScript
-// В классовой компоненте использовать хуки нельзя.
-// И классовые компоненты это уже устаревший способ.
 import React from "react";
 class ClassCounter extends React.Component { // Наследуемся от реакт компонента
     // Для создания состояния создаем конструктор
@@ -12,7 +13,7 @@ class ClassCounter extends React.Component { // Наследуемся от ре
         }
 
         this.inc = this.inc.bind(this); // биндим контекст для наших функций
-        this.dec = this.dec.bind(this);
+        this.dec = this.dec.bind(this); //
     }
 
     inc() {
