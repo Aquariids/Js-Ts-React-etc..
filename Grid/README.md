@@ -1,6 +1,6 @@
 
 ##### [grid-template-columns](#grid-template-columns), [grid-template-rows](#grid-template-rows), [column-gap](#columnGap)
-##### [row-gap](#rowGap), [gap](#gap), [grid-template](#grid-template)
+##### [row-gap](#rowGap), [gap](#gap), [grid-template](#grid-template), [Единица гибкости (fr)](), [repeat()]()
 ## Начало работы с css grid ##
 
 ### display:grid ###
@@ -80,3 +80,5 @@
 ```
 С такой записью у нас ничего не изменилось.
 ![rowGap](img/rowGap.png)<br>
+### Единица гибкости fr
+ fractional unit -  Это еденица измерения которая позволяет элементам самим подстраиваться под разные ситуации, например когда у нас есть несколько блоков и нам добавили еще один, то элементы сами выстрают свою ширину.
