@@ -77,4 +77,31 @@ const {post:{id,title,body}} = props; {/*Вариант с деструктур�
 export default PostItem;
 ```
 ![image](https://user-images.githubusercontent.com/70824286/163766554-722a4e27-4416-4e23-9da9-cd1cab927cbe.png)
+## props.children
+children - это специальный прорс для того, что бы мы могли отображать вложенные элементы в компонент.
+Создадим компонент кнопку.
+```javaScript
+import React from 'react';
+import styles from './MyButton.module.css'
+const Mybutton = (props) => {
+    return (
+        <button className={styles.myBtn}>
+            {props.children} // из пропсов получаем children
+        </button>
+    );
+};
+
+export default Mybutton;
+```
+Добавлем наш компонент где либо.
+```javaScript
+return (
+  <div className='app'>
+      <MyButton> ПРИВЕТ </MyButton> // пишем как обычный html тег. Внутри мы можем  указать элементы, они как раз и будут в children
+  </div>
+);
+}
+
+```
+![image](https://user-images.githubusercontent.com/70824286/181838445-125a8ee3-636b-477b-9a04-5fb29398394a.png)
 
